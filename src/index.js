@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 import Middagsplanlegger from './Middagsplanlegger';
 import reportWebVitals from './reportWebVitals';
 
