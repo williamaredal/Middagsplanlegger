@@ -16,17 +16,14 @@
         "ts sukker" : 0.13,
         "g spagetti" : 100
       },
-      "Recipe" : "
-
+      "Recipe" : `
       Spagetthi Bolognese oppskrift
 
       1. Ha margarin eller olje i en varm stekepanne. Vent til margarinen slutter å bruse, og stek karbonadedeigen i to omganger. Bruk en stekespade til å dele den i mindre biter.
       2. Ha i hakkede grønnsaker, tomatpuré, hermetisk tomat og buljong.
       3. Kok opp, senk varmen og la sausen småkoke i 15-20 minutter. Smak til med salt, pepper, muskat og sukker.
       4. Kok spagetti etter anvisning på pakken.
-
-
-      "
+      `
     },
     "Pasta med kremet sopp" : {
       "Ingredients" : {
@@ -39,7 +36,7 @@
       "g frisk spinat" : 25,
       "g tagliatelle" : 100
     },
-    "Recipe" : "
+    "Recipe" : `
       Pasta med kremet sopp oppskrift
 
       1. Vask og rens soppen, og del den om nødvendig i mindre biter.
@@ -49,7 +46,7 @@
       5. Kok pasta etter anvisning på pakken. Bruk litt av pastavannet i sausen om den tykner for mye. 
       6. Vend spinat inn i sausen rett før servering.
       7. Fordel pasta i tallerkener og topp med soppsausen. Riv parmesan over.
-      "
+      `
     },
 */
 let Recipies = {
