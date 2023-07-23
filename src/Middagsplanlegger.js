@@ -15,6 +15,15 @@ const shareTextToNotes = async (text) => {
 };
 
 function Middagsplanlegger() {
+  /*
+  TODO
+  * Create add random dinner function (and connected to button)
+  * Create removal button for dinner card that removes dinner from Dinners (and connect icon button)
+  * Finish styling of dinner card, and 
+  * Make card button for adding specific dinner
+  * Make ordering of dinner cards by giving them numbers in left top corner (for example "Day 1" or "Dinner 1")
+  * Implement Recipe ingredient/instructions split to include instructions in note below shopping list, in ordered numbered sequence
+  */
   let StandardPortion = 4;
   let [Dinners, updatePortions] = useState({
     "Spagetti Bolognese" : 4,
@@ -28,7 +37,7 @@ function Middagsplanlegger() {
   };
 
   const handleShareClick = () => {
-    let shoppingList = ""
+    let shoppingList = "Shopping List\n\n"
     for (const ingredient in Ingredients) {
       const amount = Ingredients[ingredient];
       shoppingList += `${amount}${ingredient}\n`;
