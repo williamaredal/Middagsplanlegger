@@ -1,8 +1,12 @@
+/* Container and cards for dinner and ingredients */
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
     height: 100%;
+    position: absolute;
+    background-image: url("./Kitchen.html");
+    background-size: cover;
 }
 
 .half-width {
@@ -10,21 +14,27 @@
     display: flex;
     flex-direction: column; /* Set to vertical stacking */
     margin: auto;
-    margin-top: 40px;
+    margin-top: 200px;
     width: 400px;
     height: 500px;
     max-height: 500px;
     overflow: scroll;
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
-.bottom-div {
-    margin: auto;
-    margin-top: 95%;
+.dinners {
+    background-image: url("./Calsipher.jpeg");
+    background-size: cover;
 }
 
+.ingredients {
+    background-image: url("./Ingredients.jpeg");
+    background-size: cover;
+}
+
+/* The cards content */
 .header-div {
     position: sticky;
     bottom: auto;
@@ -33,8 +43,11 @@
 
     z-index: 1;
     text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
     border-bottom: 3px solid rgb(0, 0, 0);
     background-color: white;
+    opacity: 80%;
 }
 
 .content-div {
@@ -53,8 +66,10 @@
     font-weight: bold;
     border-top: 3px solid rgb(0, 0, 0);
     background-color: white;
+    opacity: 80%;
 }
-  
+
+/* Buttons */
 .share-button {
     background-color: rgb(105, 160, 255);
     border: 1px;
@@ -75,12 +90,15 @@
     cursor: pointer;
 }
 
+/* Dinner card */
 .dinner-card {
     margin: 5px;
     padding: 5px;
     border: 1px solid;
     border-color: black;
-    border-radius: 3px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 80%;
 }
 
 .card-top {
@@ -95,4 +113,15 @@
 
 .text-blue {
     color: rgb(105, 160, 255);
+}
+
+/* Ingredient list styling */
+.ingredient {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    border-top: 1px solid;
+    border-color: black;
+    background-color: beige;
+    opacity: 90%;
 }

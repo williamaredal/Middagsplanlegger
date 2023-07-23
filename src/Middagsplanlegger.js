@@ -15,7 +15,7 @@ function Middagsplanlegger() {
   const IncrementDinnerPortion = (dinner, increment) => {
     updatePortions((Dinners) => ({
       ...Dinners,
-      [dinner]: Dinners[dinner] >= 0 ? Dinners[dinner] + increment : 0,
+      [dinner]: Dinners[dinner] + increment >= 0 ? Dinners[dinner] + increment : 0,
     }));
   };
 
@@ -45,7 +45,7 @@ function Middagsplanlegger() {
   return (
 <div class="container">
 
-  <div class="half-width">
+  <div class="half-width dinners">
     <div class="header-div">
       Dinners
     </div>
@@ -72,18 +72,16 @@ function Middagsplanlegger() {
     </div>
   </div>
 
-  <div class="half-width">
+  <div class="half-width ingredients">
     <div class="header-div">Ingredients</div>
     <div class="content-div">
-      <ul>
         {
           Object.entries(Ingredients).map(([ingredient, amount]) => (
-            <li key={ingredient}>
+            <div class="ingredient" key={ingredient}>
               {amount + ingredient}
-            </li>
+            </div>
           ))
         }
-      </ul>
     </div>
     <div class="footer-div">
       <button class="share-button">
