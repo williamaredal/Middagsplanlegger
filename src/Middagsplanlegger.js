@@ -2,8 +2,17 @@ import React, {useState} from 'react';
 import './Middagsplanlegger.css';
 import Recipies from './Recipies';
 
-
-
+const shareTextToNotes = async (text) => {
+  try {
+    if (navigator.share) {
+      await navigator.share({ text });
+    } else {
+      alert('Sharing is not supported on this browser.');
+    }
+  } catch (error) {
+    console.error('Error sharing:', error);
+  }
+};
 
 function Middagsplanlegger() {
   let StandardPortion = 4;
@@ -16,6 +25,15 @@ function Middagsplanlegger() {
       ...Dinners,
       [dinner]: Dinners[dinner] + increment >= 0 ? Dinners[dinner] + increment : 0,
     }));
+  };
+
+  const handleShareClick = () => {
+    let shoppingList = ""
+    for (const ingredient in Ingredients) {
+      const amount = Ingredients[ingredient];
+      shoppingList += `${amount}${ingredient}\n`;
+    }
+    shareTextToNotes(shoppingList);
   };
 
   let Ingredients = Object.entries(Dinners).reduce((Ingredient_Dictionary, [dinner, portions]) => {
@@ -83,7 +101,7 @@ function Middagsplanlegger() {
         }
     </div>
     <div class="footer-div">
-      <button class="share-button">
+      <button class="share-button" onClick={() => handleShareClick()}>
         Share to Notes <i className='fa-solid fa-arrow-up-from-bracket fa-xl'></i>
       </button>
     </div>
