@@ -2,27 +2,10 @@ import React, {useState} from 'react';
 import './Middagsplanlegger.css';
 import Recipes from './Recipes';
 
-const shareTextToNotes = async (text) => {
-  try {
-    if (navigator.share) {
-      await navigator.share({ text });
-    } else {
-      alert('Sharing is not supported on this browser.');
-    }
-  } catch (error) {
-    console.error('Error sharing:', error);
-  }
-};
 
 function Middagsplanlegger() {
-  /*
-  TODO
-  * Implement Recipe ingredient/instructions split to include instructions in note below shopping list, in ordered numbered sequence
-  */
   let StandardPortion = 4;
-  let [Dinners, updateDinners] = useState({
-    "Spagetti Bolognese" : 4,
-  })
+  let [Dinners, updateDinners] = useState({})
   let [AvailableRecipes, updateAvailableRecipes] = useState(() => {
     let recipesNotInDinners = new Set(Object.keys(Recipes).filter(dinner => !(dinner in Dinners)))
     return recipesNotInDinners
@@ -70,17 +53,40 @@ function Middagsplanlegger() {
     });
   }
 
+
+  const shareTextToNotes = async (text) => {
+    try {
+      if (navigator.share) {
+        await navigator.share({ text });
+      } else {
+        alert('Sharing is not supported on this browser.');
+      }
+    } catch (error) {
+      console.error('Error sharing:', error);
+    }
+  };
+
   const handleShareClick = () => {
     let shoppingList = "Shopping List\n\n"
+
+    // Adds the ingredients to the shopping list
     for (const ingredient in Ingredients) {
       const amount = Ingredients[ingredient];
       shoppingList += `${amount}${ingredient}\n`;
+    }
+
+    // Adds the recipe instructions to the shopping list
+    shoppingList += `\n\n\n`
+    let dinnerCount = 1
+    for (const dinner in Dinners) {
+      shoppingList += `Dinner ${dinnerCount}:\n${Recipes[dinner]["Recipe"]}\n\n`
+      dinnerCount ++
     }
     shareTextToNotes(shoppingList);
   };
 
   let Ingredients = Object.entries(Dinners).reduce((Ingredient_Dictionary, [dinner, portions]) => {
-    Object.entries(Recipes[dinner]).map(([ingredient, amount]) => {
+    Object.entries(Recipes[dinner]["Ingredients"]).map(([ingredient, amount]) => {
       if (ingredient in Ingredient_Dictionary) {
         Ingredient_Dictionary[ingredient] += amount * portions
       } 
