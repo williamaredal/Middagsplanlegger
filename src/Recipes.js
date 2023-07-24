@@ -52,16 +52,15 @@ const Recipes = {
 
   "Ørret med fløtestuede grønnsaker" : {
     "Ingredients" : {
-      "g ørretfilet" : 800,
-      "ss smør" : 2,
-      "stk vårløk" : 2,
-      "g sukkererter" : 50,
-      "g brokkoli" : 100,
-      "g kokte poteter" : 200,
-      "dl edamamebønner" : 2,
-      "dl matfløte" : 3,
-      "ss dill" : 2,
-          
+      "g ørretfilet" : 200,
+      "ss smør" : 0.5,
+      "stk vårløk" : 0.5,
+      "g sukkererter" : 12.5,
+      "g brokkoli" : 25,
+      "g kokte poteter" : 50,
+      "dl edamamebønner" : 0.5,
+      "dl matfløte" : 0.75,
+      "ss dill" : 0.5,
     },
     "Recipe" : `Ørret med fløtestuede grønnsaker oppskrift
 
@@ -72,35 +71,6 @@ const Recipes = {
   },
 
 }
-/*
-let Recipies = {
-    "Spagetti Bolognese" : {
-      "g karbonadedeig" : 100,
-      "ss margarin" : 0.5,
-      "stk gulrot" : 0.25, 
-      "stk løk" : 0.25,
-      "stk stangselleri" : 0.5,
-      "ss tomatpure" : 0.5,
-      "g hermetiske tomater" : 100,
-      "dl kjøttbuljong" : 0.5,
-      "ts salt" : 0.25,
-      "ts pepper" : 0.13,
-      "ts malt muskat" : 0.06,
-      "ts sukker" : 0.13,
-      "g spagetti" : 100
-    },
 
-    "Pasta med kremet sopp" : {
-      "g sopp" : 50,
-      "stk løk" : 0.13,
-      "hvitløksbåt" : 0.25,
-      "ss smør eller margarin" : 0.5,
-      "dl matfløte" : 0.75,
-      "ss soyasaus" : 0.25,
-      "g frisk spinat" : 25,
-      "g tagliatelle" : 100
-    },
-}
-*/
 
 export default Recipes;
