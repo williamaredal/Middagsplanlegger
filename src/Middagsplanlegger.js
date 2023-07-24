@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Middagsplanlegger.css';
-import Recipies from './Recipies';
+import Recipes from './Recipes';
 
 const shareTextToNotes = async (text) => {
   try {
@@ -17,7 +17,6 @@ const shareTextToNotes = async (text) => {
 function Middagsplanlegger() {
   /*
   TODO
-  * Create add random dinner function (and connected to button)
   * Create removal button for dinner card that removes dinner from Dinners (and connect icon button)
   * Finish styling of dinner card, and 
   * Make card button for adding specific dinner
@@ -25,15 +24,45 @@ function Middagsplanlegger() {
   * Implement Recipe ingredient/instructions split to include instructions in note below shopping list, in ordered numbered sequence
   */
   let StandardPortion = 4;
-  let [Dinners, updatePortions] = useState({
+  let [Dinners, updateDinners] = useState({
     "Spagetti Bolognese" : 4,
-    "Pasta med kremet sopp" : 4,
   })
+  let [AvailableRecipes, updateAvailableRecipes] = useState(() => {
+    let recipesNotInDinners = new Set(Object.keys(Recipes).filter(dinner => !(dinner in Dinners)))
+    return recipesNotInDinners
+  })
+  console.log(AvailableRecipes)
+
   const IncrementDinnerPortion = (dinner, increment) => {
-    updatePortions((Dinners) => ({
+      updateDinners((Dinners) => ({
+        ...Dinners,
+        [dinner]: Dinners[dinner] + increment >= 0 ? Dinners[dinner] + increment : 0,
+      }));
+  };
+
+  const AddDinner = (dinner) => {
+    updateDinners((Dinners) => ({
       ...Dinners,
-      [dinner]: Dinners[dinner] + increment >= 0 ? Dinners[dinner] + increment : 0,
+      [dinner] : StandardPortion
     }));
+
+    updateAvailableRecipes((AvailableRecipes) => {
+      let updatedSet = new Set([...AvailableRecipes].filter(dinner => !(dinner in Dinners)))
+      console.log("updatedSet", updatedSet)
+      updateAvailableRecipes(updatedSet)
+    });
+  };
+
+  const AddRandomDinner = () => {
+    let arrayFromSet = Array.from(AvailableRecipes)
+    // selects random if there are available unique Recipes to chose from
+    if (arrayFromSet.length > 0) {
+      let randomDinner = arrayFromSet[Math.floor(Math.random() * arrayFromSet.length)]
+      AddDinner(randomDinner)
+    }
+    else {
+      alert("Unable to add any more recipes to the list")
+    }
   };
 
   const handleShareClick = () => {
@@ -46,7 +75,7 @@ function Middagsplanlegger() {
   };
 
   let Ingredients = Object.entries(Dinners).reduce((Ingredient_Dictionary, [dinner, portions]) => {
-    Object.entries(Recipies[dinner]).map(([ingredient, amount]) => {
+    Object.entries(Recipes[dinner]).map(([ingredient, amount]) => {
       if (ingredient in Ingredient_Dictionary) {
         Ingredient_Dictionary[ingredient] += amount * portions
       } 
@@ -92,7 +121,7 @@ function Middagsplanlegger() {
       }
     </div>
     <div class="footer-div">
-      <button class="add-button">
+      <button class="add-button" onClick={() => AddRandomDinner()}>
         Add random Dinner <i className='fa-solid fa-plus fa-xl'></i>
       </button>
     </div>
