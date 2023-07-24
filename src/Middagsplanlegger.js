@@ -17,8 +17,6 @@ const shareTextToNotes = async (text) => {
 function Middagsplanlegger() {
   /*
   TODO
-  * Create removal button for dinner card that removes dinner from Dinners (and connect icon button)
-  * Finish styling of dinner card, and 
   * Make card button for adding specific dinner
   * Make ordering of dinner cards by giving them numbers in left top corner (for example "Day 1" or "Dinner 1")
   * Implement Recipe ingredient/instructions split to include instructions in note below shopping list, in ordered numbered sequence
@@ -31,7 +29,6 @@ function Middagsplanlegger() {
     let recipesNotInDinners = new Set(Object.keys(Recipes).filter(dinner => !(dinner in Dinners)))
     return recipesNotInDinners
   })
-  console.log(AvailableRecipes)
 
   const IncrementDinnerPortion = (dinner, increment) => {
       updateDinners((Dinners) => ({
@@ -48,7 +45,6 @@ function Middagsplanlegger() {
 
     updateAvailableRecipes((AvailableRecipes) => {
       let updatedSet = new Set([...AvailableRecipes].filter(dinner => !(dinner in Dinners)))
-      console.log("updatedSet", updatedSet)
       updateAvailableRecipes(updatedSet)
     });
   };
@@ -58,12 +54,23 @@ function Middagsplanlegger() {
     // selects random if there are available unique Recipes to chose from
     if (arrayFromSet.length > 0) {
       let randomDinner = arrayFromSet[Math.floor(Math.random() * arrayFromSet.length)]
-      AddDinner(randomDinner)
+      AddDinner(randomDinner);
     }
     else {
       alert("Unable to add any more recipes to the list")
     }
   };
+
+  const RemoveDinner = (dinner) => {
+    delete Dinners[dinner]
+    updateDinners((Dinners) => ({
+      ...Dinners,
+    }));
+    updateAvailableRecipes((AvailableRecipes) => {
+      let updatedSet = new Set([...AvailableRecipes].filter(dinner => !(dinner in Dinners)))
+      updateAvailableRecipes(updatedSet)
+    });
+  }
 
   const handleShareClick = () => {
     let shoppingList = "Shopping List\n\n"
@@ -109,12 +116,13 @@ function Middagsplanlegger() {
         Object.entries(Dinners).map(([dinner, portions]) => (
           <div class="dinner-card">
           <div class="card-top">
-            <p>{dinner}</p>
+            <div class="dinner-text">{dinner}</div>
+            <i className="fa-solid fa-circle-xmark cross-button" onClick={() => RemoveDinner(dinner)}></i>
           </div>
           <div class="card-bottom">
-            {portions}
-            <i className="fa-regular fa-circle-minus fa-xl text-blue" onClick={() => IncrementDinnerPortion(dinner, -1)}></i>
-            <i className="fa-regular fa-circle-plus fa-xl text-blue" onClick={() => IncrementDinnerPortion(dinner, 1)}></i>
+            <div class="portions">{portions}</div>
+            <i className="fa-regular fa-circle-minus fa-xl blue-button" onClick={() => IncrementDinnerPortion(dinner, -1)}></i>
+            <i className="fa-regular fa-circle-plus fa-xl blue-button" onClick={() => IncrementDinnerPortion(dinner, 1)}></i>
           </div>
         </div>        
         ))

@@ -103,17 +103,38 @@
 
 .card-top {
     margin: auto;
+    display: flex;
 }
 
 .card-bottom {
     display: flex;
     justify-content: flex-end;
-    margin: 10px;
 }
 
-.text-blue {
-    color: rgb(105, 160, 255);
+.blue-button {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(78, 143, 255);
 }
+
+.cross-button {
+    top: 0;
+    right: 0;
+    margin-left: auto;
+    margin-bottom: auto;
+    color: rgb(254, 0, 0);
+}
+
+.dinner-text {
+    margin: 5px;
+    font-weight: 500;
+}
+
+.portions {
+    font-weight: 500;
+    margin: 5px;
+}
+
 
 /* Ingredient list styling */
 .ingredient {
