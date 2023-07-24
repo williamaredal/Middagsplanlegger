@@ -101,6 +101,12 @@
     opacity: 80%;
 }
 
+.new-dinner-card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
 .card-top {
     margin: auto;
     display: flex;

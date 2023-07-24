@@ -17,7 +17,6 @@ const shareTextToNotes = async (text) => {
 function Middagsplanlegger() {
   /*
   TODO
-  * Make card button for adding specific dinner
   * Make ordering of dinner cards by giving them numbers in left top corner (for example "Day 1" or "Dinner 1")
   * Implement Recipe ingredient/instructions split to include instructions in note below shopping list, in ordered numbered sequence
   */
@@ -43,8 +42,8 @@ function Middagsplanlegger() {
       [dinner] : StandardPortion
     }));
 
-    updateAvailableRecipes((AvailableRecipes) => {
-      let updatedSet = new Set([...AvailableRecipes].filter(dinner => !(dinner in Dinners)))
+    updateAvailableRecipes(() => {
+      let updatedSet = new Set([...Object.keys(Recipes)].filter(dinner => !(dinner in Dinners)))
       updateAvailableRecipes(updatedSet)
     });
   };
@@ -66,8 +65,8 @@ function Middagsplanlegger() {
     updateDinners((Dinners) => ({
       ...Dinners,
     }));
-    updateAvailableRecipes((AvailableRecipes) => {
-      let updatedSet = new Set([...AvailableRecipes].filter(dinner => !(dinner in Dinners)))
+    updateAvailableRecipes(() => {
+      let updatedSet = new Set([...Object.keys(Recipes)].filter(dinner => !(dinner in Dinners)))
       updateAvailableRecipes(updatedSet)
     });
   }
@@ -127,6 +126,17 @@ function Middagsplanlegger() {
         </div>        
         ))
       }
+      {
+        /*
+      // Style of the "add new dinner" card
+      <div class="dinner-card" onClick={}> // onClick should activate modal function for selection of available recipes 
+        <div class="new-dinner-card">
+          <i class="fa-solid fa-plus fa-xl"></i>
+        </div>
+      </div>
+      */
+      }
+
     </div>
     <div class="footer-div">
       <button class="add-button" onClick={() => AddRandomDinner()}>
