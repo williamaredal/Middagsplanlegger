@@ -17,7 +17,6 @@ const shareTextToNotes = async (text) => {
 function Middagsplanlegger() {
   /*
   TODO
-  * Make ordering of dinner cards by giving them numbers in left top corner (for example "Day 1" or "Dinner 1")
   * Implement Recipe ingredient/instructions split to include instructions in note below shopping list, in ordered numbered sequence
   */
   let StandardPortion = 4;
@@ -112,10 +111,10 @@ function Middagsplanlegger() {
     </div>
     <div class="content-div">
       {
-        Object.entries(Dinners).map(([dinner, portions]) => (
+        Object.entries(Dinners).map(([dinner, portions], index) => (
           <div class="dinner-card">
           <div class="card-top">
-            <div class="dinner-text">{dinner}</div>
+            <div class="dinner-text">{index + 1}. {dinner}</div>
             <i className="fa-solid fa-circle-xmark cross-button" onClick={() => RemoveDinner(dinner)}></i>
           </div>
           <div class="card-bottom">
