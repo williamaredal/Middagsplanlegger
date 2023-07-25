@@ -70,6 +70,35 @@ const Recipes = {
 4. Hell fløten i en kjele eller sauteringspanne og kok opp. Ha alle grønnsakene i kjelen og la det koke i 2-3 minutter, til fløten tykner litt og grønnsakene er knapt møre. Bland inn hakket dill. Smak til med salt og pepper.`
   },
 
+
+  "Kremet blåskjellsuppe" : {
+    "Ingredients" : {
+      "kg blåskjell" : 0.5,
+      "stk sjalottløk" : 1,
+      "hvitløksbåt" : 0.5,
+      "g persillerot" : 25,
+      "g fennikel" : 37.5,
+      "stk grønn chili" : 0.25,
+      "ss smør" : 0.5,
+      "stilk frisk timian" : 0.5,
+      "dl hvitvin" : 0.75,
+      "dl fløte" : 0.75,
+      "ss maisenna" : 0.5,
+      "ss hakket frisk persille" : 1,
+    },
+    "Recipe" : `Kremet blåskjellsuppe oppskrift
+
+1. Skyll skjellene godt i kaldt vann. Fjern ødelagte skjell og skjell som ikke lukker seg når du slår dem lett mot underlaget. Fjern byssustråden ("skjegget" som fortsatt sitter på noen av skjellene). Om du bruker oppdrettsskjell er de nå klare til bruk. Om du sanker blåskjell selv, så bruk en skarp kniv og skrap vekk alger, skjell og andre ting som vokser på skjellene. 
+2. Finhakk sjalottløk, hvitløk, persillerot fennikel og chili.
+3. Smelt smøret i en stor kjele og fres de hakkede grønnsakene i 3-4 minutter til de er myke og blanke. Tilsett timian og blåskjell, og hell i hvitvin.
+4. Sett på lokk og damp blåskjellene i 5-6 minutter, eller til alle har åpnet seg godt. 
+5. Rens de fleste blåskjellene. Ta vare på noen av dem til pynt. 
+6. Sett kjelen tilbake på varmen og tilsett fløte. Rør ut maisenna i litt kaldt vann og rør det inn i suppa. Kok opp på nytt. Smak til med salt og pepper.
+7. Fordel blåskjell i dype tallerkener og hell over kokende suppe. Pynt med hele blåskjell og dryss over hakket persille. 
+
+Server med ferskt, godt brød.`
+  }
+
 }
 
 
