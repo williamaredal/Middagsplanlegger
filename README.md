@@ -1,7 +1,7 @@
 # Middagsplanlegger
 
 ## Skrivebordsvisning
-![Alt Text](relative_path_to_your_image)
+![Illustrativt bilde av nettsiden i Skrivebordsvisning](Skrivebordsvisning.png)
 
 ## Mobilvisning
-![Alt Text](relative_path_to_your_image)
+![Illustrativt bilde av nettsiden i Mobilvisning](Mobilvisning.png)
