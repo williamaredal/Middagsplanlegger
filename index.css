@@ -73,6 +73,7 @@
 
     /* Buttons */
     .share-button {
+        color: black;
         background-color: rgb(105, 160, 255);
         border: 1px;
         padding: 10px;
@@ -83,6 +84,7 @@
     }
 
     .add-button {
+        color: black;
         background-color: rgb(146, 255, 139);
         border: 1px;
         padding: 10px;
