@@ -106,15 +106,62 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
+    // Sorts the Ingredients by word similarity using Levenshtein distance
+    const ingredientKeys = Array.from(Object.keys(Ingredients))
+    const sortedIngredientKeys = Array.from(Object.keys(Ingredients)).sort((ingredient) => sortBySimilarity(ingredient, ingredientKeys) )
+
     // Render the Ingredients dictionary on the HTML page
-    Object.entries(Ingredients).forEach(([ingredient, amount]) => {
+    sortedIngredientKeys.forEach((ingredient) => {
       const ingredientItem = document.createElement('div');
       ingredientItem.className = 'ingredient';
-      ingredientItem.textContent = `${amount} ${ingredient}`;
+      ingredientItem.textContent = `${Ingredients[ingredient]} ${ingredient}`;
 
       ingredientsContent.appendChild(ingredientItem);
     });
   }
+
+  function levenshteinDistance(word1, word2) {
+    const lengthW1 = word1.length;
+    const lengthW2 = word2.length;
+  
+    if (lengthW1 === 0) return lengthW2;
+    if (lengthW2 === 0) return lengthW1;
+  
+    // Builds a matrix with height and width of the two words
+    const dp = Array.from({ length: lengthW1 + 1 }, (_, i) => Array(lengthW2 + 1).fill(0));
+  
+    for (let i = 0; i <= lengthW1; i++) {
+      dp[i][0] = i;
+    }
+  
+    for (let j = 0; j <= lengthW2; j++) {
+      dp[0][j] = j;
+    }
+    
+    // Compares characters to decide cost, and finds distance by looking at dissimilar characters and word length,
+    // fills empty part of matrix with these distances
+    for (let i = 1; i <= lengthW1; i++) {
+      for (let j = 1; j <= lengthW2; j++) {
+        const cost = word1[i - 1] === word2[j - 1] ? 0 : 1;
+        dp[i][j] = Math.min(
+          dp[i - 1][j] + 1,
+          dp[i][j - 1] + 1,
+          dp[i - 1][j - 1] + cost
+        );
+      }
+    }
+  
+    return dp[lengthW1][lengthW2];
+  };
+
+  function sortBySimilarity(targetWord, wordArray) {
+    return wordArray.sort((word1, word2) => {
+      const distance1 = levenshteinDistance(targetWord, word1);
+      const distance2 = levenshteinDistance(targetWord, word2);
+      return distance1 - distance2;
+    });
+  }
+
 
   const incrementDinnerPortion = (dinner, increment) => {
     // Only increments and updates when valid
