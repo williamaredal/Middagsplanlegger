@@ -117,9 +117,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const incrementDinnerPortion = (dinner, increment) => {
-    Dinners[dinner] = Dinners[dinner] + increment >= 0 ? Dinners[dinner] + increment : 0;
-    updateDinnersContent();
-    updateIngredients();
+    // Only increments and updates when valid
+    if (Dinners[dinner] + increment >= 0) {
+      Dinners[dinner] += increment
+      updateDinnersContent();
+      updateIngredients();
+    }
   };
 
   const addDinner = (dinner) => {
