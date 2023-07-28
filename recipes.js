@@ -1,10 +1,20 @@
 // add feature where recipe has ingredients and instructions in nested dictionaries
 /* 
+// Recipe template
+    "" : {
+      "Ingredients" : {
+
+      },
+      "Recipe" : `
+
+`
+    },
+ 
 */
 const Recipes = {
     "Spagetti Bolognese" : {
       "Ingredients" : {
-        "g karbonadedeig" : 100,
+        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
         "ss margarin" : 0.5,
         "stk gulrot" : 0.25, 
         "stk løk" : 0.25,
@@ -99,4 +109,86 @@ const Recipes = {
   Server med ferskt, godt brød.`
     },
   
+
+    "Chili con carne" : {
+      "Ingredients" : {
+        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
+        "ss margarin" : 0.5,
+        "stk løk" : 0.25,
+        "hvitløksbåt" : 0.5,
+        "stk rød chili" : 0.25,
+        "g hermetiske tomater" : 100,
+        "g chilibønner" : 100,
+        "stk rød paprika" : 0.25,
+        "stk grønn paprika" : 0.25,
+        "ts chilipulver" : 0.38,
+        "ts malt spisskummen" : 0.13,
+        "ts salt" : 0.13,
+      },
+      "Recipe" : `Chili con carne oppskrift
+1. Ha margarin eller olje i en varm gryte. Vent til margarinen slutter å bruse, og brun kjøttdeig i to omganger sammen med løk, hvitløk og chili.
+2. Hell over hermetisk tomat og la det surre i 3-4 minutter.
+3. Bland inn chilibønner, paprika og krydder. La det koke et par minutter og smak til med salt.
+
+Server gjerne gryteretten med salat og grove minibaguetter.
+`
+    },
+  
+
+    "Blomkålsuppe" : {
+      "Ingredients" : {
+        "stk blomkål" : 0.25,
+        "stk løk" : 0.13,
+        "dl vann" : 2,
+        "stk hønsebuljongterning" : 0.5,
+        "dl helmelk" : 0.5,
+        "skiver bacon" : 1.5,
+        "stk vårløk" : 0.5,
+        "stk baguette" : 0.25,
+      },
+      "Recipe" : `Blomkålsuppe oppskrift
+1. Rens blomkål og del i mindre buketter. Ha blomkålbuketter, løk, vann (4dl per terning buljong), buljong og melk i en kjele. Kok opp og la det koke til grønnsakene er møre.
+2. Ta ut noen blomkålbuketter fra suppen og kjør resten av suppen jevn med en stavmikser. Smak til med salt og pepper.
+(Tilsett gjerne litt fløte eller crème fraiche for en fyldigere suppe. Revet parmesan smaker også utmerket til.
+3. Stek bacon sprøtt i en stekepanne, vend inn vårløk og stek et minutt til vårløken er mør.
+4. Fordel blomkålbuketter i suppeskåler og hell over suppe. Pynt med bacon og vårløk.
+
+Server suppen med grove minibaguetter, eller hjemmelagde krutonger.
+`
+    },
+   
+
+    "Lasagne" : {
+      "Ingredients" : {
+        "stk lasagneplater" : 2.25,
+        "dl revet hvitost" : 0.75,
+        "g parmesan" : 12.5,
+        "g bacon" : 37.5,
+        "ss olje" : 0.75,
+        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
+        "stk løk" : 0.25,
+        "stk gulrot" : 0.25,
+        "stk stangselleri" : 0.25,
+        "ss tomatpuré" : 0.5,
+        "g hermetiske tomater" : 100,
+        "dl kjøttkraft" : 0.5,
+        "ts tørket oregano" : 0.5,
+        "ss smør" : 0.75,
+        "ss hvetemel" : 7.5,
+        "dl melk" : 1.5,
+        "ts salt" : 0.25,
+        "ts kvernet pepper" : 0.13,
+        "ts revet muskatnøtt" : 0.13,
+      },
+      "Recipe" : `Lasagne oppskrift
+1. Skjær bacon i små biter. Ha olje i en varm panne og stek til baconet til det er gyllent. Ha i litt mer olje og brun kjøttdeig i olje på sterk varme i to omganger.
+2. Senk varmen litt og ha i løk, gulrot og stilkselleri og la det steke til grønnsakene er blitt myke og blanke. Ha baconet og kjøttdeigen tilbake i stekepanna og bland alt sammen.
+3. Lag en grop i midten av stekepannen. Ha i litt mer olje og fres tomat puréen i noen minutter. Ha i hermetisk tomat, kraft og krydder. La kjøttsausen småkoke i minst 10 minutter, til den begynner å tykne. Har du litt god tid? La gjerne sausen småkoke under lokk i ca. 1 ½ time, for å utvikle ekstra god smak. Husk å rør litt i kjelen underveis, slik at det ikke fester seg på bunnen av gryta. Smak til med salt og pepper.
+4. Smelt smør i en kjele og rør inn mel. Spe med melk under omrøring og la sausen koke i ca. 10 minutter. Den skal være forholdsvis tykk. Ha i parmesan og la osten smelte. Smak til ostesausen med krydder.
+5. Legg kjøttsaus, pastaplater og ostesaus lagvis i en ildfast form. Avslutt med pastaplater og ostesaus. Dryss over revet ost til slutt.
+6. Sett formen i stekeovn på 200° C og stek i 30-40 minutter. Kjenn etter med en pinne eller spiss kniv om pastaen er mør. La lasagnen hvile noen minutter før servering.
+
+Server gjerne med baguette og en grønn salat ved siden av.
+`
+    },
 }
