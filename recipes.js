@@ -1,16 +1,26 @@
 // add feature where recipe has ingredients and instructions in nested dictionaries
 /* 
+// Recipe template
+    "" : {
+      "Ingredients" : {
+
+      },
+      "Recipe" : `
+
+`
+    },
+ 
 */
 const Recipes = {
     "Spagetti Bolognese" : {
       "Ingredients" : {
-        "g karbonadedeig" : 100,
+        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
         "ss margarin" : 0.5,
         "stk gulrot" : 0.25, 
         "stk løk" : 0.25,
         "stk stangselleri" : 0.5,
         "ss tomatpure" : 0.5,
-        "g hermetiske tomater" : 100,
+        "g hakkede hermetiske tomater" : 100,
         "dl kjøttbuljong" : 0.5,
         "ts salt" : 0.25,
         "ts pepper" : 0.13,
@@ -99,4 +109,239 @@ const Recipes = {
   Server med ferskt, godt brød.`
     },
   
+
+    "Chili con carne" : {
+      "Ingredients" : {
+        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
+        "ss margarin" : 0.5,
+        "stk løk" : 0.25,
+        "hvitløksbåt" : 0.5,
+        "stk rød chili" : 0.25,
+        "g hakkede hermetiske tomater" : 100,
+        "g chilibønner" : 100,
+        "stk rød paprika" : 0.25,
+        "stk grønn paprika" : 0.25,
+        "ts chilipulver" : 0.38,
+        "ts malt spisskummen" : 0.13,
+        "ts salt" : 0.13,
+      },
+      "Recipe" : `Chili con carne oppskrift
+1. Ha margarin eller olje i en varm gryte. Vent til margarinen slutter å bruse, og brun kjøttdeig i to omganger sammen med løk, hvitløk og chili.
+2. Hell over hermetisk tomat og la det surre i 3-4 minutter.
+3. Bland inn chilibønner, paprika og krydder. La det koke et par minutter og smak til med salt.
+
+Server gjerne gryteretten med salat og grove minibaguetter.
+`
+    },
+  
+
+    "Blomkålsuppe" : {
+      "Ingredients" : {
+        "stk blomkål" : 0.25,
+        "stk løk" : 0.13,
+        "dl vann" : 2,
+        "stk hønsebuljongterning" : 0.5, // erstatte med dl buljong?
+        "dl helmelk" : 0.5,
+        "skiver bacon" : 1.5,
+        "stk vårløk" : 0.5,
+        "stk baguette" : 0.25,
+      },
+      "Recipe" : `Blomkålsuppe oppskrift
+1. Rens blomkål og del i mindre buketter. Ha blomkålbuketter, løk, vann (4dl per terning buljong), buljong og melk i en kjele. Kok opp og la det koke til grønnsakene er møre.
+2. Ta ut noen blomkålbuketter fra suppen og kjør resten av suppen jevn med en stavmikser. Smak til med salt og pepper.
+(Tilsett gjerne litt fløte eller crème fraiche for en fyldigere suppe. Revet parmesan smaker også utmerket til.
+3. Stek bacon sprøtt i en stekepanne, vend inn vårløk og stek et minutt til vårløken er mør.
+4. Fordel blomkålbuketter i suppeskåler og hell over suppe. Pynt med bacon og vårløk.
+
+Server suppen med grove minibaguetter, eller hjemmelagde krutonger.
+`
+    },
+   
+
+    "Lasagne" : {
+      "Ingredients" : {
+        "stk lasagneplater" : 2.25,
+        "dl revet hvitost" : 0.75,
+        "g parmesan" : 12.5,
+        "g bacon" : 37.5,
+        "ss olje" : 0.75,
+        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
+        "stk løk" : 0.25,
+        "stk gulrot" : 0.25,
+        "stk stangselleri" : 0.25,
+        "ss tomatpuré" : 0.5,
+        "g hakkede hermetiske tomater" : 100,
+        "dl kjøttkraft" : 0.5,
+        "ts tørket oregano" : 0.5,
+        "ss smør" : 0.75,
+        "ss hvetemel" : 7.5,
+        "dl melk" : 1.5,
+        "ts salt" : 0.25,
+        "ts kvernet pepper" : 0.13,
+        "ts revet muskatnøtt" : 0.13,
+      },
+      "Recipe" : `Lasagne oppskrift
+1. Skjær bacon i små biter. Ha olje i en varm panne og stek til baconet til det er gyllent. Ha i litt mer olje og brun kjøttdeig i olje på sterk varme i to omganger.
+2. Senk varmen litt og ha i løk, gulrot og stilkselleri og la det steke til grønnsakene er blitt myke og blanke. Ha baconet og kjøttdeigen tilbake i stekepanna og bland alt sammen.
+3. Lag en grop i midten av stekepannen. Ha i litt mer olje og fres tomat puréen i noen minutter. Ha i hermetisk tomat, kraft og krydder. La kjøttsausen småkoke i minst 10 minutter, til den begynner å tykne. Har du litt god tid? La gjerne sausen småkoke under lokk i ca. 1 ½ time, for å utvikle ekstra god smak. Husk å rør litt i kjelen underveis, slik at det ikke fester seg på bunnen av gryta. Smak til med salt og pepper.
+4. Smelt smør i en kjele og rør inn mel. Spe med melk under omrøring og la sausen koke i ca. 10 minutter. Den skal være forholdsvis tykk. Ha i parmesan og la osten smelte. Smak til ostesausen med krydder.
+5. Legg kjøttsaus, pastaplater og ostesaus lagvis i en ildfast form. Avslutt med pastaplater og ostesaus. Dryss over revet ost til slutt.
+6. Sett formen i stekeovn på 200° C og stek i 30-40 minutter. Kjenn etter med en pinne eller spiss kniv om pastaen er mør. La lasagnen hvile noen minutter før servering.
+
+Server gjerne med baguette og en grønn salat ved siden av.
+`
+    },
+
+
+    "Kjøttkaker med Ertepure" : {
+      "Ingredients" : {
+        "g kjøttdeig" : 100,
+        "ts salt" : 0.25,
+        "ts pepper" : 0.06,
+        "ts malt muskat" : 0.06,
+        "ts malt ingefær" : 0.06,
+        "ss potetmel" : 0.5,
+        "dl vann eller melk" : 0.38,
+        "ss smør" : 1,
+        "ss hvetemel" : 1,
+        "stk buljong" : 0.5, // erstatte med dl buljong?
+        "ts salt" : 0.13,
+        "ts pepper" : 0.06,
+        "g frosne erter" : 100,
+        "dl kjøttbuljong" : 0.25,
+        "ss smør" : 0.25,
+        "ts pepper" : 0.06,
+      },
+      "Recipe" : `Kjøttkaker med Ertepure oppskrift
+1. Bruk en foodprosessor. Ha alle ingrediensene i bollen og kjør i 10-20 sekunder, til farsen er jevn og fin.
+2. Form farsen til runde kaker ved hjelp av en skje, hånden din, og kaldt vann.
+3. Ha margarin i en middels varm stekepanne. Stek kakene i ca. 2 minutter på hver side til de har fått en fin bruning.
+4. Lag brun saus ved å smelte smøret i en kjele. Tilsett hvetemel og brun over svak varme til blandingen får en nøttebrun farge. Spe med varm kraft eller buljong, og rør godt mellom hver gang du sper. La sausen småkoke i ca. 10 minutter. Smak til med salt og pepper.
+5. Ha kakene over i brun saus og la dem trekke i ca. 10 minutter (til de er gjennomkokt).
+6. Kok opp frosne erter i kjøttbuljong til ertestuingen. Mos alt med en stavmikser eller foodprosessoren. Du kan også bruke en potetmoser. Ha i smør og smak til med pepper.
+
+Server kjøttkakene med brun saus, kokte poteter, grønn ertepuré og rørte tyttebær.
+`
+    },
+ 
+
+    "Hjemmelaget Gnocchi" : {
+      "Ingredients" : {
+        "kg potet (melne)" : 0.25,
+        "stk eggeplomme" : 0.5,
+        "ss revet parmesan" : 1,
+        "g hvetemel" : 37.5,
+        "ts salt" : 0.5,
+        "ts kvernet pepper" : 0.13,
+        "ts malt muskat" : 0.06,
+        "ss olivenolje" : 0.5,
+      },
+      "Recipe" : `Hjemmelaget Gnocchi oppskrift
+1. Skrell poteter og kok dem i usaltet vann. Hell av vannet og ha kjelen tilbake på platen og damp potetene til vannet i bunnen er borte. La potetene stå på benken til de har avkjølt seg litt. (Tips: Har potetene blitt for kalde kan du enkelt varme de opp i mikroen igjen.)
+2. Riv potene på den fineste siden av et rivjern, slik at du får en fin masse.
+3. Lag en fordypning midt i haugen. Ha i eggeplommer og revet parmesan.
+4. Bland sammen mel, salt, pepper og muskat og strø dette i fordypningen sammen med eggeplommene.
+5. Bland alt sammen med hendene. Deigen vil være ganske løs i starten, så ha i litt og litt mel til du har fått en smidig deig.
+6. Del deigen i mindre biter som du skal rulle ut til lange pølser. Når du har rullet ut deigen, så deler du de opp i mindre biter.
+7. Bruk en gaffel og klem forsiktig på putene slik at du får de karakteristiske gnocchimønsteret, eller lag de akkurat som du måtte ønske. Dryss over litt ekstra mel underveis.
+8. Kok opp en stor kjele med vann. Ha i salt og kok gnocchi til de flyter opp til toppen. Da er de ferdig kokt. Ikke kok for mange av gangen, da kan det hende at de går sammen. Fisk opp putene med en hullslev og ha på litt olivenolje.
+
+Gnocchi kan fint fryses etter at de er ferdig kokt. Da har du en rask middag til senere i uken.
+`
+    },
+ 
+
+    "Kremet Fiskesuppe" : {
+      "Ingredients" : {
+        "stk fiskebuljong" : 0.25, // erstatte med dl buljong?
+        "stk gulrot i biter" : 0.5,
+        "dl melk" : 0.5,
+        "ss hvetemel" : 0.5,
+        "g laks" : 50,
+        "g torskefilet" : 50,
+        "g frosne erter" : 20,
+        "dl kremfløte" : 0.25,
+        "ts salt" : 0.13,
+        "ts pepper" : 0.13,
+        "ss frisk gressløk" : 0.25,
+      },
+      "Recipe" : `Kremet Fiskesuppe oppskrift
+1. Kok opp fiskebuljongen i en gryte og legg i gulrotbitene. La dem koke i 3-4 minutter.
+2. Bland melk og hvetemel i et glass med skrulokk, og rist godt. Hell blandingen i fiskebuljongen mens du visper hele tiden. La suppen småkoke i ca. 5 minutter.
+3. Senk temperaturen og legg i fiskebiter og erter. La suppa trekke i ca. 5 minutter. 
+4. Rør inn fløten og smak til med salt og pepper. Dryss over finklippet gressløk.
+
+Server gjerne suppen med brød eller flatbrød.
+`
+    },
+ 
+
+    "Pasta Carbonara" : {
+      "Ingredients" : {
+        "g bacon" : 50,
+        "g fersk spagetti" : 125,
+        "stk egg" : 1,
+        "g parmesan" : 15,
+        "ss timian" : 0.5,
+        "ts pepper" : 0.25,
+      },
+      "Recipe" : `Pasta Carbonara oppskrift
+1. Bruker du fersk pasta, tar det kun 2 minutter å koke den i lettsaltet vann. Vent derfor med koking av pasta til resten er klart. Bruker du tørket pasta kan den koke mens du forbereder resten. Kok pastaen etter anvisning på pakken.
+2. Skjær bacon, guanciale eller pancetta i terninger og stek dem i en middels varm stekepanne til de er gylne. Bruker du en stekepanne med slippbelegg trenger du ikke stekefett når du steker kjøttet - fettet som smelter ut vil være nok. Om du ikke har en slik panne kan det være lurt å steke i litt margarin eller olje.
+3. Visp sammen hele egg, finrevet pecorino eller parmesan, timian og pepper. 
+4. Ta vare på litt av pastavannet i en kopp.
+5. Hell kokt pasta over i pannen med kjøttet. Trekk pannen av varmen og vend inn egg- og parmesanblandingen. Tilsett litt av pastavannet. Rør godt. Eggeblandingen vil tykne av varmen fra pastaen. Hvis pastaen blir litt klissete kan du ved tilsette et par spiseskjeer til av pastavannet.
+6. Kvern over godt med svart pepper.
+
+Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. For å være ekstra råflott, kan du servere pastaen med en ekstra eggeplomme på toppen. La eggeplommen være i litt av skallet, og vipp den ut på pastaen før du begynner å spise.
+`
+    },
+ 
+
+    "Klassisk Bacalao" : {
+      "Ingredients" : {
+        "kg utvannet klippfisk" : 0.17,
+        "kg løk" : 0.17,
+        "kg potet" : 0.17,
+        "stk rød chili" : 0.33,
+        "båt hvitløk" : 0.67,
+        "g hakkede hermetiske tomater" : 200,
+        "stk laurbærblad" : 0.67,
+        "5 stk sorte oliven" : 5,
+        "dl olivenolje" : 0.5,
+        "ss hakket bladpersille" : 0.33,
+      },
+      "Recipe" : `Klassisk Bacalao oppskrift
+1. Rens klippfisken for skinn og bein, og skjær den i ca. 2 cm tykke skiver. 
+2. Skjær poteter og løk i ca. ½ cm tykke skiver.
+3. Legg fisk, poteter og løk lagvis i en stor kjele.
+4. Del chili på langs, skrap ut frøene og kutt den fint (bruk frøene også om du vil ha bacalaoen sterkere). Grovhakk hvitløk og legg i gryta sammen med laurbærblad, chili, oliven, tomater og olivenolje. Kok opp, senk varmen og sett på lokk. La bacalaoen småkoke  i ca. 1 time. Smak til med litt salt og pepper. Dryss over litt hakket persille ved servering.
+
+Dette er en rett som man kan spise helt alene uten tilbehør, men mange serverer gjerne med ferskt, godt brød. 
+`
+    },
+
+
+    "Boeuf Bourguignon" : {
+      "Ingredients" : {
+        "g benfri høyrygg av storfekjøtt , evt. bog" : 200,
+        "ss smør" : 0.5,
+        "dl kjøttkraft" : 0.75,
+        "dl rødvin" : 1,
+        "stk laurbærblad" : 0.25,
+        "ts tørket timian" : 0.25,
+        "stk sjalottløk" : 2.5,
+        "stk gulrot i staver" : 0.5,
+        "g frisk sjampinjong i båter" : 50,
+        "5 g bacon" : 37.5,
+      },
+      "Recipe" : `Boeuf Bourguignon oppskrift
+1. Skjær kjøtt i middels store terninger (4x4 cm). Brun små porsjoner kjøtt av gangen i en varm stekepanne med smør. Ha kjøttet over i en gryte og krydre med salt og pepper. 
+2. Hell kraft og vin  i gryten. Tilsett laurbærblad og timian, og varm opp til kokepunktet. Senk varmen og la kjøttet trekke i ca. 1 ½ time.
+3. Rens sjalottløk (skal brukes hele). Skrell gulrot og skjær dem i staver. Ha grønnsakene over i gryta og la det trekke i ytterligere 30 minutter.
+4. Brun sjampinjong og bacon i en varm stekepanne. Ha det over i gryta rett før servering. Smak til med salt og pepper.
+
+Server eventuelt med franske baguetter som tilbehør.
+`
+    },
 }

@@ -106,20 +106,27 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
+    // Sorts the Ingredients by word similarity using Levenshtein distance
+    const ingredientKeys = Array.from(Object.keys(Ingredients))
+
     // Render the Ingredients dictionary on the HTML page
-    Object.entries(Ingredients).forEach(([ingredient, amount]) => {
+    ingredientKeys.forEach((ingredient) => {
       const ingredientItem = document.createElement('div');
       ingredientItem.className = 'ingredient';
-      ingredientItem.textContent = `${amount} ${ingredient}`;
+      ingredientItem.textContent = `${Math.round(Ingredients[ingredient] * 100) / 100} ${ingredient}`;
 
       ingredientsContent.appendChild(ingredientItem);
     });
   }
 
+
   const incrementDinnerPortion = (dinner, increment) => {
-    Dinners[dinner] = Dinners[dinner] + increment >= 0 ? Dinners[dinner] + increment : 0;
-    updateDinnersContent();
-    updateIngredients();
+    // Only increments and updates when valid
+    if (Dinners[dinner] + increment >= 0) {
+      Dinners[dinner] += increment
+      updateDinnersContent();
+      updateIngredients();
+    }
   };
 
   const addDinner = (dinner) => {
