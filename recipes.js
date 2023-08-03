@@ -41,7 +41,7 @@ const Recipes = {
       "Ingredients" : {
       "g sopp" : 50,
       "stk løk" : 0.13,
-      "hvitløksbåt" : 0.25,
+      "stk hvitløksbåt" : 0.25,
       "ss smør eller margarin" : 0.5,
       "dl matfløte" : 0.75,
       "ss soyasaus" : 0.25,
@@ -85,7 +85,7 @@ const Recipes = {
       "Ingredients" : {
         "kg blåskjell" : 0.5,
         "stk sjalottløk" : 1,
-        "hvitløksbåt" : 0.5,
+        "stk hvitløksbåt" : 0.5,
         "g persillerot" : 25,
         "g fennikel" : 37.5,
         "stk grønn chili" : 0.25,
@@ -115,7 +115,7 @@ const Recipes = {
         "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
         "ss margarin" : 0.5,
         "stk løk" : 0.25,
-        "hvitløksbåt" : 0.5,
+        "stk hvitløksbåt" : 0.5,
         "stk rød chili" : 0.25,
         "g hakkede hermetiske tomater" : 100,
         "g chilibønner" : 100,
