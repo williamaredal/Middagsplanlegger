@@ -41,7 +41,7 @@ const Recipes = {
       "Ingredients" : {
       "g sopp" : 50,
       "stk løk" : 0.13,
-      "hvitløksbåt" : 0.25,
+      "stk hvitløksbåt" : 0.25,
       "ss smør eller margarin" : 0.5,
       "dl matfløte" : 0.75,
       "ss soyasaus" : 0.25,
@@ -85,7 +85,7 @@ const Recipes = {
       "Ingredients" : {
         "kg blåskjell" : 0.5,
         "stk sjalottløk" : 1,
-        "hvitløksbåt" : 0.5,
+        "stk hvitløksbåt" : 0.5,
         "g persillerot" : 25,
         "g fennikel" : 37.5,
         "stk grønn chili" : 0.25,
@@ -115,7 +115,7 @@ const Recipes = {
         "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
         "ss margarin" : 0.5,
         "stk løk" : 0.25,
-        "hvitløksbåt" : 0.5,
+        "stk hvitløksbåt" : 0.5,
         "stk rød chili" : 0.25,
         "g hakkede hermetiske tomater" : 100,
         "g chilibønner" : 100,
@@ -307,7 +307,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
         "båt hvitløk" : 0.67,
         "g hakkede hermetiske tomater" : 200,
         "stk laurbærblad" : 0.67,
-        "5 stk sorte oliven" : 5,
+        "stk sorte oliven" : 5,
         "dl olivenolje" : 0.5,
         "ss hakket bladpersille" : 0.33,
       },
@@ -333,7 +333,7 @@ Dette er en rett som man kan spise helt alene uten tilbehør, men mange serverer
         "stk sjalottløk" : 2.5,
         "stk gulrot i staver" : 0.5,
         "g frisk sjampinjong i båter" : 50,
-        "5 g bacon" : 37.5,
+        "g bacon" : 37.5,
       },
       "Recipe" : `Boeuf Bourguignon oppskrift
 1. Skjær kjøtt i middels store terninger (4x4 cm). Brun små porsjoner kjøtt av gangen i en varm stekepanne med smør. Ha kjøttet over i en gryte og krydre med salt og pepper. 

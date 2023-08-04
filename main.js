@@ -78,6 +78,27 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   
 
+  function GetAsciiNumber(character) {
+    return character.charCodeAt(0)
+  };
+
+
+  function GetMeasurementAsciiWeight(measurementString) {
+    let weight = 0
+    for (let i = 0; i < measurementString.length; i++) {
+      weight += GetAsciiNumber(measurementString[i])
+    }
+
+    return weight
+  };
+
+
+  function SortAsciiWeight(ingredientString) {
+    const ingredientParsed = ingredientString.split(/(\s)/)
+    console.log(ingredientParsed)
+    return GetMeasurementAsciiWeight(ingredientParsed[0])
+  };
+
 
   /*
     Updates the "Ingredients" content with notepad lines containing the Dinners ingredients
@@ -106,8 +127,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // Sorts the Ingredients by word similarity using Levenshtein distance
+    // Sorts the Ingredients by measurement represented weighted by ascii characters
     const ingredientKeys = Array.from(Object.keys(Ingredients))
+    const sortedIngredients = ingredientKeys.sort((a, b) => SortAsciiWeight(a) - SortAsciiWeight(b))
 
     // Render the Ingredients dictionary on the HTML page
     ingredientKeys.forEach((ingredient) => {
