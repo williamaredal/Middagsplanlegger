@@ -95,7 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function SortAsciiWeight(ingredientString) {
     const ingredientParsed = ingredientString.split(/(\s)/)
-    console.log(ingredientParsed)
     return GetMeasurementAsciiWeight(ingredientParsed[0])
   };
 
@@ -203,7 +202,11 @@ document.addEventListener('DOMContentLoaded', () => {
     shoppingList += `\n\n\n`;
     let dinnerCount = 1;
     for (const dinner in Dinners) {
-        shoppingList += `Dinner ${dinnerCount}:\n${Recipes[dinner]['Recipe']}\n\n`;
+        let dinnerIngredients = `Ingredients:\n`
+        for (const ingredient in Recipes[dinner]['Ingredients']) {
+          dinnerIngredients += `${Recipes[dinner]['Ingredients'][ingredient] * Dinners[dinner]}${ingredient}\n`
+        }
+        shoppingList += `Dinner ${dinnerCount}: ${dinner}\n${dinnerIngredients}\n${Recipes[dinner]['Recipe']}\n\n`;
         dinnerCount++;
     }
     
