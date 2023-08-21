@@ -365,12 +365,12 @@ Server eventuelt med franske baguetter som tilbehør.
       },
       "Recipe" : `Marry Me Chicken oppskrift
 1. Riv skallet til sitron(ene) og saft like mange i en bolle.
-2. Bland sammen olje, sitron, honning, basilikum, salt og pepper i en stor bolle, og vend kyllinglår i blandingen til den er dekket. La kyllingen marinere i kjøleskapet i minst én time, men gjerne lenger.
+2. Bland sammen olje, sitron, honning, basilikum, salt og pepper i en stor bolle. Del kyllinglår(ene) i biter egnet for gaffel, og legg disse i blandingen til den er dekket. La kyllingen marinere i kjøleskapet i minst 30 minutter, men ikke mer enn en time (ellers kan det bli kraftig sitronsmak).
 3. Kok pasta som anvist på pakningen.
-4. Varm opp en stor stekepanne eller jerngryte og ha i smør. Stek kyllinglår på høy varme i 1-2 minutter på hver side til den har fått en gyllen skorpe. Ha lårene over i en ildfast form, og stek videre i ovnen på 200 °C i ca. 15 minutter.
-5. Surr hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften, og gi den et kjapt oppkok.
+4. Varm opp en stor stekepanne eller jerngryte og ha i smør. Løft kyllinglår biter ut av marineringsvesken og stek disse på høy varme i 1-2 minutter på hver side til den har fått en gyllen skorpe. Ha lårene over i en ildfast form, og stek videre i ovnen på 200 °C i ca. 10 minutter.
+5. Stek hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften, og gi den et kjapt oppkok.
 6. Senk varmen, og tilsett kremfløte og parmesan. La sausen småkoke i et par minutter, og smak til med krydrene; chiliflak, timian, oregano, salt og pepper. 
-7. Rens og del kyllinglår i mindre biter, og vend kyllingbitene inn i sausen sammen med kokt pasta.  
+7. Vend kyllingbitene inn i sausen sammen med kokt pasta og server.  
 `
     },
 }
