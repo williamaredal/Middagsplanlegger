@@ -39,14 +39,15 @@ const Recipes = {
   
     "Pasta med kremet sopp" : {
       "Ingredients" : {
-      "g sopp" : 50,
+      "g sopp" : 100,
       "stk løk" : 0.13,
-      "stk hvitløksbåt" : 0.25,
-      "ss smør eller margarin" : 0.5,
-      "dl matfløte" : 0.75,
-      "ss soyasaus" : 0.25,
-      "g frisk spinat" : 25,
-      "g tagliatelle" : 100
+      "stk hvitløksbåt" : 0.5,
+      "ss smør eller margarin" : 1,
+      "dl matfløte" : 1.5,
+      "ss soyasaus" : 0.5,
+      "g frisk spinat" : 50,
+      "g tagliatelle" : 100,
+      "g parmesan" : 15
     },
     "Recipe" : `Pasta med kremet sopp oppskrift
   
