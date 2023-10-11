@@ -305,7 +305,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
         "kg løk" : 0.17,
         "kg potet" : 0.17,
         "stk rød chili" : 0.33,
-        "båt hvitløk" : 0.67,
+        "stk hvitløksbåt" : 0.67,
         "g hakkede hermetiske tomater" : 200,
         "stk laurbærblad" : 0.67,
         "stk sorte oliven" : 5,
@@ -357,7 +357,7 @@ Server eventuelt med franske baguetter som tilbehør.
         "ts kvernet pepper" : 0.5,
         "g pastaskruer" : 100,
         "ss smør" : 1,
-        "hvitløksbåt" : 1.5,
+        "stk hvitløksbåt" : 1.5,
         "dl kyllingkraft" : 1.5,
         "dl kremfløte" : 1.5,
         "g parmesan" : 25,
@@ -372,6 +372,42 @@ Server eventuelt med franske baguetter som tilbehør.
 5. Stek hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften, og gi den et kjapt oppkok.
 6. Senk varmen, og tilsett kremfløte og parmesan. La sausen småkoke i et par minutter, og smak til med krydrene; chiliflak, timian, oregano, salt og pepper. 
 7. Vend kyllingbitene inn i sausen sammen med kokt pasta og server.  
+`
+    },
+
+    "Lammeskank med Appelsin" : {
+      "Ingredients" : {
+        "stk lammeskank" : 1,
+        "ss olje" : 0.75,
+        "stk løk" : 0.25,
+        "dl kyllingkraft" : 0.75,
+        "stk appelsin" : 0.5,
+        "båter hvitløk" : 2,
+        "dl honning" : 0.25,
+        "dl brunt sukker" : 0.25,
+        "dl rødvinseddik" : 0.25,
+        "stk hel kanel" : 0.5,
+        "stilk frisk rosmarin" : 1,
+        "kg melen potet" : 0.25,
+        "ss smør" : 0.5,
+        "dl melk" : 0.75,
+        "g grønnkål" : 50,
+        "g smør" : 37.5,
+        "stk hasselnøtter" : 3.75,
+      },
+      "Recipe" : `Lammeskank med appelsin oppskrift
+1. Tørk godt av lammeskankene og stell dem slik at de kan stå med beinpipen opp.
+2. Varm en vid gryte (gjerne jerngryte) med litt av oljen og brun lammeskankene på alle sider. Krydre godt med salt og pepper. Løft skankene over på en tallerken.
+3. Finhakk løk og fres den i resten av oljen til den er gyllen og myk.
+4. Hell kraften i gryten sammen med appelsinsaft og -skall, hvitløk, honning, brunt sukker, rødvinseddik, hel kanel og rosmarinstilker. Kok opp.
+5. Legg lammeskankene tilbake i gryten og bland godt, slik at skankene blir dekket av sausen. Om mulig, sett skankene slik at beinpipene peker oppover. Kok opp på nytt, sett på lokk eller dekk med folie og plasser gryten i stekeovnen på 150 °C 3 -3 ½ time.
+6. Øk temperaturen i stekeovnen til 220 °C. Ta lokket av gryten og sett den tilbake i ovnen i ytterligere 25-30 minutter. Sausen skal tykne litt og bli litt klissete, men ikke brent. Kjøttet er ferdig når det løsner fra beina.
+7. Skrell potetetene og del dem i biter om de er store. Kok dem helt møre i usaltet vann. Hell av kokevannet og la potetene dampe seg tørre.
+8. Mos potetene og rør inn smør. Spe med litt melk av gangen til mosen har en lett og luftig konsistens. Smak til med salt og pepper.
+9. Fjern de groveste stilkene og forvell grønnkålbladene i kokende vann i ca 2 minutter. Avkjøl bladene i kaldt vann og klem ut så mye vann som mulig. Klem grønnkålen sammen til en klump og bruk en skarp kniv til å kutte hakke den.
+10. Bland den hakkede grønnkålen inn i potetmosen og la alt bli gjennomvarmt.
+11. Smelt smøret på middels høy varme og la det bli gyllenbrunt og duftende. Hakk nøttene grovt og bland dem i smøret.
+12. Fordel colcannon på tallerkener og plasser en lammeskank oppå. Hell litt saus rundt og litt av nøttesmøret over skanken og server med én gang.
 `
     },
 }
