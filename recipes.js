@@ -267,7 +267,7 @@ Gnocchi kan fint fryses etter at de er ferdig kokt. Da har du en rask middag til
         "ss frisk gressløk" : 0.25,
       },
       "Recipe" : `Kremet Fiskesuppe oppskrift
-1. Kok opp fiskebuljongen i en gryte og legg i gulrotbitene. La dem koke i 3-4 minutter.
+1. Kok opp vann i en gryte (6dl vann pr terning buljong), ha i fiskebuljongen og legg i gulrotbitene. La dem koke i 3-4 minutter.
 2. Bland melk og hvetemel i et glass med skrulokk, og rist godt. Hell blandingen i fiskebuljongen mens du visper hele tiden. La suppen småkoke i ca. 5 minutter.
 3. Senk temperaturen og legg i fiskebiter og erter. La suppa trekke i ca. 5 minutter. 
 4. Rør inn fløten og smak til med salt og pepper. Dryss over finklippet gressløk.
