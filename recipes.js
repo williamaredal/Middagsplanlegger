@@ -301,6 +301,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
     },
  
 
+/*
     "Klassisk Bacalao" : {
       "Ingredients" : {
         "kg utvannet klippfisk" : 0.17,
@@ -324,6 +325,7 @@ Dette er en rett som man kan spise helt alene uten tilbehør, men mange serverer
 `
     },
 
+*/
 
     "Boeuf Bourguignon" : {
       "Ingredients" : {
