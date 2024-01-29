@@ -438,4 +438,25 @@ Server eventuelt med franske baguetter som tilbehør.
 7. Kok brokkolini eller buketter av brokkoli i lettsaltet vann i ca. 2 minutter. Hell av kokevannet.
 `
     },
+  
+    
+    "Kyllinggryte med sitron og oliven" : {
+      "Ingredients" : {
+        "g kylling overlår" : 200,
+        "ss olivenolje" : 1,
+        "stk sitron" : 0.25,
+        "stk hvitløksbåt" : 3,
+        "ss frisk timian" : 0.5,
+        "g grønne oliven" : 50,
+        "stk sjalottløk" : 0.5,
+      },
+      "Recipe" : `Kyllinggryte med sitron og oliven oppskrift
+1. Brun kyllingstykkene i en romslig gryte med olje.
+2. Skjær sitron i tynne skiver og legg rundt kyllingstykkene. Finhakk sjalottløk og del hvitløk i to, og ha i gryta. Dryss over oliven og timian. Krydre med salt og pepper.
+3. Sett formen midt i ovnen på 200 °C i 30-35 minutter, til kyllinglårene er gjennomstekt.
+
+Server med godt, ferskt brød eller rundstykker til å dyppe i den deilige kraften og gjerne en frisk grønn salat.
+`
+    },
+
 }
