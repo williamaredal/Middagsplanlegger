@@ -226,6 +226,7 @@ Server kjøttkakene med brun saus, kokte poteter, grønn ertepuré og rørte tyt
     },
  
 
+/*
     "Hjemmelaget Gnocchi" : {
       "Ingredients" : {
         "kg potet (melne)" : 0.25,
@@ -250,6 +251,7 @@ Server kjøttkakene med brun saus, kokte poteter, grønn ertepuré og rørte tyt
 Gnocchi kan fint fryses etter at de er ferdig kokt. Da har du en rask middag til senere i uken.
 `
     },
+*/
  
 
     "Kremet Fiskesuppe" : {
