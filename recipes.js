@@ -415,30 +415,6 @@ Server eventuelt med franske baguetter som tilbehør.
 `
     },
   
-
-    "Røkt svinekam med irsk potetmos" : {
-      "Ingredients" : {
-        "g svinekotellet" : 200,
-        "ts pepper" : 0.13,
-        "ss margarin" : 0.5,
-        "g brokkoli" : 50,
-
-        "kg melen potet" : 0.25,
-        "ss smør eller margarin" : 0.5,
-        "dl melk" : 0.75,
-        "g grønnkål" : 50,
-      },
-      "Recipe" : `Røkt svinekam med irsk potetmos oppskrift
-1. Krydre svinekotelettene med pepper. Ha margarin i en varm stekepanne og brun skivene godt på begge sider. Senk varmen og stek skivene videre til det pipler blank væske ut av dem. La skivene hvile noen minutter før servering. 
-2. Skrell potetene og del dem i mindre biter. Kok dem helt møre i usaltet vann. Hell av kokevannet og la potetene dampe seg tørre.
-3. Mos potetene og rør inn smør. Spe med litt melk av gangen, til mosen har en lett og luftig konsistens. Smak til med salt og pepper.
-4. Fjern de groveste stilkene og forvell grønnkålbladene i kokende vann i ca. 2 minutter. Avkjøl bladene i kaldt vann, og klem ut så mye vann som mulig. Klem grønnkålen sammen til en klump, og bruk en skarp kniv til å hakke den i mindre biter.
-5. Hell i nok olivenoljen i stekepannen til å dekke grønnkålbladene. Hell i grønnkålbladene, og fres på høy varme til de brunes litt.
-6. Bland grønnkålen inn i potetmosen, og la alt bli gjennomvarmt.
-7. Kok brokkolini eller buketter av brokkoli i lettsaltet vann i ca. 2 minutter. Hell av kokevannet.
-`
-    },
-  
     
     "Kyllinggryte med sitron og oliven" : {
       "Ingredients" : {
