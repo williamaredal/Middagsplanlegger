@@ -81,35 +81,7 @@ const Recipes = {
   4. Hell fløten i en kjele eller sauteringspanne og kok opp. Ha alle grønnsakene i kjelen og la det koke i 2-3 minutter, til fløten tykner litt og grønnsakene er knapt møre. Bland inn hakket dill. Smak til med salt og pepper.`
     },
 
-
-    "Kremet blåskjellsuppe" : {
-      "Ingredients" : {
-        "kg blåskjell" : 0.5,
-        "stk sjalottløk" : 1,
-        "stk hvitløksbåt" : 0.5,
-        "g persillerot" : 25,
-        "g fennikel" : 37.5,
-        "stk grønn chili" : 0.25,
-        "ss smør" : 0.5,
-        "stilk frisk timian" : 0.5,
-        "dl hvitvin" : 0.75,
-        "dl fløte" : 0.75,
-        "ss maisenna" : 0.5,
-        "ss hakket frisk persille" : 1,
-      },
-      "Recipe" : `Kremet blåskjellsuppe oppskrift
-  
-  1. Skyll skjellene godt i kaldt vann. Fjern ødelagte skjell og skjell som ikke lukker seg når du slår dem lett mot underlaget. Fjern byssustråden ("skjegget" som fortsatt sitter på noen av skjellene). Om du bruker oppdrettsskjell er de nå klare til bruk. Om du sanker blåskjell selv, så bruk en skarp kniv og skrap vekk alger, skjell og andre ting som vokser på skjellene. 
-  2. Finhakk sjalottløk, hvitløk, persillerot fennikel og chili.
-  3. Smelt smøret i en stor kjele og fres de hakkede grønnsakene i 3-4 minutter til de er myke og blanke. Tilsett timian og blåskjell, og hell i hvitvin.
-  4. Sett på lokk og damp blåskjellene i 5-6 minutter, eller til alle har åpnet seg godt. 
-  5. Rens de fleste blåskjellene. Ta vare på noen av dem til pynt. 
-  6. Sett kjelen tilbake på varmen og tilsett fløte. Rør ut maisenna i litt kaldt vann og rør det inn i suppa. Kok opp på nytt. Smak til med salt og pepper.
-  7. Fordel blåskjell i dype tallerkener og hell over kokende suppe. Pynt med hele blåskjell og dryss over hakket persille. 
-  
-  Server med ferskt, godt brød.`
-    },
-  
+ 
 
     "Chili con carne" : {
       "Ingredients" : {
@@ -158,6 +130,137 @@ Server suppen med grove minibaguetter, eller hjemmelagde krutonger.
 `
     },
    
+
+
+    "Kremet Fiskesuppe" : {
+      "Ingredients" : {
+        "stk fiskebuljong" : 0.25, // erstatte med dl buljong?
+        "stk gulrot i biter" : 0.5,
+        "dl melk" : 0.5,
+        "ss hvetemel" : 0.5,
+        "g laks" : 50,
+        "g torskefilet" : 50,
+        "g frosne erter" : 20,
+        "dl kremfløte" : 0.25,
+        "ts salt" : 0.13,
+        "ts pepper" : 0.13,
+        "ss frisk gressløk" : 0.25,
+      },
+      "Recipe" : `Kremet Fiskesuppe oppskrift
+1. Kok opp vann i en gryte (6dl vann pr terning buljong), ha i fiskebuljongen og legg i gulrotbitene. La dem koke i 3-4 minutter.
+2. Bland melk og hvetemel i et glass med skrulokk, og rist godt. Hell blandingen i fiskebuljongen mens du visper hele tiden. La suppen småkoke i ca. 5 minutter.
+3. Senk temperaturen og legg i fiskebiter og erter. La suppa trekke i ca. 5 minutter. 
+4. Rør inn fløten og smak til med salt og pepper. Dryss over finklippet gressløk.
+
+Server gjerne suppen med brød eller flatbrød.
+`
+    },
+ 
+
+    "Pasta Carbonara" : {
+      "Ingredients" : {
+        "g bacon" : 50,
+        "g fersk spagetti" : 125,
+        "stk egg" : 1,
+        "g parmesan" : 15,
+        "ss timian" : 0.5,
+        "ts pepper" : 0.25,
+      },
+      "Recipe" : `Pasta Carbonara oppskrift
+1. Bruker du fersk pasta, tar det kun 2 minutter å koke den i lettsaltet vann. Vent derfor med koking av pasta til resten er klart. Bruker du tørket pasta kan den koke mens du forbereder resten. Kok pastaen etter anvisning på pakken.
+2. Skjær bacon, guanciale eller pancetta i terninger og stek dem i en middels varm stekepanne til de er gylne. Bruker du en stekepanne med slippbelegg trenger du ikke stekefett når du steker kjøttet - fettet som smelter ut vil være nok. Om du ikke har en slik panne kan det være lurt å steke i litt margarin eller olje.
+3. Visp sammen hele egg, finrevet pecorino eller parmesan, timian og pepper. 
+4. Ta vare på litt av pastavannet i en kopp.
+5. Hell kokt pasta over i pannen med kjøttet. Trekk pannen av varmen og vend inn egg- og parmesanblandingen. Tilsett litt av pastavannet. Rør godt. Eggeblandingen vil tykne av varmen fra pastaen. Hvis pastaen blir litt klissete kan du ved tilsette et par spiseskjeer til av pastavannet.
+6. Kvern over godt med svart pepper.
+
+Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. For å være ekstra råflott, kan du servere pastaen med en ekstra eggeplomme på toppen. La eggeplommen være i litt av skallet, og vipp den ut på pastaen før du begynner å spise.
+`
+    },
+ 
+
+
+    "Marry Me Chicken" : {
+      "Ingredients" : {
+        "stk kyllinglår" : 1,
+        "ss olje" : 1,
+        "stk sitron" : 0.5,
+        "ss flytende honning" : 1,
+        "ss hakket frisk basilikum" : 1,
+        "ts salt" : 0.5,
+        "ts kvernet pepper" : 0.5,
+        "g pastaskruer" : 100,
+        "ss smør" : 1,
+        "stk hvitløksbåt" : 1.5,
+        "dl kyllingkraft" : 1.5,
+        "dl kremfløte" : 1.5,
+        "g parmesan" : 25,
+        "ts chiliflakes" : 0.5,
+        "ts tørket oregano" : 0.5,
+      },
+      "Recipe" : `Marry Me Chicken oppskrift
+1. Riv skallet til sitron(ene) og saft like mange i en bolle.
+2. Bland sammen olje, sitron, honning, basilikum, salt og pepper i en stor bolle. Del kyllinglår(ene) i biter egnet for gaffel, og legg disse i blandingen til den er dekket. La kyllingen marinere i kjøleskapet i minst 30 minutter, men ikke mer enn en time (ellers kan det bli kraftig sitronsmak).
+3. Kok pasta som anvist på pakningen.
+4. Varm opp en stor stekepanne eller jerngryte og ha i smør. Løft kyllinglår biter ut av marineringsvesken og stek disse på høy varme i 1-2 minutter på hver side til den har fått en gyllen skorpe. Ha lårene over i en ildfast form, og stek videre i ovnen på 200 °C i ca. 10 minutter.
+5. Stek hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften, og gi den et kjapt oppkok.
+6. Senk varmen, og tilsett kremfløte og parmesan. La sausen småkoke i et par minutter, og smak til med krydrene; chiliflak, timian, oregano, salt og pepper. 
+7. Vend kyllingbitene inn i sausen sammen med kokt pasta og server.  
+`
+    },
+ 
+
+    "Kylling med søtpotet og grønnkål" : {
+      "Ingredients" : {
+        "g kylling overlår" : 200,
+        "stk søtpotet" : 0.25,
+        "g grønnkål" : 62.5,
+        "båter hvitløk" : 1.5,
+        "ss olivenolje" : 1,
+        "stk sitron" : 0.25,
+        "ts salt" : 0.5,
+        "ts kvernet pepper" : 0.25,
+        "ss tørket oregano" : 0.25,
+      },
+      "Recipe" : `
+1. Tørk kyllingbitene med litt tørkepapir og la dem ligge og temperere seg mens du forbereder resten av ingrediensene.
+2. Skrell søtpoteten og skjær den i grove biter. Vask grønnkål og skjær vekk det groveste av stilken. Grovhakk hvitløk.
+3. Ha litt olje i bunnen av en stor ildfast form eller langpanne. Legg kyllingbiter, søtpotet, grønnkål og hvitløk utover i formen slik at det ikke ligger oppå hverandre. Press sitronsaften og fordel den i pannen. Drypp over olivenolje og krydre med salt, pepper og oregano.
+4. Plasser formen midt i ovnen på 200 °C og stek i 20-25 minutter til kyllingbitene er gjennomstekt og søtpoteten har fått fin, gyllen farge. Grønnkålen kan bli litt mørk i kantene.
+
+Server kyllingformen med ris eller godt brød. 
+`
+    },
+
+
+    "Grønnsaksuppe med pølse" : {
+      "Ingredients" : {
+        "stk røkt kjøttpølse" : 0.25,
+        "stk løk" : 0.13,
+        "stk potet" : 0.75,
+        "g sellerirot" : 25,
+        "stk gulrot" : 0.5,
+        "g kålrot" : 25,
+        "stk purre" : 0.13,
+        "stk brokkoli" : 0.13,
+        "l vann" : 0.25,
+        "stk kyllingbuljongterning" : 0.25,
+      },
+      "Recipe" : `
+1. Skjær pølse i passe store biter. Finhakk løk.
+2. Skrell poteter og resten av grønnsakene. Skjær poteter, sellerirot, gulrøtter og kålrot i terninger. Skjær purre i ringer og brokkoli i små buketter (og skjær stilken i biter)
+3. Kok opp vann og buljong. Ha i poteter og grønnsaker og kok dem i ca. 8 minutter til de er møre.
+4. Tilsett pølsebitene og la dem bli varme. Smak til med salt og pepper.
+
+Suppen passer godt sammen med rundstykker.
+`
+    },
+}
+
+
+/*
+ Commented out recipees (can get added in future)
+
 
     "Lasagne" : {
       "Ingredients" : {
@@ -226,7 +329,6 @@ Server kjøttkakene med brun saus, kokte poteter, grønn ertepuré og rørte tyt
     },
  
 
-/*
     "Hjemmelaget Gnocchi" : {
       "Ingredients" : {
         "kg potet (melne)" : 0.25,
@@ -251,57 +353,8 @@ Server kjøttkakene med brun saus, kokte poteter, grønn ertepuré og rørte tyt
 Gnocchi kan fint fryses etter at de er ferdig kokt. Da har du en rask middag til senere i uken.
 `
     },
-*/
  
 
-    "Kremet Fiskesuppe" : {
-      "Ingredients" : {
-        "stk fiskebuljong" : 0.25, // erstatte med dl buljong?
-        "stk gulrot i biter" : 0.5,
-        "dl melk" : 0.5,
-        "ss hvetemel" : 0.5,
-        "g laks" : 50,
-        "g torskefilet" : 50,
-        "g frosne erter" : 20,
-        "dl kremfløte" : 0.25,
-        "ts salt" : 0.13,
-        "ts pepper" : 0.13,
-        "ss frisk gressløk" : 0.25,
-      },
-      "Recipe" : `Kremet Fiskesuppe oppskrift
-1. Kok opp vann i en gryte (6dl vann pr terning buljong), ha i fiskebuljongen og legg i gulrotbitene. La dem koke i 3-4 minutter.
-2. Bland melk og hvetemel i et glass med skrulokk, og rist godt. Hell blandingen i fiskebuljongen mens du visper hele tiden. La suppen småkoke i ca. 5 minutter.
-3. Senk temperaturen og legg i fiskebiter og erter. La suppa trekke i ca. 5 minutter. 
-4. Rør inn fløten og smak til med salt og pepper. Dryss over finklippet gressløk.
-
-Server gjerne suppen med brød eller flatbrød.
-`
-    },
- 
-
-    "Pasta Carbonara" : {
-      "Ingredients" : {
-        "g bacon" : 50,
-        "g fersk spagetti" : 125,
-        "stk egg" : 1,
-        "g parmesan" : 15,
-        "ss timian" : 0.5,
-        "ts pepper" : 0.25,
-      },
-      "Recipe" : `Pasta Carbonara oppskrift
-1. Bruker du fersk pasta, tar det kun 2 minutter å koke den i lettsaltet vann. Vent derfor med koking av pasta til resten er klart. Bruker du tørket pasta kan den koke mens du forbereder resten. Kok pastaen etter anvisning på pakken.
-2. Skjær bacon, guanciale eller pancetta i terninger og stek dem i en middels varm stekepanne til de er gylne. Bruker du en stekepanne med slippbelegg trenger du ikke stekefett når du steker kjøttet - fettet som smelter ut vil være nok. Om du ikke har en slik panne kan det være lurt å steke i litt margarin eller olje.
-3. Visp sammen hele egg, finrevet pecorino eller parmesan, timian og pepper. 
-4. Ta vare på litt av pastavannet i en kopp.
-5. Hell kokt pasta over i pannen med kjøttet. Trekk pannen av varmen og vend inn egg- og parmesanblandingen. Tilsett litt av pastavannet. Rør godt. Eggeblandingen vil tykne av varmen fra pastaen. Hvis pastaen blir litt klissete kan du ved tilsette et par spiseskjeer til av pastavannet.
-6. Kvern over godt med svart pepper.
-
-Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. For å være ekstra råflott, kan du servere pastaen med en ekstra eggeplomme på toppen. La eggeplommen være i litt av skallet, og vipp den ut på pastaen før du begynner å spise.
-`
-    },
- 
-
-/*
     "Klassisk Bacalao" : {
       "Ingredients" : {
         "kg utvannet klippfisk" : 0.17,
@@ -325,7 +378,6 @@ Dette er en rett som man kan spise helt alene uten tilbehør, men mange serverer
 `
     },
 
-*/
 
     "Boeuf Bourguignon" : {
       "Ingredients" : {
@@ -350,34 +402,6 @@ Server eventuelt med franske baguetter som tilbehør.
 `
     },
 
-    "Marry Me Chicken" : {
-      "Ingredients" : {
-        "stk kyllinglår" : 1,
-        "ss olje" : 1,
-        "stk sitron" : 0.5,
-        "ss flytende honning" : 1,
-        "ss hakket frisk basilikum" : 1,
-        "ts salt" : 0.5,
-        "ts kvernet pepper" : 0.5,
-        "g pastaskruer" : 100,
-        "ss smør" : 1,
-        "stk hvitløksbåt" : 1.5,
-        "dl kyllingkraft" : 1.5,
-        "dl kremfløte" : 1.5,
-        "g parmesan" : 25,
-        "ts chiliflakes" : 0.5,
-        "ts tørket oregano" : 0.5,
-      },
-      "Recipe" : `Marry Me Chicken oppskrift
-1. Riv skallet til sitron(ene) og saft like mange i en bolle.
-2. Bland sammen olje, sitron, honning, basilikum, salt og pepper i en stor bolle. Del kyllinglår(ene) i biter egnet for gaffel, og legg disse i blandingen til den er dekket. La kyllingen marinere i kjøleskapet i minst 30 minutter, men ikke mer enn en time (ellers kan det bli kraftig sitronsmak).
-3. Kok pasta som anvist på pakningen.
-4. Varm opp en stor stekepanne eller jerngryte og ha i smør. Løft kyllinglår biter ut av marineringsvesken og stek disse på høy varme i 1-2 minutter på hver side til den har fått en gyllen skorpe. Ha lårene over i en ildfast form, og stek videre i ovnen på 200 °C i ca. 10 minutter.
-5. Stek hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften, og gi den et kjapt oppkok.
-6. Senk varmen, og tilsett kremfløte og parmesan. La sausen småkoke i et par minutter, og smak til med krydrene; chiliflak, timian, oregano, salt og pepper. 
-7. Vend kyllingbitene inn i sausen sammen med kokt pasta og server.  
-`
-    },
 
     "Lammeskank med Appelsin" : {
       "Ingredients" : {
@@ -415,7 +439,7 @@ Server eventuelt med franske baguetter som tilbehør.
 `
     },
   
-    
+
     "Kyllinggryte med sitron og oliven" : {
       "Ingredients" : {
         "g kylling overlår" : 200,
@@ -435,4 +459,34 @@ Server med godt, ferskt brød eller rundstykker til å dyppe i den deilige kraft
 `
     },
 
-}
+   
+    "Kremet blåskjellsuppe" : {
+      "Ingredients" : {
+        "kg blåskjell" : 0.5,
+        "stk sjalottløk" : 1,
+        "stk hvitløksbåt" : 0.5,
+        "g persillerot" : 25,
+        "g fennikel" : 37.5,
+        "stk grønn chili" : 0.25,
+        "ss smør" : 0.5,
+        "stilk frisk timian" : 0.5,
+        "dl hvitvin" : 0.75,
+        "dl fløte" : 0.75,
+        "ss maisenna" : 0.5,
+        "ss hakket frisk persille" : 1,
+      },
+      "Recipe" : `Kremet blåskjellsuppe oppskrift
+  
+  1. Skyll skjellene godt i kaldt vann. Fjern ødelagte skjell og skjell som ikke lukker seg når du slår dem lett mot underlaget. Fjern byssustråden ("skjegget" som fortsatt sitter på noen av skjellene). Om du bruker oppdrettsskjell er de nå klare til bruk. Om du sanker blåskjell selv, så bruk en skarp kniv og skrap vekk alger, skjell og andre ting som vokser på skjellene. 
+  2. Finhakk sjalottløk, hvitløk, persillerot fennikel og chili.
+  3. Smelt smøret i en stor kjele og fres de hakkede grønnsakene i 3-4 minutter til de er myke og blanke. Tilsett timian og blåskjell, og hell i hvitvin.
+  4. Sett på lokk og damp blåskjellene i 5-6 minutter, eller til alle har åpnet seg godt. 
+  5. Rens de fleste blåskjellene. Ta vare på noen av dem til pynt. 
+  6. Sett kjelen tilbake på varmen og tilsett fløte. Rør ut maisenna i litt kaldt vann og rør det inn i suppa. Kok opp på nytt. Smak til med salt og pepper.
+  7. Fordel blåskjell i dype tallerkener og hell over kokende suppe. Pynt med hele blåskjell og dryss over hakket persille. 
+  
+  Server med ferskt, godt brød.`
+    },
+ 
+
+*/
