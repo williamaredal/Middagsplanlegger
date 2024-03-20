@@ -222,7 +222,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
         "ts kvernet pepper" : 0.25,
         "ss tørket oregano" : 0.25,
       },
-      "Recipe" : `
+      "Recipe" : `Kylling med søtpotet og grønnkål oppskrift
 1. Tørk kyllingbitene med litt tørkepapir og la dem ligge og temperere seg mens du forbereder resten av ingrediensene.
 2. Skrell søtpoteten og skjær den i grove biter. Vask grønnkål og skjær vekk det groveste av stilken. Grovhakk hvitløk.
 3. Ha litt olje i bunnen av en stor ildfast form eller langpanne. Legg kyllingbiter, søtpotet, grønnkål og hvitløk utover i formen slik at det ikke ligger oppå hverandre. Press sitronsaften og fordel den i pannen. Drypp over olivenolje og krydre med salt, pepper og oregano.
@@ -246,7 +246,7 @@ Server kyllingformen med ris eller godt brød.
         "l vann" : 0.25,
         "stk kyllingbuljongterning" : 0.25,
       },
-      "Recipe" : `
+      "Recipe" : `Grønnsaksuppe med pølse oppskrift
 1. Skjær pølse i passe store biter. Finhakk løk.
 2. Skrell poteter og resten av grønnsakene. Skjær poteter, sellerirot, gulrøtter og kålrot i terninger. Skjær purre i ringer og brokkoli i små buketter (og skjær stilken i biter)
 3. Kok opp vann og buljong. Ha i poteter og grønnsaker og kok dem i ca. 8 minutter til de er møre.
@@ -255,6 +255,43 @@ Server kyllingformen med ris eller godt brød.
 Suppen passer godt sammen med rundstykker.
 `
     },
+
+
+    "Pannekaker" : {
+      "Ingredients" : {
+        "dl hvetemel" : 0.75,
+        "dl melk" : 1.25,
+        "stk egg" : 1,
+        "ts salt" : 0.33,
+      },
+      "Recipe" : `Pannekaker oppskrift
+1. Kombiner tørrvarene hvetemel, salt i en bolle.
+2. Tilsett melken gradvis under visping for å redusere antall klumper.
+3. Rør inn egg, og stek røren i en stekepanne med litt smør.
+`
+    },
+
+
+    "Arme riddere" : {
+      "Ingredients" : {
+        "stk egg" : 0.33,
+        "ss sukker" : 0.33,
+        "dl melk" : 0.33,
+        "ts kardemomme" : 0.08,
+        "ts kanel" : 0.17,
+        "skive loff eller annet brød" : 1,
+        "ss smør til steking" : 0.17,
+      },
+      "Recipe" : `Arme riddere oppskrift
+1. Visp egg lett sammen med sukker, melk og krydder og hell blandingen i et fat med kanter.
+2. Legg brødskivene i røren og la dem bli gjennombløte.
+3. Ta opp brødskivene og stek dem i litt smør i en stekepanne på middels varme. Stek de arme ridderne på begge sider til de er pent gulbrune.
+
+Server arme riddere med rørte bær eller syltetøy.
+`
+    },
+
+
 }
 
 
