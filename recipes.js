@@ -42,7 +42,7 @@ const Recipes = {
       "g sopp" : 100,
       "stk løk" : 0.13,
       "stk hvitløksbåt" : 0.5,
-      "ss smør eller margarin" : 1,
+      "ss smør" : 1,
       "dl matfløte" : 1.5,
       "ss soyasaus" : 0.5,
       "g frisk spinat" : 50,
@@ -53,8 +53,8 @@ const Recipes = {
   
   1. Vask og rens soppen, og del den om nødvendig i mindre biter.
   2. Finhakk løk og hvitløk.
-  3. Smelt smør eller margarin i en stekepanne og fres sopp og løk myk og gyllen. Krydre med litt salt og pepper.
-  4. Tilsett fløte og la det hele koke opp. Smak til med soyasaus, salt og kvernet pepper.
+  3. Smelt smør i en stekepanne og fres sopp og løk myk og gyllen. Krydre med litt salt og pepper.
+  4. Tilsett fløte og la det hele koke opp. Smak til med soyasaus, salt og pepper.
   5. Kok pasta etter anvisning på pakken. Bruk litt av pastavannet i sausen om den tykner for mye. 
   6. Vend spinat inn i sausen rett før servering.
   7. Fordel pasta i tallerkener og topp med soppsausen. Riv parmesan over.`
@@ -76,7 +76,7 @@ const Recipes = {
       "Recipe" : `Ørret med fløtestuede grønnsaker oppskrift
   
   1. Fjern skinnet og del ørretfileten i jevnstore porsjonsstykker. Krydre med litt salt og pepper.
-  2. Varm en stekepanne med smør eller margarin. Når det bruser godt kan du legge i fiskestykkene med undersiden opp. Stek på middels varme i ca. 2 minutter, og snu deretter stykkene. Trekk pannen til side og la fiskestykkene bli ferdige på ettervarmen. Øs litt av smøret over dem underveis.
+  2. Varm en stekepanne med smør. Når det bruser godt kan du legge i fiskestykkene med undersiden opp. Stek på middels varme i ca. 2 minutter, og snu deretter stykkene. Trekk pannen til side og la fiskestykkene bli ferdige på ettervarmen. Øs litt av smøret over dem underveis.
   3. Kutt vårløk og sukkererter i biter på skrå og brokkoli i små buketter. Del poteter i to eller fire.
   4. Hell fløten i en kjele eller sauteringspanne og kok opp. Ha alle grønnsakene i kjelen og la det koke i 2-3 minutter, til fløten tykner litt og grønnsakene er knapt møre. Bland inn hakket dill. Smak til med salt og pepper.`
     },
@@ -188,9 +188,9 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
         "ss flytende honning" : 1,
         "ss hakket frisk basilikum" : 1,
         "ts salt" : 0.5,
-        "ts kvernet pepper" : 0.5,
+        "ts pepper" : 0.5,
         "g pastaskruer" : 100,
-        "ss smør" : 1,
+        "ss margarin" : 1,
         "stk hvitløksbåt" : 1.5,
         "dl kyllingkraft" : 1.5,
         "dl kremfløte" : 1.5,
@@ -202,7 +202,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
 1. Riv skallet til sitron(ene) og saft like mange i en bolle.
 2. Bland sammen olje, sitron, honning, basilikum, salt og pepper i en stor bolle. Del kyllinglår(ene) i biter egnet for gaffel, og legg disse i blandingen til den er dekket. La kyllingen marinere i kjøleskapet i minst 30 minutter, men ikke mer enn en time (ellers kan det bli kraftig sitronsmak).
 3. Kok pasta som anvist på pakningen.
-4. Varm opp en stor stekepanne eller jerngryte og ha i smør. Løft kyllinglår biter ut av marineringsvesken og stek disse på høy varme i 1-2 minutter på hver side til den har fått en gyllen skorpe. Ha lårene over i en ildfast form, og stek videre i ovnen på 200 °C i ca. 10 minutter.
+4. Varm opp en stor stekepanne eller jerngryte og ha i margarin. Løft kyllinglår biter ut av marineringsvesken og stek disse på høy varme i 1-2 minutter på hver side til den har fått en gyllen skorpe. Ha lårene over i en ildfast form, og stek videre i ovnen på 200 °C i ca. 10 minutter.
 5. Stek hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften, og gi den et kjapt oppkok.
 6. Senk varmen, og tilsett kremfløte og parmesan. La sausen småkoke i et par minutter, og smak til med krydrene; chiliflak, timian, oregano, salt og pepper. 
 7. Vend kyllingbitene inn i sausen sammen med kokt pasta og server.  
@@ -215,11 +215,11 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
         "g kylling overlår" : 200,
         "stk søtpotet" : 0.25,
         "g grønnkål" : 62.5,
-        "båter hvitløk" : 1.5,
+        "stk hvitløksbåt" : 1.5,
         "ss olivenolje" : 1,
         "stk sitron" : 0.25,
         "ts salt" : 0.5,
-        "ts kvernet pepper" : 0.25,
+        "ts pepper" : 0.25,
         "ss tørket oregano" : 0.25,
       },
       "Recipe" : `Kylling med søtpotet og grønnkål oppskrift
@@ -267,7 +267,7 @@ Suppen passer godt sammen med rundstykker.
       "Recipe" : `Pannekaker oppskrift
 1. Kombiner tørrvarene hvetemel, salt i en bolle.
 2. Tilsett melken gradvis under visping for å redusere antall klumper.
-3. Rør inn egg, og stek røren i en stekepanne med litt smør.
+3. Rør inn egg, og stek røren i en stekepanne med litt margarin.
 `
     },
 
@@ -280,12 +280,12 @@ Suppen passer godt sammen med rundstykker.
         "ts kardemomme" : 0.08,
         "ts kanel" : 0.17,
         "skive loff eller annet brød" : 1,
-        "ss smør til steking" : 0.17,
+        "ss margarin" : 0.17,
       },
       "Recipe" : `Arme riddere oppskrift
 1. Visp egg lett sammen med sukker, melk og krydder og hell blandingen i et fat med kanter.
 2. Legg brødskivene i røren og la dem bli gjennombløte.
-3. Ta opp brødskivene og stek dem i litt smør i en stekepanne på middels varme. Stek de arme ridderne på begge sider til de er pent gulbrune.
+3. Ta opp brødskivene og stek dem i litt margarin i en stekepanne på middels varme. Stek de arme ridderne på begge sider til de er pent gulbrune.
 
 Server arme riddere med rørte bær eller syltetøy.
 `
@@ -318,7 +318,7 @@ Server arme riddere med rørte bær eller syltetøy.
         "ss hvetemel" : 7.5,
         "dl melk" : 1.5,
         "ts salt" : 0.25,
-        "ts kvernet pepper" : 0.13,
+        "ts pepper" : 0.13,
         "ts revet muskatnøtt" : 0.13,
       },
       "Recipe" : `Lasagne oppskrift
@@ -373,7 +373,7 @@ Server kjøttkakene med brun saus, kokte poteter, grønn ertepuré og rørte tyt
         "ss revet parmesan" : 1,
         "g hvetemel" : 37.5,
         "ts salt" : 0.5,
-        "ts kvernet pepper" : 0.13,
+        "ts pepper" : 0.13,
         "ts malt muskat" : 0.06,
         "ss olivenolje" : 0.5,
       },
@@ -447,7 +447,7 @@ Server eventuelt med franske baguetter som tilbehør.
         "stk løk" : 0.25,
         "dl kyllingkraft" : 0.75,
         "stk appelsin" : 0.5,
-        "båter hvitløk" : 2,
+        "stk hvitløksbåt" : 2,
         "dl honning" : 0.25,
         "dl brunt sukker" : 0.25,
         "dl rødvinseddik" : 0.25,
