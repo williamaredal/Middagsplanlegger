@@ -110,27 +110,25 @@ Server gjerne gryteretten med salat og grove minibaguetter.
 
     "Blomkålsuppe" : {
       "Ingredients" : {
-        "stk blomkål" : 0.25,
-        "stk løk" : 0.13,
-        "dl vann" : 2,
-        "stk hønsebuljongterning" : 0.5, // erstatte med dl buljong?
-        "dl helmelk" : 0.5,
-        "skiver bacon" : 1.5,
-        "stk vårløk" : 0.5,
-        "stk baguette" : 0.25,
+        "stk blomkål" : 0.5,
+        "stk purre" : 0.125,
+        "ss margarin" : 0.25,
+        "l helmelk" : 0.25,
+        "dl hønsebuljong" : 0.75,
+        "ts salt" : 0.125,
+        "ts pepper" : 0.06,
+        "stk hvitløksbaguette" : 0.5,
       },
       "Recipe" : `Blomkålsuppe oppskrift
-1. Rens blomkål og del i mindre buketter. Ha blomkålbuketter, løk, vann (4dl per terning buljong), buljong og melk i en kjele. Kok opp og la det koke til grønnsakene er møre.
-2. Ta ut noen blomkålbuketter fra suppen og kjør resten av suppen jevn med en stavmikser. Smak til med salt og pepper.
-(Tilsett gjerne litt fløte eller crème fraiche for en fyldigere suppe. Revet parmesan smaker også utmerket til.
-3. Stek bacon sprøtt i en stekepanne, vend inn vårløk og stek et minutt til vårløken er mør.
-4. Fordel blomkålbuketter i suppeskåler og hell over suppe. Pynt med bacon og vårløk.
+1. Del blomkål i små biter og purre i skiver. Fres i en stor gryte med smør i 5 minutter.
+  TipsØnsker du en tykkere suppe, kan du ha i mer blomkål!
 
-Server suppen med grove minibaguetter, eller hjemmelagde krutonger.
+2. Hell i melk og buljong og kok til blomkålen er mør, ca. 20 minutter.
+3. Fisk ut noen fine blomkålbiter til garnityr og kjør suppen glatt med en stavmikser eller i en blender.
+4. Smak til med salt og pepper og server med brød og smør. Server suppen med hvitløksbaguetter.
 `
     },
    
-
 
     "Kremet Fiskesuppe" : {
       "Ingredients" : {
