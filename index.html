@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Middagsplanlegger</title>
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-  <div class="container">
-    <div class="half-width dinners">
-      <div class="header-div">
-        Middager
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middagsplanlegger</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script defer src="recipes.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="half-width dinners">
+        <div class="header-div">
+          Middager
+        </div>
+        <div class="content-div" id="dinnersContent">
+          <!-- JavaScript will populate the dinners here -->
+        </div>
+        <div class="footer-div">
+          <button class="add-button" id="addRandomDinnerButton">
+            Ny tilfeldig middag <i class='fas fa-plus fa-xl'></i>
+          </button>
+        </div>
       </div>
-      <div class="content-div" id="dinnersContent">
-        <!-- JavaScript will populate the dinners here -->
-      </div>
-      <div class="footer-div">
-        <button class="add-button" id="addRandomDinnerButton">
-          Ny tilfeldig middag <i class='fas fa-plus fa-xl'></i>
-        </button>
+
+      <div class="half-width ingredients">
+        <div class="header-div">Ingredienser</div>
+        <div class="content-div" id="ingredientsContent">
+          <!-- JavaScript will populate the ingredients here -->
+        </div>
+        <div class="footer-div">
+          <button class="share-button" id="shareButton">
+            Flytt til Notater <i class='fas fa-arrow-up-from-bracket fa-xl'></i>
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="half-width ingredients">
-      <div class="header-div">Ingredienser</div>
-      <div class="content-div" id="ingredientsContent">
-        <!-- JavaScript will populate the ingredients here -->
-      </div>
-      <div class="footer-div">
-        <button class="share-button" id="shareButton">
-          Flytt til Notater <i class='fas fa-arrow-up-from-bracket fa-xl'></i>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <script src="recipes.js"></script>
-  <script src="main.js"></script>
-</body>
+  </body>
 </html>
