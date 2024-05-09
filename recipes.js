@@ -289,6 +289,120 @@ Server arme riddere med rørte bær eller syltetøy.
 `
     },
 
+  
+    "Scampipasta med frisk fløtesaus" : {
+      "Ingredients" : {
+        "g spagetti" : 100,
+        "g scampi" : 62.5,
+        "hvitløksbåt" : 1,
+        "ts chiliflak" : 0.13,
+        "ss nøytral olje" : 1.25,
+        "stk sitron" : 0.13,
+        "dl fløte" : 0.75,
+        "g spinat" : 25,
+        "g parmesan" : 25,
+        "g persille" : 5,
+        "ts salt" : 0.06,
+        "ts pepper" : 0.06
+      },
+      "Recipe" : `Scampipasta med frisk fløtesaus oppskrift
+1. Kok pasta som anvist på pakken, minus ett minutt. Mens pastaen koker, begynner du med sausen.
+2. Finn frem en stor stekepanne, varm opp olje og stek hvitløk og chili i 1-2 minutter.
+3. Ha fløte i panna og la koke til den begynner å tykne, ca. 5-7 minutter. Tilsett sitronsaft, revet sitronskall, spinat og persille.
+4. Hell av pastavannet og sett til side til sausen er ferdig.
+5. Ha parmesan i fløtesausen, og smak til med salt og pepper. Bland scampi og pasta i panna, sørg for at pastaen blir godt dekket av saus.
+6. Dryss over litt revet sitronskall, parmesan og nykvernet pepper. Server!
+
+`
+    },
+
+  
+    "Wok med biff og grønnsaker" : {
+      "Ingredients" : {
+        "g biffstrimler" : 125,
+        "ts pepper" : 0.38,
+        "ss soyasaus" : 1,
+        "ts sesamolje" : 0.75,
+        "ss maisenna" : 0.25,
+        "ts bakepulver" : 0.06,
+        "stk hvitløksfedd" : 1,
+        "stk brokkoli" : 0.25,
+        "stk vårløk" : 1,
+        "g sopp" : 37.5,
+        "ss olje" : 1,
+        "g ris" : 60,
+      },
+      "Recipe" : `Wok med biff og grønnsaker oppskrift
+1. Rør sammen ingrediensene til sausen.
+2. Finhakk eller finsnitt hvitløken. Del brokkolien i små buketter og skjær stilken i skiver. Rens og del vårløk og sopp i grove biter.
+3. Varm litt olje i en wok- eller stekepanne. Stek kjøttet raskt over høy varme. Ikke ha for mye i pannen, stek det heller i flere omganger og hell kjøttet over på en tallerken så lenge.
+4. Varm woken på nytt med litt olje. Tilsett brokkoli. Stek videre under stadig omrøring til brokkolien er knapt mør. Tilsett gjerne en dæsj med vann underveis i stekingen så brokkolien dampes knapt mør.
+5. Ta brokkolien ut av pannen så lenge. Fortsett med å steke soppen, tilsett hvitløk og vårløk og stek videre under omrøring i et lite minutt.
+6. Ha kjøtt og brokkoli tilbake i pannen. Hell over sausen og bland alt godt sammen. Dryss over cashewnøtter og server.
+`
+    },
+
+  
+    "Kjapp ramen med kylling og egg" : {
+      "Ingredients" : {
+        "ss sesamolje" : 0.25,
+        "ss olje" : 1.25,
+        "stk sjalottløk" : 0.25,
+        "hvitløksbåt" : 0.5,
+        "ss ingefær" : 0.25,
+        "ts chili explosion" : 0.25,
+        "stk sitrongress" : 0.25,
+        "dl kyllingkraft" : 3.75,
+        "ss soyasaus" : 0.5,
+        "ts sukker" : 0.25,
+        "stk lime" : 0.125,
+        "stk kyllingfileter" : 1,
+        "g ramennudler" : 50,
+        "stk gulrøtter" : 0.5,
+        "stk vårløk" : 1,
+        "g babyspinat" : 25,
+        "g sukkerter" : 12.5,
+        "g sesamfrø" : 5,
+        "stk egg" : 1,
+      },
+      "Recipe" : `Kjapp ramen med kylling og egg oppskrift
+1. Sett stekeovnen på 175 grader, over- og undervarme. Krydre kyllingfiletene med salt og pepper, og stek dem i nøytral olje i middels varm stekepanne på begge sider i ca. 2 minutter, til filetene er gylne og fine på begge sider. Legg kyllingen over på et ildfast fat og la den steke ferdig i stekeovnen, til den har en kjernetemperatur på ca. 67 grader. Det tar 10–15 minutter, men vil være avhengig av størrelsen på filetene og hvor lenge du har brunet dem i stekepannen.
+2. Finn frem en kjele og ha i sesamolje og nøytral matolje. Stek sjalottløk på middels varme et par minutter, og tilsett deretter ingefær, hvitløk og chili, og la det surre med i ca. ett minutt.
+3. Tilsett kyllingkraft (eller utblandet kyllingfond) og kok opp.
+4. Bank på sitrongresset med skaftet på en kniv eller lignende for å frigjøre de gode smakene, og ha det i kjelen. La alt stå og småkoke i ca. 10 minutter. 
+5. Smak til med soyasaus, sukker og limesaft. Hold kraften varm.
+6. Kok nudlene etter anvisningen på pakken og skjær opp grønnsakene i staver.
+7. Legg kylling, grønnsaker og nudler i en vid suppebolle og hell den rykende varme kyllingkraften over. Del eggene i to og legg dem oppå, og gi retten et dryss av chiliflak og sesamfrø. 
+
+Tips
+I stedet for kyllingkraft kan du benytte utblandet kyllingfond eller buljong. Bland ut fonden/buljongen etter anvisningen på emballasjen, eller etter smak.
+Bruk gjerne ferdig grillet kylling hvis du har det travelt.
+`
+    },
+
+  
+    "Kjøttkaker med potetmos og grønnsaker" : {
+      "Ingredients" : {
+        "kg potet" : 0.25,
+        "g kjøttkaker" : 150,
+        "g brokkoli" : 30,
+        "g blomkål" : 30,
+        "pakke brun saus" : 0.25,
+        "g smør " : 25,
+        "l melk" : 0.25,
+        "ts salt": 0.06,
+        "ts pepper": 0.06,
+      },
+      "Recipe" : `Kjøttkaker med potetmos og grønnsaker oppskrift
+1. Kok opp potetene i en kjele med vann.
+2. Begynn å koke opp brune sausen når potetene begynner bli myke (trenger ca 5 min koketid).
+3. Stek kjøttkakene til de blir gylne.
+4. Kok frossne grønnsaker til de blir varme (ca 3 min). Tilsett erter/andre grønnsaker for økt variasjon.
+5. Når potetene er myke, tøm kjelen for vann. Tilsett så smør, melk og mos det til ønsket konsistens. Smak til med salt og pepper.
+`
+    },
+
+
 
 }
 
