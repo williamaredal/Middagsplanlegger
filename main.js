@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
     alert("Unable to add any more recipes to the list");
     }
-    console.log(Dinners);
   };
 
   const incrementDinnerPortion = (dinner, increment) => {
