@@ -294,7 +294,7 @@ Server arme riddere med rørte bær eller syltetøy.
       "Ingredients" : {
         "g spagetti" : 100,
         "g scampi" : 62.5,
-        "hvitløksbåt" : 1,
+        "stk hvitløksbåt" : 1,
         "ts chiliflak" : 0.13,
         "ss nøytral olje" : 1.25,
         "stk sitron" : 0.13,
