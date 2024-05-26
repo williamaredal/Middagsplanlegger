@@ -278,7 +278,7 @@ Suppen passer godt sammen med rundstykker.
         "ts kardemomme" : 0.08,
         "ts kanel" : 0.17,
         "skive loff eller annet brød" : 1,
-        "ss margarin" : 0.17,
+        "ss smør" : 0.17,
       },
       "Recipe" : `Arme riddere oppskrift
 1. Visp egg lett sammen med sukker, melk og krydder og hell blandingen i et fat med kanter.
@@ -348,7 +348,7 @@ Server arme riddere med rørte bær eller syltetøy.
         "ss sesamolje" : 0.25,
         "ss olje" : 1.25,
         "stk sjalottløk" : 0.25,
-        "hvitløksbåt" : 0.5,
+        "stk hvitløksbåt" : 0.5,
         "ss ingefær" : 0.25,
         "ts chili explosion" : 0.25,
         "stk sitrongress" : 0.25,
