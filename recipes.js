@@ -92,16 +92,16 @@ const Recipes = {
         "stk rød chili" : 0.25,
         "g hakkede hermetiske tomater" : 100,
         "g chilibønner" : 100,
-        "stk rød paprika" : 0.25,
         "stk grønn paprika" : 0.25,
         "ts chilipulver" : 0.38,
         "ts malt spisskummen" : 0.13,
         "ts salt" : 0.13,
       },
       "Recipe" : `Chili con carne oppskrift
-1. Ha margarin eller olje i en varm gryte. Vent til margarinen slutter å bruse, og brun kjøttdeig i to omganger sammen med løk, hvitløk og chili.
-2. Hell over hermetisk tomat og la det surre i 3-4 minutter.
-3. Bland inn chilibønner, paprika og krydder. La det koke et par minutter og smak til med salt.
+1. Finhakk chili, og fjern frøene.
+2. Ha margarin eller olje i en varm gryte. Vent til margarinen slutter å bruse, og brun kjøttdeig i to omganger sammen med løk, hvitløk og chili.
+3. Hell over hermetisk tomat og la det surre i 3-4 minutter.
+4. Bland inn chilibønner, paprika og krydder. La det koke et par minutter og smak til med salt.
 
 Server gjerne gryteretten med salat og grove minibaguetter.
 `
@@ -343,7 +343,7 @@ Server arme riddere med rørte bær eller syltetøy.
     },
 
   
-    "Kjapp ramen med kylling og egg" : {
+    "Ramen med kylling og egg" : {
       "Ingredients" : {
         "ss sesamolje" : 0.25,
         "ss olje" : 1.25,
@@ -365,7 +365,8 @@ Server arme riddere med rørte bær eller syltetøy.
         "g sesamfrø" : 5,
         "stk egg" : 1,
       },
-      "Recipe" : `Kjapp ramen med kylling og egg oppskrift
+      "Recipe" : `Ramen med kylling og egg oppskrift
+(Kok egg før oppskriften, eller mens kyllingen er i ovnen)
 1. Sett stekeovnen på 175 grader, over- og undervarme. Krydre kyllingfiletene med salt og pepper, og stek dem i nøytral olje i middels varm stekepanne på begge sider i ca. 2 minutter, til filetene er gylne og fine på begge sider. Legg kyllingen over på et ildfast fat og la den steke ferdig i stekeovnen, til den har en kjernetemperatur på ca. 67 grader. Det tar 10–15 minutter, men vil være avhengig av størrelsen på filetene og hvor lenge du har brunet dem i stekepannen.
 2. Finn frem en kjele og ha i sesamolje og nøytral matolje. Stek sjalottløk på middels varme et par minutter, og tilsett deretter ingefær, hvitløk og chili, og la det surre med i ca. ett minutt.
 3. Tilsett kyllingkraft (eller utblandet kyllingfond) og kok opp.
