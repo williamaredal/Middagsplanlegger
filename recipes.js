@@ -242,7 +242,7 @@ Server kyllingformen med ris eller godt brød.
         "stk purre" : 0.13,
         "stk brokkoli" : 0.13,
         "l vann" : 0.25,
-        "stk kyllingbuljongterning" : 0.25,
+        "stk kyllingbuljongterning" : 0.5,
       },
       "Recipe" : `Grønnsaksuppe med pølse oppskrift
 1. Skjær pølse i passe store biter. Finhakk løk.
