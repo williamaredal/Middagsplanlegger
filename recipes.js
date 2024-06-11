@@ -20,11 +20,10 @@ const Recipes = {
         "g spagetti" : 100
       },
       "Recipe" : `Spagetthi Bolognese oppskrift
-  
-  1. Ha margarin eller olje i en varm stekepanne. Vent til margarinen slutter å bruse, og stek karbonadedeigen i to omganger. Bruk en stekespade til å dele den i mindre biter.
-  2. Ha i hakkede grønnsaker, tomatpuré, hermetisk tomat og buljong.
-  3. Kok opp, senk varmen og la sausen småkoke i 15-20 minutter. Smak til med salt, pepper, muskat og sukker.
-  4. Kok spagetti etter anvisning på pakken.`
+1. Kok pastavann for pasta. 
+2. Stek kjøttdeig til gylden utside og hell i dolmioen. La putre med persille til den blir tykkere. Pasta vann for å tynne. 
+3. Kombiner når pastaen er ferdig. 
+`
     },
   
   
