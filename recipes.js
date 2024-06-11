@@ -14,18 +14,9 @@
 const Recipes = {
     "Spagetti Bolognese" : {
       "Ingredients" : {
-        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
         "ss margarin" : 0.5,
-        "stk gulrot" : 0.25, 
-        "stk løk" : 0.25,
-        "stk stangselleri" : 0.5,
-        "ss tomatpure" : 0.5,
-        "g hakkede hermetiske tomater" : 100,
-        "dl kjøttbuljong" : 0.5,
-        "ts salt" : 0.25,
-        "ts pepper" : 0.13,
-        "ts malt muskat" : 0.06,
-        "ts sukker" : 0.13,
+        "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
+        "stk dolmio bolognese" : 0.25,
         "g spagetti" : 100
       },
       "Recipe" : `Spagetthi Bolognese oppskrift
