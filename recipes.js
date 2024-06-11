@@ -421,12 +421,6 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
         "stk vårløk" : 0.25,
         "stk løk" : 0.25,
         "stk hvitløkbåt" : 0.25 
-
-
-
-
-
-
       },
       "Recipe" : `Stekt ris med kylling oppskrift
 1. Kok opp ris.
