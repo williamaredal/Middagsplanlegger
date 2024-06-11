@@ -394,7 +394,17 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 `
     },
 
-
+    "Kylling Toro Tandori" : {
+      "Ingredients" : {
+        "stk kyllingfillet" : 0.5,
+        "stk creme fraise" : 0.25,
+        "tandori pose toro" : 0.25,
+        "g ris" : 60,
+      },
+      "Recipe" : `Kylling Toro Tandori oppskrift
+1. Følg oppskriften på tandori posen med forbehold for antall porsjoner.
+`
+    },
 
 }
 
