@@ -82,6 +82,7 @@ const Recipes = {
         "stk rød chili" : 0.25,
         "g hakkede hermetiske tomater" : 100,
         "g chilibønner" : 100,
+        "g mais" : 35,
         "stk grønn paprika" : 0.25,
         "ts chilipulver" : 0.38,
         "ts malt spisskummen" : 0.13,
@@ -91,7 +92,8 @@ const Recipes = {
 1. Finhakk chili, og fjern frøene.
 2. Ha margarin eller olje i en varm gryte. Vent til margarinen slutter å bruse, og brun kjøttdeig i to omganger sammen med løk, hvitløk og chili.
 3. Hell over hermetisk tomat og la det surre i 3-4 minutter.
-4. Bland inn chilibønner, paprika og krydder. La det koke et par minutter og smak til med salt.
+4. Drener maisboksen og tilsett maisen.
+5. Bland inn chilibønner, paprika og krydder. La det koke et par minutter og smak til med salt.
 
 Server gjerne gryteretten med salat og grove minibaguetter.
 `
