@@ -1,6 +1,6 @@
 // main.js
 document.addEventListener('DOMContentLoaded', () => {
-    let StandardPortion = 4;
+    let StandardPortion = 3;
     let Dinners = [];
     let AvailableRecipes = new Set(Object.keys(Recipes));
     let Ingredients = {};
