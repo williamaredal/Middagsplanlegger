@@ -317,7 +317,7 @@ Server arme riddere med rørte bær eller syltetøy.
         "ts sesamolje" : 0.75,
         "ss maisenna" : 0.25,
         "ts bakepulver" : 0.06,
-        "stk hvitløksfedd" : 1,
+        "stk hvitløksbåt" : 1,
         "stk brokkoli" : 0.25,
         "stk vårløk" : 1,
         "g sopp" : 37.5,
