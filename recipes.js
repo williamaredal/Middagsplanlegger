@@ -16,13 +16,17 @@ const Recipes = {
       "Ingredients" : {
         "ss margarin" : 0.5,
         "g kjøttdeig" : 100, // kjøttdeig/karbonadedeig
-        "stk dolmio bolognese" : 0.25,
+        "g hakkede tomater" : 97.5,
+        "stk hvitløksbåt" : 0.5,
+        "ts pepper" : 0.33,
+        "ts salt" : 0.5,
         "g spagetti" : 100
       },
       "Recipe" : `Spagetthi Bolognese oppskrift
 1. Kok pastavann for pasta. 
-2. Stek kjøttdeig til gylden utside og hell i dolmioen. La putre med persille til den blir tykkere. Pasta vann for å tynne. 
-3. Kombiner når pastaen er ferdig. 
+2. Stek kjøttdeig til gylden utside. La putre med persille til den blir tykkere. Pasta vann for å tynne. 
+3. Hakk hvitløksbåter i små biter. Hell i hakkede tomater, hvitløksbiter, salt og peppet i stekepannen.
+4. Kombiner når pastaen er ferdig.
 `
     },
   
