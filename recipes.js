@@ -444,6 +444,32 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 `
     },
  
+  
+    "One pot kremet pasta med kjøttdeig" : {
+      "Ingredients" : {
+        "g kjøttdeig" : 125,
+        "stk rødløk" : 0.25, 
+        "stk paprika" : 0.25,
+        "g Philadelphia light" : 37.5,
+        "g parmesan" : 7.5, 
+        "g spinat" : 7.5,
+        "ts pepper" : 0.25,
+        "ts peppar" : 0.25, 
+        "ts vitløkspulver" : 0.25,
+        "ts paprikapulver" : 0.25, 
+        "ts chiliflakes" : 0.25,
+        "g pasta" : 62.5, 
+        "dl vann" : 1.5, 
+        "g ajvar" : 12.5,
+      },
+      "Recipe" : `One pot kremet pasta med kjøttdeig oppskrift
+1. Skjær rødløken og paprika i små terninger.
+2. Stek kjøttdeig i en kjele til den blir brun. Tilsett så rødløk og paprika, og la steke noen minutter.
+3. Tilsett pastaen og vann, skru ned varmen til lav og kok med lokk til pastaens anbefalte tid.
+4. Tilsett Philadelphia, ajvar, parmesan og spinat. Rør så inn ingrediensene sammen til en fløtemyk konsistens og server.
+`
+    },
+ 
 }
 
 
