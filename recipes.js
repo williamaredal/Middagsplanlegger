@@ -454,7 +454,6 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
         "g parmesan" : 7.5, 
         "g spinat" : 7.5,
         "ts pepper" : 0.25,
-        "ts peppar" : 0.25, 
         "ts vitløkspulver" : 0.25,
         "ts paprikapulver" : 0.25, 
         "ts chiliflakes" : 0.25,
