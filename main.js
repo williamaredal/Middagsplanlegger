@@ -114,9 +114,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const dinnerIngredients = Recipes[dinnerItem.dinner]["Ingredients"];
             for (const [ingredient, amount] of Object.entries(dinnerIngredients)) {
                 if (Ingredients.hasOwnProperty(ingredient)) {
-                    Ingredients[ingredient] += amount * dinnerItem.portions;
+                    Ingredients[ingredient] += Math.round(amount * dinnerItem.portions * 100) / 100;
                 } else {
-                    Ingredients[ingredient] = amount * dinnerItem.portions;
+                    Ingredients[ingredient] = Math.round(amount * dinnerItem.portions * 100) / 100;
                 }
             }
         });
