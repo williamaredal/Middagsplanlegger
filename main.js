@@ -205,14 +205,14 @@ document.addEventListener('DOMContentLoaded', () => {
         let shoppingList = 'Shopping List\n\n';
         for (const ingredient in Ingredients) {
             const amount = Ingredients[ingredient];
-            shoppingList += `${amount} ${ingredient}\n`;
+            shoppingList += `${Math.round(amount * 100) / 100} ${ingredient}\n`;
         }
 
         shoppingList += '\n\n\n';
         Dinners.forEach((dinnerItem, index) => {
             let dinnerIngredients = 'Ingredients:\n';
             Object.entries(Recipes[dinnerItem.dinner]['Ingredients']).forEach(([ingredient, qty]) => {
-                dinnerIngredients += `${qty * dinnerItem.portions} ${ingredient}\n`;
+                dinnerIngredients += `${Math.round(qty * dinnerItem.portions * 100) / 100} ${ingredient}\n`;
             });
             shoppingList += `Dinner ${index + 1}: ${dinnerItem.dinner}\n${dinnerIngredients}\n${Recipes[dinnerItem.dinner]['Recipe']}\n\n`;
         });
