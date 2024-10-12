@@ -498,12 +498,6 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 `
    },
 
-}
-
-
-/*
- Commented out recipees (can get added in future)
-
 
     "Lasagne" : {
       "Ingredients" : {
@@ -519,9 +513,9 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
         "ss tomatpuré" : 0.5,
         "g hakkede hermetiske tomater" : 100,
         "dl kjøttkraft" : 0.5,
-        "ts tørket oregano" : 0.5,
+        "ts oregano" : 0.5,
         "ss smør" : 0.75,
-        "ss hvetemel" : 7.5,
+        "ss hvetemel" : 0.75,
         "dl melk" : 1.5,
         "ts salt" : 0.25,
         "ts pepper" : 0.13,
@@ -538,6 +532,12 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 Server gjerne med baguette og en grønn salat ved siden av.
 `
     },
+}
+
+
+/*
+ Commented out recipees (can get added in future)
+
 
 
     "Kjøttkaker med Ertepure" : {
