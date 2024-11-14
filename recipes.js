@@ -532,6 +532,37 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 Server gjerne med baguette og en grønn salat ved siden av.
 `
     },
+
+
+    "Good Soup" : {
+    "Ingredients" : {
+        "g cherrytomater" : 125,
+        "stk hvitløk" : 0.25,
+        "stk løk" : 0.25,
+        "ts olivenolje" : 0.25,
+        "ts timian" : 1,
+        "stk selleri" : 0.25,
+        "ss tomatpure" : 0.25,
+        "dl kyllingkraft" : 1.25,
+        "dl kremfløte" : 0.25,
+        "skive grovt brød" : 2,
+        "g ost" : 40,
+        "g ost" : 80,
+        "ss smør" : 0.25,
+        "ts salt": 0.25,
+        "ts pepper" : 0.25
+    },
+    "Recipe" : `Good Soup oppskrift:
+1. Sett stekeovnen på 200 grader med over- og undervarme. Kutt toppen av hvitløken slik at feddene synes, og grovhakk løken.
+2. Legg tomatene på et stekebrett sammen med hvitløk, løk, tørket timian, og rikelig med olivenolje. Stek grønnsakene til de er gyllne og litt brent.
+3. Ha 1 ss olivenolje i en liten suppekjele, tilsett finhakket selleri og tomatpuré. Stek i 2 min på medium varme til sellerien er myk. Ha i de stekte grønnsakene, og skvis ut de myke hvitløksfeddene fra den bakte hvitløken.
+4. Tilsett kyllingbuljong og bruk en stavmikser til suppen er glatt. Varm opp på medium varme til suppen er rykende varm.
+5. Skjær brødet i skiver, legg på gulost og litt Vesterhavsost, og lag dobbeltskiver. Smelt smør i en stor stekepanne på medium/lav varme og stek toastene 4 min på hver side til de er gylne og osten smeltet.
+
+Server suppen i en liten skål og dypp toasten.
+`
+  },
+
 }
 
 
