@@ -1,6 +1,6 @@
 // main.js
 document.addEventListener('DOMContentLoaded', () => {
-    let StandardPortion = 3;
+    let StandardPortion = 4;
     let Dinners = [];
     let AvailableRecipes = new Set(Object.keys(Recipes));
     let Ingredients = {};
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const randomDinner = arrayFromSet[Math.floor(Math.random() * arrayFromSet.length)];
             addDinner(randomDinner);
         } else {
-            alert("Unable to add any more recipes to the list");
+            alert("Ingen flere oppskrifter å legge til");
         }
     };
 
