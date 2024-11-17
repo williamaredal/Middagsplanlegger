@@ -195,14 +195,14 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(() => console.log('Successfully shared the text.'))
             .catch((error) => console.error('Error sharing:', error));
         } else {
-            alert('Sharing is not supported on this browser.');
+            alert('Deling av handlelisten er ikke støttet av nettleseren, prøv en annen.');
         }
     }
 
         // Builds the text that contains the shopping list (all ingredients), the dinners sequentially ordered (with their ingredients and recipe)
         // So that the state's dinner plan can be added to notes, or shared with others
     function handleShareClick() {
-        let shoppingList = 'Shopping List\n\n';
+        let shoppingList = 'Handleliste\n\n';
         for (const ingredient in Ingredients) {
             const amount = Ingredients[ingredient];
             shoppingList += `${Math.round(amount * 100) / 100} ${ingredient}\n`;
@@ -210,11 +210,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         shoppingList += '\n\n\n';
         Dinners.forEach((dinnerItem, index) => {
-            let dinnerIngredients = 'Ingredients:\n';
+            let dinnerIngredients = 'Ingredienser:\n';
             Object.entries(Recipes[dinnerItem.dinner]['Ingredients']).forEach(([ingredient, qty]) => {
                 dinnerIngredients += `${Math.round(qty * dinnerItem.portions * 100) / 100} ${ingredient}\n`;
             });
-            shoppingList += `Dinner ${index + 1}: ${dinnerItem.dinner}\n${dinnerIngredients}\n${Recipes[dinnerItem.dinner]['Recipe']}\n\n`;
+            shoppingList += `Middag ${index + 1}: ${dinnerItem.dinner}\n${dinnerIngredients}\n${Recipes[dinnerItem.dinner]['Recipe']}\n\n`;
         });
 
         shareTextToNotes(shoppingList);
