@@ -34,6 +34,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    const addAllDinners = () => {
+        if (AvailableRecipes.size > 0) {
+            const arrayFromSet = Array.from(AvailableRecipes);
+            for (let i = 0; i < arrayFromSet.length; i++) {
+                addDinner(arrayFromSet[i]);
+            }
+        } else {
+            alert("Ingen flere oppskrifter å legge til");
+        }
+    };
+
     const incrementDinnerPortion = (dinner, increment) => {
         const dinnerObject = Dinners.find(d => d.dinner === dinner);
         if (dinnerObject && (dinnerObject.portions + increment >= 0)) {
@@ -224,6 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Adds event listeners to the main buttons for the website, for adding dinners, and for sharing of the shopping list and recipes selected
     document.getElementById('addRandomDinnerButton').addEventListener('click', addRandomDinner);
+    document.getElementById('addAllDinnersButton').addEventListener('click', addAllDinners);
     document.getElementById('shareButton').addEventListener('click', handleShareClick);
 
     // Initial population of the content
