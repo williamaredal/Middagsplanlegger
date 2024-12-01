@@ -580,6 +580,39 @@ Server suppen i en liten skål og dypp toasten.
 5. Kombiner burger, brød og coleslaw salat (topp med lime eller ekstra dressing for økt smak).
 `
   },
+
+
+  "Butter Chicken" : {
+    "Ingredients" : {
+        "stk rødløk" : 0.25,
+        "g kyllingfileter" : 162.5,
+        "ss gurkemeie" : 0.5,
+        "ts spisskummen" : 0.5,
+        "ss garam masala" : 0.25,
+        "ss koriander" : 0.25,
+        "ts chiliflak" : 0.125,
+        "ts pepper" : 0.125,
+        "ts salt" : 0.25,
+        "ss ingefær" : 0.25,
+        "stk hvitløk" : 0.25,
+        "ss sitronsaft" : 0.5,
+        "ss olje" : 0.5,
+        "g hakkede hermetiske tomater" : 100,
+        "dl Creme Fraiche 17%" : 0.5,
+        "ss honning" : 0.25,
+        "ss smør" : 0.25,
+        "g spinat" : 16.25
+    },
+    "Recipe" : `Butter Chicken oppskrift:
+1. Skjær løken i tynne båter og kyllingen i biter på ca. 3x3 cm. Legg det i en bolle.
+2. Bland gurkemeie, spisskummen, garam masala, malt koriander, chiliflak, pepper, salt, ingefær, hvitløk, sitronsaft og matolje. Ha blandingen over løk og kylling. Bland godt.
+3. Varm opp en stor stekepanne på høy varme og stek kyllingen til den får en gyllen farge.
+4. Tilsett hermetiske tomater, Crème Fraîche og honning. Rør til du får en jevn saus.
+5. La det småkoke i noen minutter, og rør deretter inn smør og spinat.
+6. Server med kokt ris, salat eller naanbrød.
+`
+}
+
 }
 
 
