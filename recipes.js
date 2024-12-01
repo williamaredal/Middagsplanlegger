@@ -594,7 +594,7 @@ Server suppen i en liten skål og dypp toasten.
         "ts pepper" : 0.125,
         "ts salt" : 0.25,
         "ss ingefær" : 0.25,
-        "stk hvitløk" : 0.25,
+        "stk hvitløksbåt" : 0.25,
         "ss sitronsaft" : 0.5,
         "ss olje" : 0.5,
         "g hakkede hermetiske tomater" : 100,
