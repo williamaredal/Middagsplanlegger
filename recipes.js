@@ -563,6 +563,23 @@ Server suppen i en liten skål og dypp toasten.
 `
   },
 
+
+  "Lakseburger med Søtpotet Fries" : {
+    "Ingredients" : {
+      "stk lakseburger" : 1,
+      "stk brioche burgerbrød" : 1,
+      "g coleslaw salat" : 62.5,
+      "stk søtpotet" : 0.75,
+      "ts salt" : 0.25,
+    },
+    "Recipe" : `Lakseburger med Søtpotet Fries oppskrift:
+1. Skru på ovnen på varmluft 230 C.
+2. Skrell og kutt søtpotet til fries biter.
+3. Strø salt over søtpotet fries og stek de 20 min i ovnen, eller til de er gylne og sprø.
+4. Stek lakseburger(e) (og brioche brødene for ekstra krisphet) i en stekepanne.
+5. Kombiner burger, brød og coleslaw salat (topp med lime eller ekstra dressing for økt smak).
+`
+  },
 }
 
 
