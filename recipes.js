@@ -110,7 +110,7 @@ Server gjerne gryteretten med salat og grove minibaguetter.
         "stk purre" : 0.125,
         "ss margarin" : 0.25,
         "l helmelk" : 0.25,
-        "dl hønsebuljong" : 0.75,
+        "stk kyllingbuljong" : 0.15,
         "ts salt" : 0.125,
         "ts pepper" : 0.06,
         "stk hvitløksbaguette" : 0.5,
@@ -119,7 +119,7 @@ Server gjerne gryteretten med salat og grove minibaguetter.
 1. Del blomkål i små biter og purre i skiver. Fres i en stor gryte med smør i 5 minutter.
   TipsØnsker du en tykkere suppe, kan du ha i mer blomkål!
 
-2. Hell i melk og buljong og kok til blomkålen er mør, ca. 20 minutter.
+2. Hell i melk og buljong (ca 5 dl vann pr terning) og kok til blomkålen er mør, ca. 20 minutter.
 3. Fisk ut noen fine blomkålbiter til garnityr og kjør suppen glatt med en stavmikser eller i en blender.
 4. Smak til med salt og pepper og server med brød og smør. Server suppen med hvitløksbaguetter.
 `
@@ -141,7 +141,7 @@ Server gjerne gryteretten med salat og grove minibaguetter.
         "ss frisk gressløk" : 0.25,
       },
       "Recipe" : `Kremet Fiskesuppe oppskrift
-1. Kok opp vann i en gryte (6dl vann pr terning buljong), ha i fiskebuljongen og legg i gulrotbitene. La dem koke i 3-4 minutter.
+1. Kok opp vann i en gryte (6 dl vann pr terning buljong), ha i fiskebuljongen og legg i gulrotbitene. La dem koke i 3-4 minutter.
 2. Bland melk og hvetemel i et glass med skrulokk, og rist godt. Hell blandingen i fiskebuljongen mens du visper hele tiden. La suppen småkoke i ca. 5 minutter.
 3. Senk temperaturen og legg i fiskebiter og erter. La suppa trekke i ca. 5 minutter. 
 4. Rør inn fløten og smak til med salt og pepper. Dryss over finklippet gressløk.
@@ -186,7 +186,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
         "g pastaskruer" : 100,
         "ss margarin" : 1,
         "stk hvitløksbåt" : 1.5,
-        "dl kyllingkraft" : 1.5,
+        "stk kyllingbuljong" : 0.3,
         "dl kremfløte" : 1.5,
         "g parmesan" : 25,
         "ts chiliflakes" : 0.5,
@@ -197,7 +197,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
 2. Bland sammen olje, sitron, honning, basilikum, salt og pepper i en stor bolle. Del kyllinglår(ene) i biter egnet for gaffel, og legg disse i blandingen til den er dekket. La kyllingen marinere i kjøleskapet i minst 30 minutter, men ikke mer enn en time (ellers kan det bli kraftig sitronsmak).
 3. Kok pasta som anvist på pakningen.
 4. Varm opp en stor stekepanne eller jerngryte og ha i margarin. Løft kyllinglår biter ut av marineringsvesken og stek disse på høy varme i 1-2 minutter på hver side til den har fått en gyllen skorpe. Ha lårene over i en ildfast form, og stek videre i ovnen på 200 °C i ca. 10 minutter.
-5. Stek hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften, og gi den et kjapt oppkok.
+5. Stek hvitløk i den samme pannen i ca. 1 min. Tilsett kyllingkraften (ca 5 dl pr buljong), og gi den et kjapt oppkok.
 6. Senk varmen, og tilsett kremfløte og parmesan. La sausen småkoke i et par minutter, og smak til med krydrene; chiliflak, timian, oregano, salt og pepper. 
 7. Vend kyllingbitene inn i sausen sammen med kokt pasta og server.  
 `
@@ -238,12 +238,12 @@ Server kyllingformen med ris eller godt brød.
         "stk purre" : 0.13,
         "stk brokkoli" : 0.13,
         "l vann" : 0.25,
-        "stk kyllingbuljongterning" : 0.5,
+        "stk kyllingbuljong" : 0.5,
       },
       "Recipe" : `Grønnsaksuppe med pølse oppskrift
 1. Skjær pølse i passe store biter. Finhakk løk.
 2. Skrell poteter og resten av grønnsakene. Skjær poteter, sellerirot, gulrøtter og kålrot i terninger. Skjær purre i ringer og brokkoli i små buketter (og skjær stilken i biter)
-3. Kok opp vann og buljong. Ha i poteter og grønnsaker og kok dem i ca. 8 minutter til de er møre.
+3. Kok opp vann og buljong (ca 5 dl per terning). Ha i poteter og grønnsaker og kok dem i ca. 8 minutter til de er møre.
 4. Tilsett pølsebitene og la dem bli varme. Smak til med salt og pepper.
 
 Suppen passer godt sammen med rundstykker.
@@ -543,7 +543,7 @@ Server gjerne med baguette og en grønn salat ved siden av.
         "ts timian" : 1,
         "stk selleri" : 0.25,
         "ss tomatpure" : 0.25,
-        "dl kyllingkraft" : 1.25,
+        "stk kyllingbuljong" : 0.25,
         "dl kremfløte" : 0.25,
         "skive grovt brød" : 2,
         "g ost" : 40,
