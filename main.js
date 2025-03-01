@@ -150,12 +150,41 @@ document.addEventListener('DOMContentLoaded', () => {
         e.dataTransfer.setData('text', this.innerHTML);
     }
 
+    let scrollInterval = null;
     function handleDragOver(e) {
         e.preventDefault();
+
+        const dinnersContent = document.getElementById('dinnersContent');
+        const scrollThreshold = 40;
+        const scrollSpeed = 10;
+
+        const rect = dinnersContent.getBoundingClientRect();
+        const isNearTop = e.clientY < rect.top + scrollThreshold;
+        const isNearBottom = e.clientY > rect.bottom - scrollThreshold;
+        if (isNearTop && !scrollInterval) {
+            scrollInterval = setInterval(() => {
+                dinnersContent.scrollBy({ top: -scrollSpeed, behavior: 'smooth' });
+            }, 50);
+        }
+
+        if (isNearBottom && !scrollInterval) {
+            scrollInterval = setInterval(() => {
+                dinnersContent.scrollBy({ top: scrollSpeed, behavior: 'smooth' });
+            }, 50);
+        }
+
+        if (!isNearTop && !isNearBottom && scrollInterval) {
+            clearInterval(scrollInterval);
+            scrollInterval = null;
+        }
     }
 
     function handleDrop(e) {
         e.preventDefault();
+
+        clearInterval(scrollInterval);
+        scrollInterval = null;
+
         if (draggedElement !== this) {
             // Identify the index of both source and target
             let sourceIndex = Array.from(dinnersContent.children).indexOf(draggedElement);
@@ -171,6 +200,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleDragEnd() {
+        clearInterval(scrollInterval);
+        scrollInterval = null;
+
         draggedElement = null;  // Reset the dragged element
     }
 
