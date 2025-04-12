@@ -635,7 +635,7 @@ Server suppen i en liten skål og dypp toasten.
     Recipe: `
 1. Press kjøttet ut av pølseskinnet. Stek kjøttet i en panne med litt olje som kjøttdeig.
 2. Ha i hvitløk og stek videre i et par minutter.
-3. Rør inn tomatpure, eddit og kremfløte. Kok opp og la det simre mens du koker pastaen.
+3. Rør inn tomatpure, eddik og kremfløte. Kok opp og la det simre mens du koker pastaen.
 4. Kok pastaen i saltet vann til den er al dente, og rør pastaen godt inn i sausen. Rør inn litt pastavann for å spe ut sausen.
 5. Ha i basilikum, salt, og topp med olivenolje og parmesan. Server!
 `,
