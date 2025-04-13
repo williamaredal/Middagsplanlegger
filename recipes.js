@@ -101,22 +101,23 @@ Server gjerne gryteretten med salat og grove minibaguetter.
 
   Blomkålsuppe: {
     Ingredients: {
-      "stk blomkål": 0.5,
+      "stk blomkål": 0.25,
+      "stk løk": 0.125,
       "stk purre": 0.125,
       "ss margarin": 0.25,
-      "l helmelk": 0.25,
-      "stk kyllingbuljong": 0.15,
+      "dl fløte": 0.833,
+      "dl vann": 1,
+      "stk kyllingbuljong": 0.25,
       "ts salt": 0.125,
       "ts pepper": 0.06,
       "stk hvitløksbaguette": 0.5,
     },
     Recipe: `Blomkålsuppe oppskrift
-1. Del blomkål i små biter og purre i skiver. Fres i en stor gryte med smør i 5 minutter.
-  TipsØnsker du en tykkere suppe, kan du ha i mer blomkål!
-
-2. Hell i melk og buljong (ca 5 dl vann pr terning) og kok til blomkålen er mør, ca. 20 minutter.
-3. Fisk ut noen fine blomkålbiter til garnityr og kjør suppen glatt med en stavmikser eller i en blender.
-4. Smak til med salt og pepper og server med brød og smør. Server suppen med hvitløksbaguetter.
+1. Del blomkål i små biter og skjær purre og løk i små biter. Fres i en stor gryte med smør i 5 minutter.
+2. Ha i buljongterning(er), fløte og vann, og kok ca. 20 minutter til blomkålen er mør.
+3. Sett på ovnen for hvitløksbaguettene på ca 180-200 C.
+4. Fisk ut noen fine blomkålbiter til garnityr og kjør suppen glatt med en stavmikser eller i en blender.
+5. Smak til med salt og pepper og server med brød og smør. Server suppen med hvitløksbaguetter.
 `,
   },
 
