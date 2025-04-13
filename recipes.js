@@ -620,7 +620,7 @@ Server suppen i en liten skål og dypp toasten.
 `,
   },
 
-  "Rigatoni med salsicciasaus": {
+  "Rigatoni med Salsicciasaus": {
     Ingredients: {
       "g rigatoni": 100,
       "g Salsiccia": 50,
@@ -639,6 +639,41 @@ Server suppen i en liten skål og dypp toasten.
 3. Rør inn tomatpure, eddik og kremfløte. Kok opp og la det simre mens du koker pastaen.
 4. Kok pastaen i saltet vann til den er al dente, og rør pastaen godt inn i sausen. Rør inn litt pastavann for å spe ut sausen.
 5. Ha i basilikum, salt, og topp med olivenolje og parmesan. Server!
+`,
+  },
+
+  Rekepaella: {
+    Ingredients: {
+      "g reker": 75,
+      "g basmatiris": 75,
+      "stk løk": 0.5,
+      "stk hvitløk": 0.5,
+      "stk paprika": 1,
+      "g gressløk": 2,
+      "stk kyllingbuljong": 0.25,
+      "g Ay Cajun-ba": 2,
+      "stk tomat": 1,
+      "ss tomatpure": 0.5,
+      "stk sitron": 0.5,
+      "dl vann": 1,
+
+      "ts paprikapulver": 0.5,
+      "ts hvitløkspulver": 0.25,
+      "ts oregano": 0.25,
+      "ts timian": 0.25,
+      "ts cayennepepper": 0.125,
+      "ts svart pepper": 0.125,
+      "ts salt": 0.125,
+    },
+    Recipe: `
+1. Kok ris. Skjær paprika, løk og tomat i 1 cm biter.
+2. Miks kryder (unntatt gressløk) i en skål til hjemmelaget Ay Cajun-ba.
+3. Varm opp litt olivenolje i en stor stekepanne på middels høy varme.
+4. Stek paprika i 4–5 minutter, tilsett så hvitløk, løk, tomatpure, tomat og Ay Cajun-ba kryddermiksen. Stek videre i noen minutter. 
+5. Rør inn 1 dl vann og kyllingbuljong. Tilsett reker og kok i 2–3 minutter til de er rosa utenpå og matte inni.
+6. Finhakk gressløk og skjær sitron i båter.
+7. Tilsett ferdigkokt ris i stekepannen med grønnsaker og reker.
+8. Server med gressløk og sitronbåter ved siden av.
 `,
   },
 };
