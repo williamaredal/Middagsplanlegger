@@ -456,6 +456,7 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 
   "Pasta a la vodka": {
     Ingredients: {
+      "stk kyllingfilet": 0.25,
       "ss olivenolje": 1.25,
       "stk gul løk": 0.25,
       "stk hvitløksbåt": 0.75,
@@ -475,10 +476,11 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 1. Start med å sette på pastavann og ha i litt salt. Kok pasta som anvist på pakken. Ta vare på ca. 1 dl pastavann.
 2. Kutt opp løk og hvitløk. Varm olivenolje i en dyp stekepanne eller jerngryte og stek løken til den blir myk, uten at den tar farge.
 3. Tilsett hvitløken og la det frese noen minutter under omrøring.
-4. Tilsett tomatpuré og bland godt. Hell i fløten og rør sammen til en kremet tomatsaus.
-5. Smak til med salt, pepper, paprikakrydder, chiliflak og hvitløkspulver. Juster krydderet etter ønske for å gjøre sausen mer spicy.
-6. Ha i smør, parmesan og pastavann eller vodka. La det småkoke i noen minutter under omrøring.
-7. Bland pastaen inn i sausen, og server med ekstra parmesan, chiliflak og litt persille.
+4. Kutt kyllingfiletene opp i små biter, og tilsett disse i stekepannen.
+5. Tilsett tomatpuré og bland godt. Hell i fløten og rør sammen til en kremet tomatsaus.
+6. Smak til med salt, pepper, paprikakrydder, chiliflak og hvitløkspulver. Juster krydderet etter ønske for å gjøre sausen mer spicy.
+7. Ha i smør, parmesan og pastavann eller vodka. La det småkoke i noen minutter under omrøring.
+8. Bland pastaen inn i sausen, og server med ekstra parmesan, chiliflak og litt persille.
 `,
   },
 
