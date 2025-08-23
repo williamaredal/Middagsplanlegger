@@ -678,6 +678,74 @@ Server suppen i en liten skål og dypp toasten.
 8. Server med gressløk og sitronbåter ved siden av.
 `,
   },
+
+  "Honningglaserte laks med sitron": {
+    Ingredients: {
+      "stk laksefilet": 1,
+      "ts salt": 0.25,
+      "ts pepper": 0.25,
+      "ss olje til steking": 0.5,
+      "fedd hvitløk": 0.5,
+      "dl vann": 0.25,
+      "ss soyasaus": 0.75,
+      "ss flytende honning": 0.75,
+      "ss oystersaus": 0.25,
+      "ss sitronsaft": 0.25,
+      "ss maisenna": 0.25,
+      "ts sesamolje": 0.25,
+    },
+    Recipe: `Honningglaserte laks med sitron oppskrift:
+1. Bland sammen sausen uten hvitløk og maisenna.
+2. Varm opp en stekepanne på medium høy varme og ha i oljen.
+3. Krydre laksefiletene lett med salt og pepper. Stek dem på begge sider til de er gjennomstekte, eller slik du foretrekker laksen. Legg til side på et fat.
+4. I den resterende oljen stekes hvitløk til den er gyllen.
+5. Senk varmen til medium og hell i sausen. Smak til med mer sitron eller honning etter behov, og bland inn maisenna.
+6. La sausen småkoke noen minutter til den tykner lett.
+7. Server laksen med den glaserte sausen over. Passer godt med ris eller grønnsaker ved siden av.
+`,
+  },
+
+  "Brokkoli–cheddar suppe": {
+    Ingredients: {
+      "ss smør": 0.5,
+      "stk løk": 0.5,
+      "ss hvitløk, finhakket": 0.5,
+      "g revne gulrøtter": 25,
+      "ss hvetemel": 1,
+      "dl kyllingkraft": 2.5,
+      "ts salt": 0.25,
+      "ts pepper": 0.25,
+      "ss røkt paprikapulver": 0.25,
+      "g brokkoli, rå": 50,
+      "dl melk": 1.25,
+      "g hvit cheddar, revet": 25,
+    },
+    Recipe: `Brokkoli–cheddar suppe oppskrift:
+1. Varm opp en tykkbunnet gryte på middels varme og smelt smøret. Tilsett løk og la det surre i 2–3 minutter.
+2. Ha i hvitløk og fres videre i 1 minutt. Tilsett gulrøtter og mel, og rør godt sammen.
+3. Tilsett kyllingkraft, salt, pepper og paprikapulver. La det småkoke i ca. 2 minutter under omrøring.
+4. Ha i brokkoli og melk, og rør inn cheddarosten.
+5. La suppen småkoke på lav varme i 5–7 minutter, til brokkolien er mør.
+6. Rør godt sammen og server suppen rykende varm.
+`,
+  },
+
+  "Lat laksemiddag": {
+    Ingredients: {
+      "g laksefilet": 100,
+      "g cherrytomater": 100,
+      "g fetaost": 60,
+      "g proteinpasta": 80,
+      "ss olivenolje": 0.5,
+      "ts salt til pastavann": 0.25,
+    },
+    Recipe: `Lat laksemiddag oppskrift:
+1. Legg laks, cherrytomater og fetaost i en ildfast form, og ha litt olivenolje over.
+2. Sett ovnen på 200°C over- og undervarme, og bak i 30 minutter.
+3. Kok opp vann med litt salt og kok pastaen som anvist på pakken.
+4. Riv opp ingrediensene i formen med to gafler og bland inn den ferdigkokte pastaen.
+`,
+  },
 };
 
 /*
