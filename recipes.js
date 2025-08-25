@@ -521,7 +521,7 @@ Server gjerne med baguette og en grønn salat ved siden av.
   "Good Soup": {
     Ingredients: {
       "g cherrytomater": 125,
-      "stk hvitløk": 0.25,
+      "stk hvitløksbåt": 0.25,
       "stk løk": 0.25,
       "ts olivenolje": 0.25,
       "ts timian": 1,
@@ -721,7 +721,7 @@ Server suppen i en liten skål og dypp toasten.
       "g hvit cheddar, revet": 25,
     },
     Recipe: `Brokkoli–cheddar suppe oppskrift:
-1. Varm opp en tykkbunnet gryte på middels varme og smelt smøret. Tilsett løk og la det surre i 2–3 minutter.
+1. Varm opp en kjele/gryte på middels varme og smelt smøret. Tilsett løk og la det surre i 2–3 minutter.
 2. Ha i hvitløk og fres videre i 1 minutt. Tilsett gulrøtter og mel, og rør godt sammen.
 3. Tilsett kyllingkraft, salt, pepper og paprikapulver. La det småkoke i ca. 2 minutter under omrøring.
 4. Ha i brokkoli og melk, og rør inn cheddarosten.
