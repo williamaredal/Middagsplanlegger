@@ -210,9 +210,9 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
     },
     Recipe: `Kylling med søtpotet og grønnkål oppskrift
 1. Tørk kyllingbitene med litt tørkepapir og la dem ligge og temperere seg mens du forbereder resten av ingrediensene.
-2. Skrell søtpoteten og skjær den i grove biter. Vask grønnkål og skjær vekk det groveste av stilken. Grovhakk hvitløk.
-3. Ha litt olje i bunnen av en stor ildfast form eller langpanne. Legg kyllingbiter, søtpotet, grønnkål og hvitløk utover i formen slik at det ikke ligger oppå hverandre. Press sitronsaften og fordel den i pannen. Drypp over olivenolje og krydre med salt, pepper og oregano.
-4. Plasser formen midt i ovnen på 200 °C og stek i 20-25 minutter til kyllingbitene er gjennomstekt og søtpoteten har fått fin, gyllen farge. Grønnkålen kan bli litt mørk i kantene.
+2. Skrell søtpoteten og skjær den i små terninger. Vask grønnkål og skjær vekk det groveste av stilken. Grovhakk hvitløk.
+3. Ha litt olje i bunnen av en stor ildfast form eller langpanne. Legg grønnkål, søtpotet, hvitløksbiter og kyllingbiter utover i formen. Press sitronsaften over disse i pannen. Drypp over olivenolje og krydre med salt, pepper og oregano.
+4. Plasser formen midt i ovnen på 200 °C over- undervarme med vifte og stek i 20-25 minutter til kyllingbitene er noe krisp og søtpoteten har fått fin, gyllen farge. Grønnkålen kan bli litt mørk i kantene.
 5. Smuldre opp fetaost og strø over formen før servering.
 
 Server kyllingformen med ris eller godt brød. 
@@ -387,7 +387,7 @@ Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 
   "Kylling Toro Tandori": {
     Ingredients: {
-      "stk kyllingfillet": 0.5,
+      "stk kyllingfilet": 0.5,
       "stk creme fraise": 0.25,
       "tandori pose toro": 0.25,
       "g ris": 60,
