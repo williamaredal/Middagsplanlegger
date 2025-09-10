@@ -746,6 +746,33 @@ Server suppen i en liten skål og dypp toasten.
 4. Riv opp ingrediensene i formen med to gafler og bland inn den ferdigkokte pastaen.
 `,
   },
+
+  "Curry Gyoza": {
+    Ingredients: {
+      "stk frosne gyoza": 4,
+      "ss rød currypaste": 0.5,
+      "stk hvitløksbåt": 0.25,
+      "ts ingefær": 0.5,
+      "dl kokosmelk": 1,
+      "ss soyasaus": 0.5,
+      "ts honning": 0.25,
+      "ts eddik": 0.25,
+      "ts sesamolje": 0.25,
+      "ss koriander": 0.25,
+      "ss vårløk": 0.25,
+      "ts sesamfrø": 0.25,
+      "ts chiliolje": 0.25,
+    },
+    Recipe: `Curry Gyoza oppskrift:
+1. Forvarm ovnen til 200°C.
+2. Kutt opp hvitløk, ingefær og vårløk.
+3. Visp sammen currypaste, hvitløk, ingefær, kokosmelk, soyasaus, honning, eddik og sesamolje til en saus.
+4. Legg gyozaene i en ildfast form og hell over sausen.
+5. Dekk med aluminiumsfolie og bak i ca. 25 minutter. Ta av folien og bak videre i 5–10 minutter til sausen bobler og gyozaene er lett gyllne.
+6. Dryss over koriander, vårløk, sesamfrø og eventuelt chiliolje.
+Tips: Server gjerne med ris og dampet bok choy.
+`,
+  },
 };
 
 /*
