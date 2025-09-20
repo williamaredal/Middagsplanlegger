@@ -350,17 +350,13 @@ Server arme riddere med rørte bær eller syltetøy.
     },
     Recipe: `Ramen med kylling og egg oppskrift
 (Kok egg før oppskriften, eller mens kyllingen er i ovnen)
-1. Sett stekeovnen på 175 grader, over- og undervarme. Krydre kyllingfiletene med salt og pepper, og stek dem i nøytral olje i middels varm stekepanne på begge sider i ca. 2 minutter, til filetene er gylne og fine på begge sider. Legg kyllingen over på et ildfast fat og la den steke ferdig i stekeovnen, til den har en kjernetemperatur på ca. 67 grader. Det tar 10–15 minutter, men vil være avhengig av størrelsen på filetene og hvor lenge du har brunet dem i stekepannen.
-2. Finn frem en kjele og ha i sesamolje og nøytral matolje. Stek sjalottløk på middels varme et par minutter, og tilsett deretter ingefær, hvitløk og chili, og la det surre med i ca. ett minutt.
+1. Sett stekeovnen på 175 grader, over- og undervarme. Krydre kyllingfiletene med salt og pepper, legg kyllingen på et ildfast fat i stekeovnen ca 10-15 min (til den har en kjernetemperatur på ca. 67 grader).
+2. Finn frem en kjele og ha i sesamolje og nøytral matolje. Stek sjalottløk på middels varme et par minutter, og tilsett deretter ingefær, hvitløk og chili, og la det surre ett minutt.
 3. Tilsett kyllingkraft (eller utblandet kyllingfond) og kok opp.
-4. Bank på sitrongresset med skaftet på en kniv eller lignende for å frigjøre de gode smakene, og ha det i kjelen. La alt stå og småkoke i ca. 10 minutter. 
+4. Bank på sitrongresset med for å frigjøre de gode smakene, og ha det i kjelen. La alt stå og småkoke i ca. 10 minutter. 
 5. Smak til med soyasaus, sukker og limesaft. Hold kraften varm.
 6. Kok nudlene etter anvisningen på pakken og skjær opp grønnsakene i staver.
 7. Legg kylling, grønnsaker og nudler i en vid suppebolle og hell den rykende varme kyllingkraften over. Del eggene i to og legg dem oppå, og gi retten et dryss av chiliflak og sesamfrø. 
-
-Tips
-I stedet for kyllingkraft kan du benytte utblandet kyllingfond eller buljong. Bland ut fonden/buljongen etter anvisningen på emballasjen, eller etter smak.
-Bruk gjerne ferdig grillet kylling hvis du har det travelt.
 `,
   },
 
