@@ -332,7 +332,6 @@ Server arme riddere med rørte bær eller syltetøy.
       "ss olje": 1.25,
       "stk sjalottløk": 0.25,
       "stk hvitløksbåt": 0.5,
-      "ss ingefær": 0.25,
       "ts chili explosion": 0.25,
       "stk sitrongress": 0.25,
       "dl kyllingkraft": 3.75,
@@ -351,7 +350,7 @@ Server arme riddere med rørte bær eller syltetøy.
     Recipe: `Ramen med kylling og egg oppskrift
 (Kok egg før oppskriften, eller mens kyllingen er i ovnen)
 1. Sett stekeovnen på 175 grader, over- og undervarme. Krydre kyllingfiletene med salt og pepper, legg kyllingen på et ildfast fat i stekeovnen ca 10-15 min (til den har en kjernetemperatur på ca. 67 grader).
-2. Finn frem en kjele og ha i sesamolje og nøytral matolje. Stek sjalottløk på middels varme et par minutter, og tilsett deretter ingefær, hvitløk og chili, og la det surre ett minutt.
+2. Finn frem en kjele og ha i sesamolje og nøytral matolje. Stek sjalottløk, hvitløk og chili på middels varme et par minutter.
 3. Tilsett kyllingkraft (eller utblandet kyllingfond) og kok opp.
 4. Bank på sitrongresset med for å frigjøre de gode smakene, og ha det i kjelen. La alt stå og småkoke i ca. 10 minutter. 
 5. Smak til med soyasaus, sukker og limesaft. Hold kraften varm.
