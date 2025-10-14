@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const dinnersContent = document.getElementById("dinnersContent");
     const scrollThreshold = 40;
-    const scrollSpeed = 10;
+    const scrollSpeed = 20;
 
     const rect = dinnersContent.getBoundingClientRect();
     const isNearTop = e.clientY < rect.top + scrollThreshold;
