@@ -16,7 +16,7 @@ const Recipes = {
     Ingredients: {
       "ss margarin": 0.5,
       "g kjøttdeig": 100, // kjøttdeig/karbonadedeig
-      "g hakkede tomater": 97.5,
+      "g hakkede tomater": 195,
       "stk hvitløksbåt": 0.5,
       "ts pepper": 0.33,
       "ts salt": 0.5,
