@@ -768,6 +768,31 @@ Server suppen i en liten skål og dypp toasten.
 Tips: Server gjerne med ris og dampet bok choy.
 `,
   },
+
+  "Pasta Stroganoff": {
+    Ingredients: {
+      "g bacon, i terninger": 62.5,
+      "stk rødløk": 0.25,
+      "g sjampinjong": 62.5,
+      "g pasta": 62.5,
+      "g kjøttdeig": 100,
+      "ss tomatpuré": 0.5,
+      "fedd hvitløk": 1,
+      "ss paprikapulver": 0.25,
+      "ss oregano": 0.25,
+      "ss friske urter": 0.5,
+      "dl Creme Fraiche 17%": 1,
+      "stk kjøttbuljongterning": 0.25,
+      "dl vann": 0.25,
+    },
+    Recipe: `Pasta Stroganoff oppskrift:
+1. Kok pastaen al dente etter anvisning på pakken.
+2. Kutt rødløk i grove terninger, sjampinjong i tynne skiver og hvitløk i grove biter.
+3. Stek baconet til det er lett gyllent. Tilsett løk, sjampinjong og hvitløk, og stek i ca. 5 minutter. Ha alt over i en skål.
+4. Stek kjøttdeigen til den får litt farge. Tilsett buljong (oppløst i vann), tomatpure, Creme Fraiche 17 og det stekte bacon–løk–sopp-blandingen.
+5. Når pastaen er al dente, bland den inn i gryten og topp med friske urter før du serverer.
+`,
+  },
 };
 
 /*
