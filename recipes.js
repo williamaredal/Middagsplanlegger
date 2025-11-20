@@ -68,7 +68,7 @@ const Recipes = {
     Recipe: `Ørret med fløtestuede grønnsaker oppskrift
   
   1. Fjern skinnet og del ørretfileten i jevnstore porsjonsstykker. Krydre med litt salt og pepper.
-  2. Varm en stekepanne med smør. Når det bruser godt kan du legge i fiskestykkene med undersiden opp. Stek på middels varme i ca. 2 minutter, og snu deretter stykkene. Trekk pannen til side og la fiskestykkene bli ferdige på ettervarmen. Øs litt av smøret over dem underveis.
+  2. Varm en stekepanne med smør. Når det bruser godt kan du legge i fiskestykkene. Stek på middels varme i ca. 2 minutter og fiskestykkene bli ferdige på ettervarmen.
   3. Kutt vårløk og sukkererter i biter på skrå og brokkoli i små buketter. Del poteter i to eller fire.
   4. Hell fløten i en kjele eller sauteringspanne og kok opp. Ha alle grønnsakene i kjelen og la det koke i 2-3 minutter, til fløten tykner litt og grønnsakene er knapt møre. Bland inn hakket dill. Smak til med salt og pepper.`,
   },
