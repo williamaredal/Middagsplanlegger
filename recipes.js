@@ -813,6 +813,30 @@ Tips: Server gjerne med ris og dampet bok choy.
 2. Skjær opp vårløk og bland sammen alle av ingrediensene (pasta til slutt).
 `,
   },
+
+  Vårruller: {
+    Ingredients: {
+      "stk vårrullplater": 30,
+      "g glassnudler": 100,
+      "g kyllingkjøttdeig": 400,
+      "stk gul løk": 1,
+      "stk hvitløk, finhakket": 3,
+      "g gulrot": 150,
+      "g kål": 150,
+      "ss soyasaus": 5,
+      "ss østerssaus": 6,
+      "ss olje": 4,
+    },
+    Recipe: `
+1. Sett ovnen på 200°C.
+2. Rasp gulrøttene, finhakk løk og hvitløk, og skjær kålen i tynne strimler.
+3. Kok glassnudlene etter pakkens anvisning og klipp dem i kortere biter.
+4. Varm olje i en panne og stek løk og kyllingkjøttdeig til gjennomstekt.
+5. Tilsett resten av grønnsakene, soyasaus og østerssaus. Stek et par minutter til før du blander inn glassnudlene.
+6. Ta pannen av varmen. Fyll hver vårrullplate med ca 1–2 ss fyll.
+7. Legg vårrullene på stekebrett og stek i ca. 15 minutter, eller til de er gylne og sprø.
+`,
+  },
 };
 
 /*
