@@ -793,6 +793,26 @@ Tips: Server gjerne med ris og dampet bok choy.
 5. Når pastaen er al dente, bland den inn i gryten og topp med friske urter før du serverer.
 `,
   },
+
+  "Kald Pastasalat": {
+    Ingredients: {
+      "g fusilli": 500,
+      "pose Råkost Mix": 1,
+      "ss olivenolje": 1,
+      "dl creme fraise": 3,
+      "g majones": 150,
+      "ts hvitløkspulver": 1,
+      "ss sitronsaft": 1.5,
+      "g skinkestrimler": 200,
+      "g mais": 150,
+      "stk vårløk": 1,
+      "ts pepper": 0.5,
+    },
+    Recipe: `
+1. Kok fusilli etter anvisning på pakken. La pastaen kjøles ned for en enda kaldere pastasalat.
+2. Skjær opp vårløk og bland sammen alle av ingrediensene (pasta til slutt).
+`,
+  },
 };
 
 /*
