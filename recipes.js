@@ -796,17 +796,17 @@ Tips: Server gjerne med ris og dampet bok choy.
 
   "Kald Pastasalat": {
     Ingredients: {
-      "g fusilli": 500,
-      "pose Råkost Mix": 1,
-      "ss olivenolje": 1,
-      "dl creme fraise": 3,
-      "g majones": 150,
-      "ts hvitløkspulver": 1,
-      "ss sitronsaft": 1.5,
-      "g skinkestrimler": 200,
-      "g mais": 150,
-      "stk vårløk": 1,
-      "ts pepper": 0.5,
+      "g fusilli": 125,
+      "pose Råkost Mix": 0.25,
+      "ss olivenolje": 0.25,
+      "dl creme fraise": 0.75,
+      "g majones": 37.5,
+      "ts hvitløkspulver": 0.25,
+      "ss sitronsaft": 0.375,
+      "g skinkestrimler": 50,
+      "g mais": 37.5,
+      "stk vårløk": 0.25,
+      "ts pepper": 0.125,
     },
     Recipe: `
 1. Kok fusilli etter anvisning på pakken. La pastaen kjøles ned for en enda kaldere pastasalat.
@@ -816,16 +816,16 @@ Tips: Server gjerne med ris og dampet bok choy.
 
   Vårruller: {
     Ingredients: {
-      "stk vårrullplater": 30,
-      "g glassnudler": 100,
-      "g kyllingkjøttdeig": 400,
-      "stk gul løk": 1,
-      "stk hvitløk, finhakket": 3,
-      "g gulrot": 150,
-      "g kål": 150,
-      "ss soyasaus": 5,
-      "ss østerssaus": 6,
-      "ss olje": 4,
+      "stk vårrullplater": 7.5,
+      "g glassnudler": 25,
+      "g kyllingkjøttdeig": 100,
+      "stk gul løk": 0.25,
+      "stk hvitløk, finhakket": 0.75,
+      "g gulrot": 37.5,
+      "g kål": 37.5,
+      "ss soyasaus": 1.25,
+      "ss østerssaus": 1.5,
+      "ss olje": 1,
     },
     Recipe: `
 1. Sett ovnen på 200°C.
