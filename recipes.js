@@ -837,6 +837,30 @@ Tips: Server gjerne med ris og dampet bok choy.
 7. Legg vårrullene på stekebrett og stek i ca. 15 minutter, eller til de er gylne og sprø.
 `,
   },
+
+  "Lazy Buldak": {
+    Ingredients: {
+      "stk kyllinglårfilet": 1,
+      "stk vårløk": 0.25,
+      "g eggnudler": 31.25,
+      "g mozzarellaost": 25,
+      "ss soyasaus": 0.75,
+      "ss gochugaru": 0.5,
+      "ss østerssaus": 0.25,
+      "ss mirin": 0.5,
+      "ss honning": 0.75,
+      "ss ketchup": 0.25,
+      "ss gochujang": 0.25,
+      "stk hvitløksfedd": 0.25,
+    },
+    Recipe: `
+1. Skjær opp kyllinglårfiletene i store biter og stek de i en panne på middels høy varme.
+2. Kok eggnudlene etter anvisning på pakken.
+3. Bland sammen soyasaus, gochugaru, østerssaus, mirin, honning, ketchup, gochujang og finhakket hvitløk til en saus.
+4. Tilsett vårløk i skiver, kokte nudler og sausen.
+5. Dryss mozzarella på toppen, sett på lokk og la osten smelte før servering.
+`,
+  },
 };
 
 /*
