@@ -730,7 +730,7 @@ Server suppen i en liten skål og dypp toasten.
       "g laksefilet": 100,
       "g cherrytomater": 100,
       "g fetaost": 60,
-      "g proteinpasta": 80,
+      "g pasta": 80,
       "ss olivenolje": 0.5,
       "ts salt til pastavann": 0.25,
     },
