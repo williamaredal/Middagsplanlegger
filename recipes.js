@@ -148,7 +148,7 @@ Server gjerne suppen med brød eller flatbrød.
   "Pasta Carbonara": {
     Ingredients: {
       "g bacon": 50,
-      "g fersk spagetti": 125,
+      "g spagetti": 125,
       "stk egg": 1,
       "g parmesan": 15,
       "ss timian": 0.5,
