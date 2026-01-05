@@ -338,7 +338,7 @@ Server arme riddere med rørte bær eller syltetøy.
       "ss soyasaus": 0.5,
       "ts sukker": 0.25,
       "stk lime": 0.125,
-      "stk kyllingfileter": 1,
+      "stk kyllingfilet": 1,
       "g ramennudler": 50,
       "stk gulrøtter": 0.5,
       "stk vårløk": 1,
@@ -562,7 +562,7 @@ Server suppen i en liten skål og dypp toasten.
   "Butter Chicken": {
     Ingredients: {
       "stk rødløk": 0.25,
-      "g kyllingfileter": 162.5,
+      "g kyllingfilet": 162.5,
       "ss gurkemeie": 0.5,
       "ts spisskummen": 0.5,
       "ss garam masala": 0.25,
@@ -859,6 +859,29 @@ Tips: Server gjerne med ris og dampet bok choy.
 3. Bland sammen soyasaus, gochugaru, østerssaus, mirin, honning, ketchup, gochujang og finhakket hvitløk til en saus.
 4. Tilsett vårløk i skiver, kokte nudler og sausen.
 5. Dryss mozzarella på toppen, sett på lokk og la osten smelte før servering.
+`,
+  },
+
+  "Chicken Alfredo Pasta": {
+    Ingredients: {
+      "stk kyllingfilet": 0.25,
+      "ts salt": 0.25,
+      "ts sort pepper": 0.25,
+      "ts paprikakrydder": 0.25,
+      "ss olje": 1,
+      "g smør": 25,
+      "stk hvitløksbåt": 0.5,
+      "dl kremfløte": 1.25,
+      "g mozzarellaost": 62.5,
+      "ts persille": 0.25,
+      "g tagliatelle": 100,
+      "dl pastavann": 0.625,
+    },
+    Recipe: `
+1. Skjær kyllingen i biter og krydre med salt, pepper og paprikapulver. Stek i olje i 7–8 minutter til gjennomstekt.
+2. Kok tagliatellen.
+3. Ta ut kylling, tilsett så smør, hvitløk, kremfløte og mozzarella. Rør til osten smelter og sausen blir kremet.
+4. Tilsett kylling, ferdigkokt pasta og pastavann. Vend godt sammen og topp med persille.
 `,
   },
 };
