@@ -864,14 +864,14 @@ Tips: Server gjerne med ris og dampet bok choy.
 
   "Chicken Alfredo Pasta": {
     Ingredients: {
-      "stk kyllingfilet": 0.25,
+      "stk kyllingfilet": 0.5,
       "ts salt": 0.25,
-      "ts sort pepper": 0.25,
+      "ts pepper": 0.125,
       "ts paprikakrydder": 0.25,
       "ss olje": 1,
       "g smør": 25,
       "stk hvitløksbåt": 0.5,
-      "dl kremfløte": 1.25,
+      "dl kremfløte": 0.75,
       "g mozzarellaost": 62.5,
       "ts persille": 0.25,
       "g tagliatelle": 100,
