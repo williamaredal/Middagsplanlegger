@@ -464,7 +464,7 @@ Server arme riddere med rørte bær eller syltetøy.
       "ts paprikakrydder": 0.25,
       "ss smør": 0.5,
       "g parmesan": 15,
-      "dl pastavann/vodka": 0.25,
+      "dl pastavann": 0.25,
       "g penne pasta": 100,
     },
     Recipe: `Pasta a la vodka oppskrift
