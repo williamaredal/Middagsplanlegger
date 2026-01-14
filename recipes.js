@@ -398,30 +398,22 @@ Server arme riddere med rørte bær eller syltetøy.
       "ss soyasaus": 1,
       "ts pepper": 0.1875,
       "ss sesamolje": 0.25,
-      "ss vann": 0.25,
-      "ts sukker": 0.25,
       "ts salt": 0.125,
       "g ukokt jasmin ris": 68.75,
       "g frosne erter": 25,
-      "stk egg": 0.5,
+      "stk egg": 1,
       "stk gulrot": 0.25,
-      "stk vårløk": 0.25,
-      "stk løk": 0.25,
-      "stk hvitløksbåt": 0.25,
+      "stk vårløk": 0.5,
+      "stk løk": 0.5,
+      "stk hvitløksbåt": 0.5,
     },
     Recipe: `Stekt ris med kylling oppskrift
 1. Kok opp ris.
 2. Start med dele kyllingen i spisestore biter og mariner i minst ti minutter.
-3. Imens forbereder du grønnsakene og blander sammen sausen.
-4. Varm en panne på medium høy varme med 1 spiseskje olje.
-5. Når pannen er varm, visper du sammen to egg og har i oljen. Bruk spisepinne eller slikkepott for å lage sirkler til du får en myk og saftig eggerørekonsistens.
-6. Legg eggene over på en tallerken.
-7. Så freser du hvitløk og løk i samme panne med olje på medium varme. Når hvitløken har fått en lys gyllen farge, tilsetter du kyllingen og steker til den er gjennomstekt.
-8. Ha i gulrøtter og erter, og stek i to minutter til før du tilsetter kokt ris.
-9. Ha deretter i sausen og bland godt i tre-fire minutter så sausen får trekke inni.
-10. Legg tilbake eggene og ha i vårløken. Bland godt en siste gang.
-11. Server gjerne med Sriracha for et ekstra «kick». Du kan også ha på chili flakes eller lignende om du ønsker.
-12. TIPS: Mørk soyasaus gir en veldig fin farge til risen, men om du ikke har tilgang, kan du sløyfe denne og smake til med litt mer soyasaus og oystersaus om ønskelig.
+3. Kutt opp grønnsaker og putt disse i en skål.
+4. Varm en panne på medium høy varme og stek eggerøre nesten ferdig. Bytt så med grønnsakene i skålen.
+5. Kutt opp kylling i spisetore biter og ha disse i pannen.
+6. Tilsett soyasaus og resten i stekepannen og kombiner disse.
 `,
   },
 
