@@ -508,7 +508,7 @@ Server gjerne med baguette og en grønn salat ved siden av.
   "Good Soup": {
     Ingredients: {
       "g cherrytomater": 125,
-      "stk hvitløksbåt": 0.25,
+      "stk hvitløk": 0.25,
       "stk løk": 0.25,
       "ts olivenolje": 0.25,
       "ts timian": 1,
