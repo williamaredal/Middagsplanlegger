@@ -636,18 +636,16 @@ Server suppen i en liten skål og dypp toasten.
       "g reker": 75,
       "g basmatiris": 75,
       "stk løk": 0.5,
-      "stk hvitløksbåt": 0.5,
       "stk paprika": 1,
-      "g gressløk": 2,
+      "g gressløk": 0.25,
       "stk kyllingbuljong": 0.25,
-      "g Ay Cajun-ba": 2,
       "stk tomat": 1,
       "ss tomatpure": 0.5,
       "stk sitron": 0.5,
       "dl vann": 1,
 
       "ts paprikapulver": 0.5,
-      "ts hvitløkspulver": 0.25,
+      "ts hvitløkspulver": 0.5,
       "ts oregano": 0.25,
       "ts timian": 0.25,
       "ts cayennepepper": 0.125,
@@ -655,14 +653,13 @@ Server suppen i en liten skål og dypp toasten.
       "ts salt": 0.125,
     },
     Recipe: `
-1. Kok ris. Skjær paprika, løk og tomat i 1 cm biter.
-2. Miks kryder (unntatt gressløk) i en skål til hjemmelaget Ay Cajun-ba.
-3. Varm opp litt olivenolje i en stor stekepanne på middels høy varme.
-4. Stek paprika i 4–5 minutter, tilsett så hvitløk, løk, tomatpure, tomat og Ay Cajun-ba kryddermiksen. Stek videre i noen minutter. 
-5. Rør inn 1 dl vann og kyllingbuljong. Tilsett reker og kok i 2–3 minutter til de er rosa utenpå og matte inni.
-6. Finhakk gressløk og skjær sitron i båter.
-7. Tilsett ferdigkokt ris i stekepannen med grønnsaker og reker.
-8. Server med gressløk og sitronbåter ved siden av.
+1. Start kokingen av ris. 
+2. Skjær paprika, løk og tomat i 1 cm biter, og stek disse i olivenolje i en stor stekepanne på middels høy varme.
+3. Stek i ca 5-10 min med regelmessig vending, til de får litt "grillet" utside.
+4. Miks kryder (unntatt gressløk) i en skål til hjemmelaget Ay Cajun-ba.
+5. Rør inn vann, tomatpure, kryddermiksen og kyllingbuljong. Tilsett så reker og ris. Kok ca 2-3 min.
+
+Server med gressløk og sitronbåter ved siden av.
 `,
   },
 
