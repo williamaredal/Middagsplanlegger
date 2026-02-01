@@ -668,7 +668,7 @@ Server med gressløk og sitronbåter ved siden av.
       "stk laksefilet": 1,
       "ts salt": 0.25,
       "ts pepper": 0.25,
-      "ss olje til steking": 0.5,
+      "ss olje": 0.5,
       "stk hvitløksbåt": 0.5,
       "dl vann": 0.25,
       "ss soyasaus": 0.75,
