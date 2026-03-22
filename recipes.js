@@ -830,18 +830,18 @@ Dryss over sesamfrø og eventuelt chilimayo.
 
     "Lazy Buldak": {
         Ingredients: {
-            "stk kyllinglårfilet": 1,
-            "stk vårløk": 0.25,
-            "g eggnudler": 31.25,
-            "g mozzarellaost": 25,
-            "ss soyasaus": 0.75,
-            "ss gochugaru": 0.5,
-            "ss østerssaus": 0.25,
-            "ss mirin": 0.5,
-            "ss honning": 0.75,
-            "ss ketchup": 0.25,
-            "ss gochujang": 0.125,
-            "stk hvitløksfedd": 0.25,
+            "stk kyllinglårfilet": 1.5,
+            "stk vårløk": 0.375,
+            "g eggnudler": 46.875,
+            "g mozzarellaost": 37.5,
+            "ss soyasaus": 1.125,
+            "ss gochugaru": 0.75,
+            "ss østerssaus": 0.375,
+            "ss mirin": 0.75,
+            "ss honning": 1.125,
+            "ss ketchup": 0.375,
+            "ss gochujang": 0.1875,
+            "stk hvitløksfedd": 0.375,
         },
         Recipe: `
 1. Skjær opp kyllinglårfiletene i store biter og stek de i en panne på middels høy varme.
