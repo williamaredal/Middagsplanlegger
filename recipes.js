@@ -409,11 +409,9 @@ Server arme riddere med rørte bær eller syltetøy.
         },
         Recipe: `Stekt ris med kylling oppskrift
 1. Kok opp ris.
-2. Start med dele kyllingen i spisestore biter og mariner i minst ti minutter.
-3. Kutt opp grønnsaker og putt disse i en skål.
-4. Varm en panne på medium høy varme og stek eggerøre nesten ferdig. Bytt så med grønnsakene i skålen.
-5. Kutt opp kylling i spisetore biter og ha disse i pannen.
-6. Tilsett soyasaus og resten i stekepannen og kombiner disse.
+2. Start med dele grønnsakene i små terninger og putt disse i en skål. Kutt så kyllingen i spiseklare biter.
+3. Varm en panne på medium høy varme og stek kyllingen, grønnsaker og eggerøre nesten ferdig.
+4. Tilsett ris, sesamolje, soyasaus i stekepannen og kombiner disse.
 `,
     },
 
