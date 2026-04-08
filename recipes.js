@@ -860,16 +860,17 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "g smør": 25,
             "stk hvitløksbåt": 0.5,
             "dl kremfløte": 0.75,
-            "g mozzarellaost": 62.5,
+            "g mozzarellaost": 31.75,
             "ts persille": 0.25,
             "g tagliatelle": 100,
             "dl pastavann": 0.625,
+            "stk gulløk": 0.25,
         },
         Recipe: `
-1. Skjær kyllingen i biter og krydre med salt, pepper og paprikapulver. Stek i olje i 7–8 minutter til gjennomstekt.
+1. Skjær løk og kylling i biter. Stek så i olje til nesten gjennomstekt.
 2. Kok tagliatellen.
-3. Ta ut kylling, tilsett så smør, hvitløk, kremfløte og mozzarella. Rør til osten smelter og sausen blir kremet.
-4. Tilsett kylling, ferdigkokt pasta og pastavann. Vend godt sammen og topp med persille.
+3. Tilsett så smør, hvitløk, kremfløte og mozzarella. Krydre med salt, pepper, paprikapulver og persille. Rør til osten smelter og sausen blir kremet.
+4. Tilsett ferdigkokt pasta og pastavann. Vend godt sammen.
 `,
     },
 };
