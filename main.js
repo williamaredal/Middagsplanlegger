@@ -54,6 +54,113 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
+    // Pack sizes for common grocery ingredients (in the same unit as used in recipes)
+    const PACK_SIZES = {
+        "stk egg": 6,
+        "g spagetti": 1000,
+        "g pasta": 500,
+        "g tagliatelle": 250,
+        "g rigatoni": 500,
+        "g fusilli": 500,
+        "g penne pasta": 500,
+        "g pastaskruer": 500,
+        "g nudler": 200,
+        "g eggnudler": 200,
+        "g glassnudler": 100,
+        "g ramennudler": 100,
+        "dl melk": 10,
+        "l melk": 1,
+        "dl kremfløte": 3,
+        "dl matfløte": 3,
+        "dl fløte": 3,
+        "dl creme fraiche": 3,
+        "g ris": 500,
+        "g ukokt jasmin ris": 500,
+        "g basmatiris": 500,
+        "g kjøttdeig": 400,
+        "g bacon": 150,
+        "g parmesan": 100,
+        "g sopp": 250,
+        "g sjampinjong": 250,
+        "g spinat": 200,
+        "g frisk spinat": 200,
+        "g laks": 500,
+        "g laksefilet": 500,
+        "g kyllingfilet": 500,
+        "g Kyllingfillet": 500,
+        "g fetaost": 200,
+        "g mozzarellaost": 125,
+    };
+
+    // Returns top 2 suggested dinners scored by ingredient overlap minus pack waste penalty.
+    // Overlap score: fraction of candidate's ingredients already in the current dinner list.
+    // Pack penalty: for each ingredient with a known pack size, measures how much waste
+    //   increases (as a fraction of one pack) when this recipe is added. Negative delta
+    //   (filling a partial pack) reduces the penalty, rewarding recipes that complete packs.
+    // Both terms are normalized by total ingredient count so they're directly comparable.
+    const getSuggestedDinners = () => {
+        if (Dinners.length === 0 || AvailableRecipes.size === 0) return [];
+
+        const currentIngredientKeys = new Set();
+        const currentIngredientAmounts = {};
+        Dinners.forEach((dinnerItem) => {
+            Object.entries(Recipes[dinnerItem.dinner].Ingredients).forEach(
+                ([key, amount]) => {
+                    currentIngredientKeys.add(key);
+                    currentIngredientAmounts[key] =
+                        (currentIngredientAmounts[key] || 0) +
+                        amount * dinnerItem.portions;
+                },
+            );
+        });
+
+        const scores = [];
+        AvailableRecipes.forEach((recipeName) => {
+            const recipeEntries = Object.entries(
+                Recipes[recipeName].Ingredients,
+            );
+            const totalCount = recipeEntries.length;
+            if (totalCount === 0) return;
+
+            let overlapping = 0;
+            let penaltySum = 0;
+
+            recipeEntries.forEach(([ing, amount]) => {
+                if (currentIngredientKeys.has(ing)) overlapping++;
+
+                const packSize = PACK_SIZES[ing];
+                if (!packSize) return;
+
+                const addedAmount = amount * StandardPortion;
+                const currentAmount = currentIngredientAmounts[ing] || 0;
+                const newTotal = currentAmount + addedAmount;
+
+                const wasteAfter =
+                    (Math.ceil(newTotal / packSize) * packSize - newTotal) /
+                    packSize;
+                const wasteBefore =
+                    currentAmount > 0
+                        ? (Math.ceil(currentAmount / packSize) * packSize -
+                              currentAmount) /
+                          packSize
+                        : 0;
+
+                // Positive delta = more waste added → penalty. Negative delta = filling a pack gap → no penalty.
+                penaltySum += Math.max(0, wasteAfter - wasteBefore);
+            });
+
+            const overlapScore = overlapping / totalCount;
+            const penaltyScore = penaltySum / totalCount;
+            scores.push({
+                name: recipeName,
+                score: overlapScore - penaltyScore,
+            });
+        });
+
+        scores.sort((a, b) => b.score - a.score);
+        return scores.slice(0, 2).map((s) => s.name);
+    };
+
     // Updates the dinners section content and the ingredients section content
     const updateDinnersContent = () => {
         const dinnersContent = document.getElementById("dinnersContent");
@@ -106,6 +213,28 @@ document.addEventListener("DOMContentLoaded", () => {
             dinnerCard.appendChild(cardTop);
             dinnerCard.appendChild(cardBottom);
             dinnersContent.appendChild(dinnerCard);
+        });
+
+        getSuggestedDinners().forEach((dinnerName) => {
+            const suggestionCard = document.createElement("div");
+            suggestionCard.className = "dinner-card suggestion-card";
+            suggestionCard.addEventListener("click", () =>
+                addDinner(dinnerName),
+            );
+
+            const cardTop = document.createElement("div");
+            cardTop.className = "card-top";
+            const dinnerText = document.createElement("div");
+            dinnerText.className = "dinner-text";
+            dinnerText.textContent = dinnerName;
+            const suggestionLabel = document.createElement("span");
+            suggestionLabel.className = "suggestion-label";
+            suggestionLabel.textContent = "Forslag";
+
+            cardTop.appendChild(dinnerText);
+            cardTop.appendChild(suggestionLabel);
+            suggestionCard.appendChild(cardTop);
+            dinnersContent.appendChild(suggestionCard);
         });
     };
 

@@ -150,6 +150,24 @@
         align-content: center;
     }
 
+    .suggestion-card {
+        opacity: 45%;
+        border-style: dashed;
+        cursor: pointer;
+    }
+
+    .suggestion-card:hover {
+        opacity: 75%;
+    }
+
+    .suggestion-label {
+        font-size: 0.75em;
+        color: gray;
+        margin-left: auto;
+        align-content: center;
+        font-style: italic;
+    }
+
     /* Ingredient list styling */
     .ingredient {
         padding-left: 10px;
@@ -321,6 +339,24 @@
 
     .bowl-icon {
         align-content: center;
+    }
+
+    .suggestion-card {
+        opacity: 45%;
+        border-style: dashed;
+        cursor: pointer;
+    }
+
+    .suggestion-card:hover {
+        opacity: 75%;
+    }
+
+    .suggestion-label {
+        font-size: 0.75em;
+        color: gray;
+        margin-left: auto;
+        align-content: center;
+        font-style: italic;
     }
 
     /* Ingredient list styling */
