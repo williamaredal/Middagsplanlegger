@@ -99,7 +99,11 @@ document.addEventListener("DOMContentLoaded", () => {
     //   (filling a partial pack) reduces the penalty, rewarding recipes that complete packs.
     // Both terms are normalized by total ingredient count so they're directly comparable.
     const getSuggestedDinners = () => {
-        if (Dinners.length === 0 || AvailableRecipes.size === 0) return [];
+        if (AvailableRecipes.size === 0) return [];
+        if (Dinners.length === 0) {
+            const available = Array.from(AvailableRecipes);
+            return [available[Math.floor(Math.random() * available.length)]];
+        }
 
         const currentIngredientKeys = new Set();
         const currentIngredientAmounts = {};
