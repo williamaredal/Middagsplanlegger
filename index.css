@@ -146,6 +146,10 @@
         margin: 5px;
     }
 
+    .bowl-icon {
+        align-content: center;
+    }
+
     /* Ingredient list styling */
     .ingredient {
         padding-left: 10px;
@@ -313,6 +317,10 @@
     .portions {
         font-weight: 500;
         margin: 5px;
+    }
+
+    .bowl-icon {
+        align-content: center;
     }
 
     /* Ingredient list styling */

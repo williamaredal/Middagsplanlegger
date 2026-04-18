@@ -81,6 +81,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const cardBottom = document.createElement("div");
             cardBottom.className = "card-bottom";
+            const bowlIcon = document.createElement("i");
+            bowlIcon.className = "fa-solid fa-bowl-food bowl-icon";
             const portionsDiv = document.createElement("div");
             portionsDiv.className = "portions";
             portionsDiv.textContent = dinnerItem.portions;
@@ -97,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             cardTop.appendChild(dinnerText);
             cardTop.appendChild(crossButton);
+            cardBottom.appendChild(bowlIcon);
             cardBottom.appendChild(portionsDiv);
             cardBottom.appendChild(minusButton);
             cardBottom.appendChild(plusButton);
