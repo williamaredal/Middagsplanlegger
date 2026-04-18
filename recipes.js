@@ -333,7 +333,6 @@ Server arme riddere med rørte bær eller syltetøy.
             "stk sjalottløk": 0.25,
             "stk hvitløksbåt": 0.5,
             "ts chili explosion": 0.25,
-            "stk sitrongress": 0.25,
             "dl kyllingkraft": 3.75,
             "ss soyasaus": 0.5,
             "ts sukker": 0.25,
@@ -342,18 +341,17 @@ Server arme riddere med rørte bær eller syltetøy.
             "g ramennudler": 50,
             "stk gulrøtter": 0.5,
             "stk vårløk": 1,
-            "g babyspinat": 25,
+            "g spinat": 25,
             "g sukkerter": 12.5,
             "g sesamfrø": 5,
             "stk egg": 1,
         },
         Recipe: `Ramen med kylling og egg oppskrift
 (Kok egg før oppskriften, eller mens kyllingen er i ovnen)
-1. Sett stekeovnen på 175 grader, over- og undervarme. Krydre kyllingfiletene med salt og pepper, legg kyllingen på et ildfast fat i stekeovnen ca 10-15 min (til den har en kjernetemperatur på ca. 67 grader).
-2. Finn frem en kjele og ha i sesamolje og nøytral matolje. Stek sjalottløk, hvitløk og chili på middels varme et par minutter.
-3. Tilsett kyllingkraft (eller utblandet kyllingfond) og kok opp.
-4. Bank på sitrongresset med for å frigjøre de gode smakene, og ha det i kjelen. La alt stå og småkoke i ca. 10 minutter. 
-5. Smak til med soyasaus, sukker og limesaft. Hold kraften varm.
+1. Sett stekeovnen på 200 grader. Legg kyllingen på et ildfast fat i stekeovnen ca 15-20 min (til den har en kjernetemperatur på ca. 67 grader).
+2. Putt sesamolje, matolje, sjalottløk, hvitløk og chili. Stek på middels varme et par minutter.
+3. Tilsett så kyllingkraft og kok opp.
+5. Smak til med soyasaus, sukker og limesaft
 6. Kok nudlene etter anvisningen på pakken og skjær opp grønnsakene i staver.
 7. Legg kylling, grønnsaker og nudler i en vid suppebolle og hell den rykende varme kyllingkraften over. Del eggene i to og legg dem oppå, og gi retten et dryss av chiliflak og sesamfrø. 
 `,
