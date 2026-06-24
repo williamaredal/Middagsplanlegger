@@ -256,25 +256,6 @@ Suppen passer godt sammen med rundstykker.
 `,
     },
 
-    "Arme riddere": {
-        Ingredients: {
-            "stk egg": 0.33,
-            "ss sukker": 0.33,
-            "dl melk": 0.33,
-            "ts kardemomme": 0.08,
-            "ts kanel": 0.17,
-            "skive loff eller annet brød": 1,
-            "ss smør": 0.17,
-        },
-        Recipe: `Arme riddere oppskrift
-1. Visp egg lett sammen med sukker, melk og krydder og hell blandingen i et fat med kanter.
-2. Legg brødskivene i røren og la dem bli gjennombløte.
-3. Ta opp brødskivene og stek dem i litt margarin i en stekepanne på middels varme. Stek de arme ridderne på begge sider til de er pent gulbrune.
-
-Server arme riddere med rørte bær eller syltetøy.
-`,
-    },
-
     "Scampipasta med frisk fløtesaus": {
         Ingredients: {
             "g spagetti": 100,
@@ -875,6 +856,25 @@ Dryss over sesamfrø og eventuelt chilimayo.
 
 /*
  Commented out recipees (can get added in future)
+
+    "Arme riddere": {
+        Ingredients: {
+            "stk egg": 0.33,
+            "ss sukker": 0.33,
+            "dl melk": 0.33,
+            "ts kardemomme": 0.08,
+            "ts kanel": 0.17,
+            "skive loff eller annet brød": 1,
+            "ss smør": 0.17,
+        },
+        Recipe: `Arme riddere oppskrift
+1. Visp egg lett sammen med sukker, melk og krydder og hell blandingen i et fat med kanter.
+2. Legg brødskivene i røren og la dem bli gjennombløte.
+3. Ta opp brødskivene og stek dem i litt margarin i en stekepanne på middels varme. Stek de arme ridderne på begge sider til de er pent gulbrune.
+
+Server arme riddere med rørte bær eller syltetøy.
+`,
+    },
 
 
 
