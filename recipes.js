@@ -90,7 +90,7 @@ const Recipes = {
         },
         Recipe: `Chili con carne oppskrift
 1. Finhakk chili, og fjern frøene.
-2. Ha margarin eller olje i en varm gryte. Vent til margarinen slutter å bruse, og brun kjøttdeig i to omganger sammen med løk, hvitløk og chili.
+2. Ha margarin eller olivenolje i en varm gryte. Vent til margarinen slutter å bruse, og brun kjøttdeig i to omganger sammen med løk, hvitløk og chili.
 3. Hell over hermetisk tomat og la det surre i 3-4 minutter.
 4. Drener maisboksen og tilsett maisen.
 5. Bland inn chilibønner, paprika og krydder. La det koke et par minutter og smak til med salt.
@@ -169,7 +169,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
     "Marry Me Chicken": {
         Ingredients: {
             "stk kyllinglår": 1,
-            "ss olje": 1,
+            "ss olivenolje": 0.5,
             "stk sitron": 0.5,
             "ss flytende honning": 1,
             "ss hakket frisk basilikum": 1,
@@ -201,7 +201,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
             "stk søtpotet": 0.25,
             "g grønnkål": 62.5,
             "stk hvitløksbåt": 1.5,
-            "ss olivenolje": 1,
+            "ss olivenolje": 0.5,
             "stk sitron": 0.25,
             "ts salt": 0.5,
             "ts pepper": 0.25,
@@ -262,7 +262,7 @@ Suppen passer godt sammen med rundstykker.
             "g scampi": 62.5,
             "stk hvitløksbåt": 1,
             "ts chiliflak": 0.13,
-            "ss nøytral olje": 1.25,
+            "ss olivenolje": 0.5,
             "stk sitron": 0.13,
             "dl fløte": 0.75,
             "g spinat": 25,
@@ -273,7 +273,7 @@ Suppen passer godt sammen med rundstykker.
         },
         Recipe: `Scampipasta med frisk fløtesaus oppskrift
 1. Kok pasta som anvist på pakken, minus ett minutt. Mens pastaen koker, begynner du med sausen.
-2. Finn frem en stor stekepanne, varm opp olje og stek hvitløk og chili i 1-2 minutter.
+2. Finn frem en stor stekepanne, varm opp olivenolje og stek hvitløk og chili i 1-2 minutter.
 3. Ha fløte i panna og la koke til den begynner å tykne, ca. 5-7 minutter. Tilsett sitronsaft, revet sitronskall, spinat og persille.
 4. Hell av pastavannet og sett til side til sausen er ferdig.
 5. Ha parmesan i fløtesausen, og smak til med salt og pepper. Bland scampi og pasta i panna, sørg for at pastaen blir godt dekket av saus.
@@ -294,13 +294,13 @@ Suppen passer godt sammen med rundstykker.
             "stk brokkoli": 0.25,
             "stk vårløk": 1,
             "g sopp": 37.5,
-            "ss olje": 1,
+            "ss olivenolje": 0.5,
             "g ris": 60,
         },
         Recipe: `Wok med biff og grønnsaker oppskrift
 1. Rør sammen ingrediensene til sausen.
 2. Finhakk eller finsnitt hvitløken. Del brokkolien i små buketter og skjær stilken i skiver. Rens og del vårløk og sopp i grove biter.
-3. Varm litt olje i en wok- eller stekepanne. Stek kjøttet raskt over høy varme. Ikke ha for mye i pannen, stek det heller i flere omganger og hell kjøttet over på en tallerken så lenge.
+3. Varm litt olivenolje i en wok- eller stekepanne. Stek kjøttet raskt over høy varme. Ikke ha for mye i pannen, stek det heller i flere omganger og hell kjøttet over på en tallerken så lenge.
 4. Varm woken på nytt med litt olje. Tilsett brokkoli. Stek videre under stadig omrøring til brokkolien er knapt mør. Tilsett gjerne en dæsj med vann underveis i stekingen så brokkolien dampes knapt mør.
 5. Ta brokkolien ut av pannen så lenge. Fortsett med å steke soppen, tilsett hvitløk og vårløk og stek videre under omrøring i et lite minutt.
 6. Ha kjøtt og brokkoli tilbake i pannen. Hell over sausen og bland alt godt sammen. Dryss over cashewnøtter og server.
@@ -310,7 +310,7 @@ Suppen passer godt sammen med rundstykker.
     "Ramen med kylling og egg": {
         Ingredients: {
             "ss sesamolje": 0.25,
-            "ss olje": 1.25,
+            "ss olivenolje": 0.5,
             "stk sjalottløk": 0.25,
             "stk hvitløksbåt": 0.5,
             "ts chili explosion": 0.25,
@@ -421,7 +421,7 @@ Suppen passer godt sammen med rundstykker.
     "Pasta a la vodka": {
         Ingredients: {
             "stk kyllingfilet": 0.25,
-            "ss olivenolje": 1.25,
+            "ss olivenolje": 0.5,
             "stk gul løk": 0.25,
             "stk hvitløksbåt": 0.75,
             "ss tomatpure": 0.5,
@@ -454,7 +454,7 @@ Suppen passer godt sammen med rundstykker.
             "dl revet hvitost": 0.75,
             "g parmesan": 12.5,
             "g bacon": 37.5,
-            "ss olje": 0.75,
+            "ss olivenolje": 0.5,
             "g kjøttdeig": 100, // kjøttdeig/karbonadedeig
             "stk løk": 0.25,
             "stk gulrot": 0.25,
@@ -471,7 +471,7 @@ Suppen passer godt sammen med rundstykker.
             "ts revet muskatnøtt": 0.13,
         },
         Recipe: `Lasagne oppskrift
-1. Skjær bacon i små biter. Ha olje i en varm panne og stek til baconet til det er gyllent. Ha i litt mer olje og brun kjøttdeig i olje på sterk varme i to omganger.
+1. Skjær bacon i små biter. Ha olivenolje i en varm panne og stek til baconet til det er gyllent. Ha i litt mer olje og brun kjøttdeig i olje på sterk varme i to omganger.
 2. Senk varmen litt og ha i løk, gulrot og stilkselleri og la det steke til grønnsakene er blitt myke og blanke. Ha baconet og kjøttdeigen tilbake i stekepanna og bland alt sammen.
 3. Lag en grop i midten av stekepannen. Ha i litt mer olje og fres tomat puréen i noen minutter. Ha i hermetisk tomat, kraft og krydder. La kjøttsausen småkoke i minst 10 minutter, til den begynner å tykne. Har du litt god tid? La gjerne sausen småkoke under lokk i ca. 1 ½ time, for å utvikle ekstra god smak. Husk å rør litt i kjelen underveis, slik at det ikke fester seg på bunnen av gryta. Smak til med salt og pepper.
 4. Smelt smør i en kjele og rør inn mel. Spe med melk under omrøring og la sausen koke i ca. 10 minutter. Den skal være forholdsvis tykk. Ha i parmesan og la osten smelte. Smak til ostesausen med krydder.
@@ -542,7 +542,7 @@ Server suppen i en liten skål og dypp toasten.
             "ss ingefær": 0.25,
             "stk hvitløksbåt": 0.25,
             "ss sitronsaft": 0.5,
-            "ss olje": 0.5,
+            "ss olivenolje": 0.25,
             "g hakkede hermetiske tomater": 100,
             "dl creme fraiche 17%": 0.5,
             "ss honning": 0.25,
@@ -569,7 +569,7 @@ Server suppen i en liten skål og dypp toasten.
             "stk vårløk": 0.75,
             "stk egg": 1,
             "ss soyasaus": 0.5,
-            "ss nøytral olje": 0.5,
+            "ss olivenolje": 0.25,
             "ss ketchup": 1.25,
             "ss worcestersaus": 0.5,
             "ss østerssaus": 0.5,
@@ -580,7 +580,7 @@ Server suppen i en liten skål og dypp toasten.
         Recipe: `
 1. Bland sammen mel, bakepulver og salt i en bolle. Hell i fiskekraften og bland raskt sammen. Knekk i ett og ett egg og visp til en klumpfri røre.
 2. Tilsett så kålen, soyasausen og vårløk til slutt.
-3. Varm en romslig stekepanne på middels varme. Tilsett 1 ss olje, og halvparten av okonomiyaki-røren og fordel den jevn utover i pannen. Legg på lokk og stek i 5 minutter.
+3. Varm en romslig stekepanne på middels varme. Tilsett 1 ss olivenolje, og halvparten av okonomiyaki-røren og fordel den jevn utover i pannen. Legg på lokk og stek i 5 minutter.
 4. Snu okonomiyakien ved å legge en tallerken på toppen av pannekaken og snu stekepannen. «Skli» pannekaken tilbake i stekepannen med den ustekte siden ned og stek gyllen på den andre siden også. Gjenta og lag den andre pannekaken.
 5. Bland sammen ketchup, worcestersaus, soyasaus og honning I en liten skål, og fordel over pannekakene. Topp så med Kewpie (eller vanlig) majones, gressløk og server.
 `,
@@ -595,12 +595,12 @@ Server suppen i en liten skål og dypp toasten.
             "ss eddik": 0.5,
             "dl kremfløte": 0.75,
             "håndfull basilikumblader": 0.25,
-            "ss olje": 0.25,
+            "ss olivenolje": 0.25,
             "g parmesan": 5,
             "ts salt": 0.25,
         },
         Recipe: `
-1. Press kjøttet ut av pølseskinnet. Stek kjøttet i en panne med litt olje som kjøttdeig.
+1. Press kjøttet ut av pølseskinnet. Stek kjøttet i en panne med litt olivenolje som kjøttdeig.
 2. Ha i hvitløk og stek videre i et par minutter.
 3. Rør inn tomatpure, eddik og kremfløte. Kok opp og la det simre mens du koker pastaen.
 4. Kok pastaen i saltet vann til den er al dente, og rør pastaen godt inn i sausen. Rør inn litt pastavann for å spe ut sausen.
@@ -645,7 +645,7 @@ Server med gressløk og sitronbåter ved siden av.
             "stk laksefilet": 1,
             "ts salt": 0.25,
             "ts pepper": 0.25,
-            "ss olje": 0.5,
+            "ss olivenolje": 0.5,
             "stk hvitløksbåt": 0.5,
             "dl vann": 0.25,
             "ss soyasaus": 0.75,
@@ -657,7 +657,7 @@ Server med gressløk og sitronbåter ved siden av.
         },
         Recipe: `Honningglaserte laks med sitron oppskrift:
 1. Bland sammen sausen uten hvitløk og maisenna.
-2. Varm opp en stekepanne på medium høy varme og ha i oljen.
+2. Varm opp en stekepanne på medium høy varme og ha i olivenolje.
 3. Krydre laksefiletene lett med salt og pepper. Stek dem på begge sider til de er gjennomstekte, eller slik du foretrekker laksen. Legg til side på et fat.
 4. I den resterende oljen stekes hvitløk til den er gyllen.
 5. Senk varmen til medium og hell i sausen. Smak til med mer sitron eller honning etter behov, og bland inn maisenna.
@@ -792,13 +792,13 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "g kål": 37.5,
             "ss soyasaus": 1.25,
             "ss østerssaus": 1.5,
-            "ss olje": 1,
+            "ss olivenolje": 0.5,
         },
         Recipe: `
 1. Sett ovnen på 200°C.
 2. Rasp gulrøttene, finhakk løk og hvitløk, og skjær kålen i tynne strimler.
 3. Kok glassnudlene etter pakkens anvisning og klipp dem i kortere biter.
-4. Varm olje i en panne og stek løk og kyllingkjøttdeig til gjennomstekt.
+4. Varm olivenolje i en panne og stek løk og kyllingkjøttdeig til gjennomstekt.
 5. Tilsett resten av grønnsakene, soyasaus og østerssaus. Stek et par minutter til før du blander inn glassnudlene.
 6. Ta pannen av varmen. Fyll hver vårrullplate med ca 1–2 ss fyll.
 7. Legg vårrullene på stekebrett og stek i ca. 15 minutter, eller til de er gylne og sprø.
@@ -835,7 +835,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "ts salt": 0.25,
             "ts pepper": 0.125,
             "ts paprikakrydder": 0.25,
-            "ss olje": 1,
+            "ss olivenolje": 0.5,
             "g smør": 25,
             "stk hvitløksbåt": 0.5,
             "dl kremfløte": 0.75,
@@ -846,7 +846,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "stk gulløk": 0.25,
         },
         Recipe: `
-1. Skjær løk og kylling i biter. Stek så i olje til nesten gjennomstekt.
+1. Skjær løk og kylling i biter. Stek så i olivenolje til nesten gjennomstekt.
 2. Kok tagliatellen.
 3. Tilsett så smør, hvitløk, kremfløte og mozzarella. Krydre med salt, pepper, paprikapulver og persille. Rør til osten smelter og sausen blir kremet.
 4. Tilsett ferdigkokt pasta og pastavann. Vend godt sammen.
