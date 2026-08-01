@@ -130,13 +130,14 @@ Server gjerne gryteretten med salat og grove minibaguetter.
             "g laks": 50,
             "g torskefilet": 50,
             "g frosne erter": 20,
-            "dl kremfløte": 0.25,
+            "dl kremfløte": 0.5,
             "ts salt": 0.13,
             "ts pepper": 0.13,
+            "stk sjalottløk": 0.5,
             "ss frisk gressløk": 0.25,
         },
         Recipe: `Kremet Fiskesuppe oppskrift
-1. Kok opp vann i en gryte (6 dl vann pr terning buljong), ha i fiskebuljongen og legg i gulrotbitene. La dem koke i 3-4 minutter.
+1. Kok opp vann i en gryte (6 dl vann pr terning buljong), ha i fiskebuljong, oppkuttet sjalottløk og gulrotskiver. La dem koke i 3-4 minutter.
 2. Bland melk og hvetemel i et glass med skrulokk, og rist godt. Hell blandingen i fiskebuljongen mens du visper hele tiden. La suppen småkoke i ca. 5 minutter.
 3. Senk temperaturen og legg i fiskebiter og erter. La suppa trekke i ca. 5 minutter. 
 4. Rør inn fløten og smak til med salt og pepper. Dryss over finklippet gressløk.
@@ -702,7 +703,7 @@ Server med gressløk og sitronbåter ved siden av.
         },
         Recipe: `Lat laksemiddag oppskrift:
 1. Legg laks, cherrytomater og fetaost i en ildfast form, og ha litt olivenolje over.
-2. Sett ovnen på 200°C over- og undervarme, og bak i 30 minutter.
+2. Sett ovnen på 175°C over- og undervarme, og bak i 30 minutter.
 3. Kok opp vann med litt salt og kok pastaen som anvist på pakken.
 4. Riv opp ingrediensene i formen med to gafler og bland inn den ferdigkokte pastaen.
 `,
