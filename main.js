@@ -23,6 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
         updateIngredients();
     };
 
+    // Removes the dinner at the given index, and every dinner after it in the list
+    const removeDinnersFromIndex = (index) => {
+        Dinners.slice(index).forEach((d) => AvailableRecipes.add(d.dinner));
+        Dinners = Dinners.slice(0, index);
+        updateDinnersContent();
+        updateIngredients();
+    };
+
+    // How long the cross button must be held before it removes this dinner and all below it
+    const HOLD_TO_REMOVE_BELOW_MS = 2200;
+    const HOLD_MOVE_CANCEL_PX = 10;
+
     const addRandomDinner = () => {
         if (AvailableRecipes.size > 0) {
             const arrayFromSet = Array.from(AvailableRecipes);
@@ -186,8 +198,47 @@ document.addEventListener("DOMContentLoaded", () => {
             dinnerText.textContent = `${index + 1}. ${dinnerItem.dinner}`;
             const crossButton = document.createElement("i");
             crossButton.className = "fas fa-circle-xmark cross-button";
-            crossButton.addEventListener("click", () =>
-                removeDinner(dinnerItem.dinner),
+
+            let holdTimer = null;
+            let holdTriggered = false;
+            let holdStartX = 0;
+            let holdStartY = 0;
+
+            const cancelHold = () => {
+                clearTimeout(holdTimer);
+                holdTimer = null;
+                crossButton.classList.remove("holding");
+            };
+
+            crossButton.addEventListener("pointerdown", (e) => {
+                if (e.pointerType === "mouse" && e.button !== 0) return;
+                holdTriggered = false;
+                holdStartX = e.clientX;
+                holdStartY = e.clientY;
+                crossButton.classList.add("holding");
+                holdTimer = setTimeout(() => {
+                    holdTriggered = true;
+                    crossButton.classList.remove("holding");
+                    removeDinnersFromIndex(index);
+                }, HOLD_TO_REMOVE_BELOW_MS);
+            });
+            crossButton.addEventListener("pointermove", (e) => {
+                if (
+                    Math.abs(e.clientX - holdStartX) > HOLD_MOVE_CANCEL_PX ||
+                    Math.abs(e.clientY - holdStartY) > HOLD_MOVE_CANCEL_PX
+                ) {
+                    cancelHold();
+                }
+            });
+            crossButton.addEventListener("pointerup", () => {
+                const wasHeld = holdTriggered;
+                cancelHold();
+                if (!wasHeld) removeDinner(dinnerItem.dinner);
+            });
+            crossButton.addEventListener("pointerleave", cancelHold);
+            crossButton.addEventListener("pointercancel", cancelHold);
+            crossButton.addEventListener("contextmenu", (e) =>
+                e.preventDefault(),
             );
 
             const cardBottom = document.createElement("div");
