@@ -38,7 +38,7 @@ const Recipes = {
             "ss smør": 1,
             "dl matfløte": 1.5,
             "ss soyasaus": 0.5,
-            "g frisk spinat": 50,
+            "g spinat": 50,
             "g tagliatelle": 100,
             "g parmesan": 15,
         },
@@ -124,7 +124,7 @@ Server gjerne gryteretten med salat og grove minibaguetter.
     "Kremet Fiskesuppe": {
         Ingredients: {
             "stk fiskebuljong": 0.25, // erstatte med dl buljong?
-            "stk gulrot i biter": 0.5,
+            "stk gulrot": 0.5,
             "dl melk": 0.5,
             "ss hvetemel": 0.5,
             "g laks": 50,
@@ -134,7 +134,7 @@ Server gjerne gryteretten med salat og grove minibaguetter.
             "ts salt": 0.13,
             "ts pepper": 0.13,
             "stk sjalottløk": 0.5,
-            "ss frisk gressløk": 0.25,
+            "ss gressløk": 0.25,
         },
         Recipe: `Kremet Fiskesuppe oppskrift
 1. Kok opp vann i en gryte (6 dl vann pr terning buljong), ha i fiskebuljong, oppkuttet sjalottløk og gulrotskiver. La dem koke i 3-4 minutter.
@@ -173,7 +173,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
             "ss olivenolje": 0.5,
             "stk sitron": 0.5,
             "ss flytende honning": 1,
-            "ss hakket frisk basilikum": 1,
+            "ss basilikum": 1,
             "ts salt": 0.5,
             "ts pepper": 0.5,
             "g pastaskruer": 100,
@@ -374,12 +374,12 @@ Suppen passer godt sammen med rundstykker.
 
     "Stekt ris med kylling": {
         Ingredients: {
-            "g Kyllingfillet": 62.5,
+            "g kyllingfillet": 62.5,
             "ss soyasaus": 1,
             "ts pepper": 0.1875,
             "ss sesamolje": 0.25,
             "ts salt": 0.125,
-            "g ukokt jasmin ris": 68.75,
+            "g ris": 68.75,
             "g frosne erter": 25,
             "stk egg": 1,
             "stk gulrot": 0.25,
@@ -404,8 +404,8 @@ Suppen passer godt sammen med rundstykker.
             "g parmesan": 7.5,
             "g spinat": 7.5,
             "ts pepper": 0.25,
-            "ts vitløkspulver": 0.25,
-            "ts paprikapulver": 0.25,
+            "ts hvitløkspulver": 0.25,
+            "ts paprikakrydder": 0.25,
             "ts chiliflakes": 0.25,
             "g pasta": 62.5,
             "dl vann": 1.5,
@@ -622,7 +622,7 @@ Server suppen i en liten skål og dypp toasten.
             "stk sitron": 0.5,
             "dl vann": 1,
 
-            "ts paprikapulver": 0.5,
+            "ts paprikakrydder": 0.5,
             "ts hvitløkspulver": 0.5,
             "ts oregano": 0.25,
             "ts timian": 0.25,
@@ -677,7 +677,7 @@ Server med gressløk og sitronbåter ved siden av.
             "dl kyllingkraft": 1.75,
             "ts salt": 0.25,
             "ts pepper": 0.25,
-            "ss røkt paprikapulver": 0.25,
+            "ss paprikakrydder": 0.25,
             "g brokkoli, rå": 50,
             "dl melk": 1,
             "g hvit cheddar, revet": 25,
@@ -685,7 +685,7 @@ Server med gressløk og sitronbåter ved siden av.
         Recipe: `Brokkoli–cheddar suppe oppskrift:
 1. Varm opp en kjele/gryte på middels varme og smelt smøret. Tilsett løk og la det surre i 2–3 minutter.
 2. Ha i hvitløk og fres videre i 1 minutt. Riv gulrøtter. Tilsett så gulrøtter og mel, og rør godt sammen.
-3. Tilsett kyllingkraft, salt, pepper og paprikapulver. La det småkoke i ca. 2 minutter under omrøring.
+3. Tilsett kyllingkraft, salt, pepper og paprikakrydder. La det småkoke i ca. 2 minutter under omrøring.
 4. Ha i brokkoli og melk, og rør inn cheddarosten.
 5. La suppen småkoke på lav varme i 5–7 minutter, til brokkolien er mør.
 6. Rør godt sammen og server suppen rykende varm.
@@ -745,8 +745,8 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "g pasta": 62.5,
             "g kjøttdeig": 100,
             "ss tomatpuré": 0.5,
-            "stk hvitløksfedd": 1,
-            "ss paprikapulver": 0.25,
+            "stk hvitløksbåt": 1,
+            "ss paprikakrydder": 0.25,
             "ss oregano": 0.25,
             "ss friske urter": 0.5,
             "dl creme fraiche 17%": 1,
@@ -849,7 +849,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
         Recipe: `
 1. Skjær løk og kylling i biter. Stek så i olivenolje til nesten gjennomstekt.
 2. Kok tagliatellen.
-3. Tilsett så smør, hvitløk, kremfløte og mozzarella. Krydre med salt, pepper, paprikapulver og persille. Rør til osten smelter og sausen blir kremet.
+3. Tilsett så smør, hvitløk, kremfløte og mozzarella. Krydre med salt, pepper, paprikakrydder og persille. Rør til osten smelter og sausen blir kremet.
 4. Tilsett ferdigkokt pasta og pastavann. Vend godt sammen.
 `,
     },
@@ -968,10 +968,10 @@ Dette er en rett som man kan spise helt alene uten tilbehør, men mange serverer
         "dl kjøttkraft" : 0.75,
         "dl rødvin" : 1,
         "stk laurbærblad" : 0.25,
-        "ts tørket timian" : 0.25,
+        "ts timian" : 0.25,
         "stk sjalottløk" : 2.5,
-        "stk gulrot i staver" : 0.5,
-        "g frisk sjampinjong i båter" : 50,
+        "stk gulrot" : 0.5,
+        "g sjampinjong" : 50,
         "g bacon" : 37.5,
       },
       "Recipe" : `Boeuf Bourguignon oppskrift
@@ -997,7 +997,7 @@ Server eventuelt med franske baguetter som tilbehør.
         "dl brunt sukker" : 0.25,
         "dl rødvinseddik" : 0.25,
         "stk hel kanel" : 0.5,
-        "stilk frisk rosmarin" : 1,
+        "stilk rosmarin" : 1,
         "kg melen potet" : 0.25,
         "ss smør" : 0.5,
         "dl melk" : 0.75,
@@ -1028,7 +1028,7 @@ Server eventuelt med franske baguetter som tilbehør.
         "ss olivenolje" : 1,
         "stk sitron" : 0.25,
         "stk hvitløksbåt" : 3,
-        "ss frisk timian" : 0.5,
+        "ss timian" : 0.5,
         "g grønne oliven" : 50,
         "stk sjalottløk" : 0.5,
       },
@@ -1055,7 +1055,7 @@ Server med godt, ferskt brød eller rundstykker til å dyppe i den deilige kraft
         "dl hvitvin" : 0.75,
         "dl fløte" : 0.75,
         "ss maisenna" : 0.5,
-        "ss hakket frisk persille" : 1,
+        "ss persille" : 1,
       },
       "Recipe" : `Kremet blåskjellsuppe oppskrift
   
