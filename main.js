@@ -299,9 +299,11 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("ingredientsContent");
         ingredientsContent.innerHTML = "";
 
-        const ingredientKeys = Object.keys(Ingredients).sort(
-            (a, b) => SortAsciiWeight(a) - SortAsciiWeight(b),
-        );
+        const ingredientKeys = Object.keys(Ingredients).sort((a, b) => {
+            const lastA = a.split(" ").at(-1);
+            const lastB = b.split(" ").at(-1);
+            return SortAsciiWeight(lastA) - SortAsciiWeight(lastB);
+        });
         ingredientKeys.forEach((ingredient) => {
             const ingredientItem = document.createElement("div");
             ingredientItem.className = "ingredient";
