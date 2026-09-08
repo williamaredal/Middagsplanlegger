@@ -627,7 +627,7 @@ Server suppen i en liten skål og dypp toasten.
             "ts oregano": 0.25,
             "ts timian": 0.25,
             "ts cayennepepper": 0.125,
-            "ts svart pepper": 0.125,
+            "ts pepper": 0.125,
             "ts salt": 0.125,
         },
         Recipe: `
@@ -651,7 +651,7 @@ Server med gressløk og sitronbåter ved siden av.
             "dl vann": 0.25,
             "ss soyasaus": 0.75,
             "ss flytende honning": 0.75,
-            "ss oystersaus": 0.25,
+            "ss østersaus": 0.25,
             "ss sitronsaft": 0.25,
             "ss maisenna": 0.25,
             "ts sesamolje": 0.25,
@@ -671,8 +671,8 @@ Server med gressløk og sitronbåter ved siden av.
         Ingredients: {
             "ss smør": 0.5,
             "stk løk": 0.5,
-            "ss hvitløk, finhakket": 0.5,
-            "g revne gulrøtter": 25,
+            "ss hvitløk": 0.5,
+            "g gulrøtter": 25,
             "ss hvetemel": 1,
             "dl kyllingkraft": 1.75,
             "ts salt": 0.25,
@@ -684,7 +684,7 @@ Server med gressløk og sitronbåter ved siden av.
         },
         Recipe: `Brokkoli–cheddar suppe oppskrift:
 1. Varm opp en kjele/gryte på middels varme og smelt smøret. Tilsett løk og la det surre i 2–3 minutter.
-2. Ha i hvitløk og fres videre i 1 minutt. Tilsett gulrøtter og mel, og rør godt sammen.
+2. Ha i hvitløk og fres videre i 1 minutt. Riv gulrøtter. Tilsett så gulrøtter og mel, og rør godt sammen.
 3. Tilsett kyllingkraft, salt, pepper og paprikapulver. La det småkoke i ca. 2 minutter under omrøring.
 4. Ha i brokkoli og melk, og rør inn cheddarosten.
 5. La suppen småkoke på lav varme i 5–7 minutter, til brokkolien er mør.
@@ -699,7 +699,7 @@ Server med gressløk og sitronbåter ved siden av.
             "g fetaost": 60,
             "g pasta": 80,
             "ss olivenolje": 0.5,
-            "ts salt til pastavann": 0.25,
+            "ts salt": 0.25,
         },
         Recipe: `Lat laksemiddag oppskrift:
 1. Legg laks, cherrytomater og fetaost i en ildfast form, og ha litt olivenolje over.
@@ -739,18 +739,18 @@ Dryss over sesamfrø og eventuelt chilimayo.
 
     "Pasta Stroganoff": {
         Ingredients: {
-            "g bacon, i terninger": 62.5,
+            "g bacon": 62.5,
             "stk rødløk": 0.25,
             "g sjampinjong": 62.5,
             "g pasta": 62.5,
             "g kjøttdeig": 100,
             "ss tomatpuré": 0.5,
-            "fedd hvitløk": 1,
+            "stk hvitløksfedd": 1,
             "ss paprikapulver": 0.25,
             "ss oregano": 0.25,
             "ss friske urter": 0.5,
             "dl creme fraiche 17%": 1,
-            "stk kjøttbuljongterning": 0.25,
+            "stk kjøttbuljong": 0.25,
             "dl vann": 0.25,
         },
         Recipe: `Pasta Stroganoff oppskrift:
@@ -788,7 +788,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "g glassnudler": 25,
             "g kyllingkjøttdeig": 100,
             "stk gul løk": 0.25,
-            "stk hvitløk, finhakket": 0.75,
+            "stk hvitløk": 0.75,
             "g gulrot": 37.5,
             "g kål": 37.5,
             "ss soyasaus": 1.25,
@@ -844,7 +844,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "ts persille": 0.25,
             "g tagliatelle": 100,
             "dl pastavann": 0.625,
-            "stk gulløk": 0.25,
+            "stk gul løk": 0.25,
         },
         Recipe: `
 1. Skjær løk og kylling i biter. Stek så i olivenolje til nesten gjennomstekt.
