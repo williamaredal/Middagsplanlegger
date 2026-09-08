@@ -425,7 +425,7 @@ Suppen passer godt sammen med rundstykker.
             "ss olivenolje": 0.5,
             "stk gul løk": 0.25,
             "stk hvitløksbåt": 0.75,
-            "ss tomatpure": 0.5,
+            "ss tomatpuré": 0.5,
             "dl fløte": 0.75,
             "ts salt": 0.5,
             "ts pepper": 0.25,
@@ -491,7 +491,7 @@ Server gjerne med baguette og en grønn salat ved siden av.
             "ts olivenolje": 0.25,
             "ts timian": 1,
             "stk selleri": 0.25,
-            "ss tomatpure": 0.25,
+            "ss tomatpuré": 0.25,
             "stk kyllingbuljong": 0.25,
             "dl kremfløte": 0.25,
             "skive grovt brød": 2,
@@ -592,7 +592,7 @@ Server suppen i en liten skål og dypp toasten.
             "g rigatoni": 100,
             "g Salsiccia": 50,
             "stk hvitløksbåt": 0.5,
-            "ss tomatpure": 1,
+            "ss tomatpuré": 1,
             "ss eddik": 0.5,
             "dl kremfløte": 0.75,
             "håndfull basilikumblader": 0.25,
@@ -603,7 +603,7 @@ Server suppen i en liten skål og dypp toasten.
         Recipe: `
 1. Press kjøttet ut av pølseskinnet. Stek kjøttet i en panne med litt olivenolje som kjøttdeig.
 2. Ha i hvitløk og stek videre i et par minutter.
-3. Rør inn tomatpure, eddik og kremfløte. Kok opp og la det simre mens du koker pastaen.
+3. Rør inn tomatpuré, eddik og kremfløte. Kok opp og la det simre mens du koker pastaen.
 4. Kok pastaen i saltet vann til den er al dente, og rør pastaen godt inn i sausen. Rør inn litt pastavann for å spe ut sausen.
 5. Ha i basilikum, salt, og topp med olivenolje og parmesan. Server!
 `,
@@ -618,7 +618,7 @@ Server suppen i en liten skål og dypp toasten.
             "g gressløk": 0.25,
             "stk kyllingbuljong": 0.25,
             "stk tomat": 1,
-            "ss tomatpure": 0.5,
+            "ss tomatpuré": 0.5,
             "stk sitron": 0.5,
             "dl vann": 1,
 
@@ -635,7 +635,7 @@ Server suppen i en liten skål og dypp toasten.
 2. Skjær paprika, løk og tomat i 1 cm biter, og stek disse i olivenolje i en stor stekepanne på middels høy varme.
 3. Stek i ca 5-10 min med regelmessig vending, til de får litt "grillet" utside.
 4. Miks kryder (unntatt gressløk) i en skål til hjemmelaget Ay Cajun-ba.
-5. Rør inn vann, tomatpure, kryddermiksen og kyllingbuljong. Tilsett så reker og ris. Kok ca 2-3 min.
+5. Rør inn vann, tomatpuré, kryddermiksen og kyllingbuljong. Tilsett så reker og ris. Kok ca 2-3 min.
 
 Server med gressløk og sitronbåter ved siden av.
 `,
@@ -757,7 +757,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
 1. Kok pastaen al dente etter anvisning på pakken.
 2. Kutt rødløk i grove terninger, sjampinjong i tynne skiver og hvitløk i grove biter.
 3. Stek baconet til det er lett gyllent. Tilsett løk, sjampinjong og hvitløk, og stek i ca. 5 minutter. Ha alt over i en skål.
-4. Stek kjøttdeigen til den får litt farge. Tilsett buljong (oppløst i vann), tomatpure, Creme Fraiche 17 og det stekte bacon–løk–sopp-blandingen.
+4. Stek kjøttdeigen til den får litt farge. Tilsett buljong (oppløst i vann), tomatpuré, Creme Fraiche 17 og det stekte bacon–løk–sopp-blandingen.
 5. Når pastaen er al dente, bland den inn i gryten og topp med friske urter før du serverer.
 `,
     },
