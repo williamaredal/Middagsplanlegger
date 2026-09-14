@@ -346,7 +346,7 @@ Suppen passer godt sammen med rundstykker.
             "g brokkoli": 30,
             "g blomkål": 30,
             "pakke brun saus": 0.25,
-            "g smør ": 25,
+            "g smør": 25,
             "l melk": 0.25,
             "ts salt": 0.06,
             "ts pepper": 0.06,
