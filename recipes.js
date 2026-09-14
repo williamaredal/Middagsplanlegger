@@ -33,7 +33,7 @@ const Recipes = {
     "Pasta med kremet sopp": {
         Ingredients: {
             "g sopp": 100,
-            "stk løk": 0.13,
+            "stk gul løk": 0.13,
             "stk hvitløksbåt": 0.5,
             "ss smør": 1,
             "dl matfløte": 1.5,
@@ -60,7 +60,7 @@ const Recipes = {
             "stk vårløk": 0.5,
             "g sukkererter": 12.5,
             "g brokkoli": 25,
-            "g kokte poteter": 50,
+            "g poteter": 50,
             "dl edamamebønner": 0.5,
             "dl matfløte": 0.75,
             "ss dill": 0.5,
@@ -77,15 +77,15 @@ const Recipes = {
         Ingredients: {
             "g kjøttdeig": 100, // kjøttdeig/karbonadedeig
             "ss margarin": 0.5,
-            "stk løk": 0.25,
+            "stk gul løk": 0.25,
             "stk hvitløksbåt": 0.5,
             "stk rød chili": 0.25,
-            "g hakkede hermetiske tomater": 100,
+            "g hakkede tomater": 100,
             "g chilibønner": 100,
             "g mais": 35,
             "stk grønn paprika": 0.25,
             "ts chilipulver": 0.38,
-            "ts malt spisskummen": 0.13,
+            "ts spisskummen": 0.13,
             "ts salt": 0.13,
         },
         Recipe: `Chili con carne oppskrift
@@ -102,10 +102,10 @@ Server gjerne gryteretten med salat og grove minibaguetter.
     Blomkålsuppe: {
         Ingredients: {
             "stk blomkål": 0.25,
-            "stk løk": 0.125,
+            "stk gul løk": 0.125,
             "stk purre": 0.125,
             "ss margarin": 0.25,
-            "dl fløte": 0.833,
+            "dl matfløte": 0.833,
             "dl vann": 1,
             "stk kyllingbuljong": 0.25,
             "ts salt": 0.125,
@@ -127,7 +127,7 @@ Server gjerne gryteretten med salat og grove minibaguetter.
             "stk gulrot": 0.5,
             "dl melk": 0.5,
             "ss hvetemel": 0.5,
-            "g laks": 50,
+            "g laksefilet": 50,
             "g torskefilet": 50,
             "g frosne erter": 20,
             "dl kremfløte": 0.5,
@@ -172,7 +172,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
             "stk kyllinglår": 1,
             "ss olivenolje": 0.5,
             "stk sitron": 0.5,
-            "ss flytende honning": 1,
+            "ss honning": 1,
             "ss basilikum": 1,
             "ts salt": 0.5,
             "ts pepper": 0.5,
@@ -198,7 +198,7 @@ Server gjerne på varme tallerkener og høvle over litt mer ost ved servering. F
 
     "Kylling med søtpotet og grønnkål": {
         Ingredients: {
-            "g kylling overlår": 200,
+            "g kyllingfilet": 200,
             "stk søtpotet": 0.25,
             "g grønnkål": 62.5,
             "stk hvitløksbåt": 1.5,
@@ -223,7 +223,7 @@ Server kyllingformen med ris eller godt brød.
     "Grønnsaksuppe med pølse": {
         Ingredients: {
             "stk røkt kjøttpølse": 0.25,
-            "stk løk": 0.13,
+            "stk gul løk": 0.13,
             "stk potet": 0.75,
             "g sellerirot": 25,
             "stk gulrot": 0.5,
@@ -262,10 +262,10 @@ Suppen passer godt sammen med rundstykker.
             "g spagetti": 100,
             "g scampi": 62.5,
             "stk hvitløksbåt": 1,
-            "ts chiliflak": 0.13,
+            "ts chiliflakes": 0.13,
             "ss olivenolje": 0.5,
             "stk sitron": 0.13,
-            "dl fløte": 0.75,
+            "dl matfløte": 0.75,
             "g spinat": 25,
             "g parmesan": 25,
             "g persille": 5,
@@ -320,11 +320,11 @@ Suppen passer godt sammen med rundstykker.
             "ts sukker": 0.25,
             "stk lime": 0.125,
             "stk kyllingfilet": 1,
-            "g ramennudler": 50,
+            "g eggnudler": 50,
             "stk gulrøtter": 0.5,
             "stk vårløk": 1,
             "g spinat": 25,
-            "g sukkerter": 12.5,
+            "g sukkererter": 12.5,
             "g sesamfrø": 5,
             "stk egg": 1,
         },
@@ -374,7 +374,7 @@ Suppen passer godt sammen med rundstykker.
 
     "Stekt ris med kylling": {
         Ingredients: {
-            "g kyllingfillet": 62.5,
+            "g kyllingfilet": 62.5,
             "ss soyasaus": 1,
             "ts pepper": 0.1875,
             "ss sesamolje": 0.25,
@@ -384,7 +384,7 @@ Suppen passer godt sammen med rundstykker.
             "stk egg": 1,
             "stk gulrot": 0.25,
             "stk vårløk": 0.5,
-            "stk løk": 0.5,
+            "stk gul løk": 0.5,
             "stk hvitløksbåt": 0.5,
         },
         Recipe: `Stekt ris med kylling oppskrift
@@ -426,10 +426,10 @@ Suppen passer godt sammen med rundstykker.
             "stk gul løk": 0.25,
             "stk hvitløksbåt": 0.75,
             "ss tomatpuré": 0.5,
-            "dl fløte": 0.75,
+            "dl matfløte": 0.75,
             "ts salt": 0.5,
             "ts pepper": 0.25,
-            "ts chiliflak": 0.25,
+            "ts chiliflakes": 0.25,
             "ts hvitløkspulver": 0.25,
             "ts paprikakrydder": 0.25,
             "ss smør": 0.5,
@@ -457,11 +457,11 @@ Suppen passer godt sammen med rundstykker.
             "g bacon": 37.5,
             "ss olivenolje": 0.5,
             "g kjøttdeig": 100, // kjøttdeig/karbonadedeig
-            "stk løk": 0.25,
+            "stk gul løk": 0.25,
             "stk gulrot": 0.25,
             "stk stangselleri": 0.25,
             "ss tomatpuré": 0.5,
-            "g hakkede hermetiske tomater": 100,
+            "g hakkede tomater": 100,
             "dl kjøttkraft": 0.5,
             "ts oregano": 0.5,
             "ss smør": 0.75,
@@ -487,7 +487,7 @@ Server gjerne med baguette og en grønn salat ved siden av.
         Ingredients: {
             "g cherrytomater": 125,
             "stk hvitløk": 0.25,
-            "stk løk": 0.25,
+            "stk gul løk": 0.25,
             "ts olivenolje": 0.25,
             "ts timian": 1,
             "stk selleri": 0.25,
@@ -537,15 +537,15 @@ Server suppen i en liten skål og dypp toasten.
             "ts spisskummen": 0.5,
             "ss garam masala": 0.25,
             "ss koriander": 0.25,
-            "ts chiliflak": 0.125,
+            "ts chiliflakes": 0.125,
             "ts pepper": 0.125,
             "ts salt": 0.25,
             "ss ingefær": 0.25,
             "stk hvitløksbåt": 0.25,
             "ss sitronsaft": 0.5,
             "ss olivenolje": 0.25,
-            "g hakkede hermetiske tomater": 100,
-            "dl creme fraiche 17%": 0.5,
+            "g hakkede tomater": 100,
+            "dl creme fraiche": 0.5,
             "ss honning": 0.25,
             "ss smør": 0.25,
             "g spinat": 16.25,
@@ -554,7 +554,7 @@ Server suppen i en liten skål og dypp toasten.
 1. Skjær løken i tynne båter og kyllingen i biter på ca. 3x3 cm. Legg det i en bolle.
 2. Bland gurkemeie, spisskummen, garam masala, malt koriander, chiliflak, pepper, salt, ingefær, hvitløk, sitronsaft og matolje. Ha blandingen over løk og kylling. Bland godt.
 3. Varm opp en stor stekepanne på høy varme og stek kyllingen til den får en gyllen farge.
-4. Tilsett hermetiske tomater, Crème Fraîche og honning. Rør til du får en jevn saus.
+4. Tilsett tomater, Crème Fraîche og honning. Rør til du får en jevn saus.
 5. La det småkoke i noen minutter, og rør deretter inn smør og spinat.
 6. Server med kokt ris, salat eller naanbrød.
 `,
@@ -613,7 +613,7 @@ Server suppen i en liten skål og dypp toasten.
         Ingredients: {
             "g reker": 75,
             "g basmatiris": 75,
-            "stk løk": 0.5,
+            "stk gul løk": 0.5,
             "stk paprika": 1,
             "g gressløk": 0.25,
             "stk kyllingbuljong": 0.25,
@@ -650,8 +650,8 @@ Server med gressløk og sitronbåter ved siden av.
             "stk hvitløksbåt": 0.5,
             "dl vann": 0.25,
             "ss soyasaus": 0.75,
-            "ss flytende honning": 0.75,
-            "ss østersaus": 0.25,
+            "ss honning": 0.75,
+            "ss østerssaus": 0.25,
             "ss sitronsaft": 0.25,
             "ss maisenna": 0.25,
             "ts sesamolje": 0.25,
@@ -670,7 +670,7 @@ Server med gressløk og sitronbåter ved siden av.
     "Brokkoli–cheddar suppe": {
         Ingredients: {
             "ss smør": 0.5,
-            "stk løk": 0.5,
+            "stk gul løk": 0.5,
             "ss hvitløk": 0.5,
             "g gulrøtter": 25,
             "ss hvetemel": 1,
@@ -678,7 +678,7 @@ Server med gressløk og sitronbåter ved siden av.
             "ts salt": 0.25,
             "ts pepper": 0.25,
             "ss paprikakrydder": 0.25,
-            "g brokkoli, rå": 50,
+            "g brokkoli": 50,
             "dl melk": 1,
             "g hvit cheddar, revet": 25,
         },
@@ -712,7 +712,7 @@ Server med gressløk og sitronbåter ved siden av.
     "Curry Gyoza": {
         Ingredients: {
             "stk frosne gyoza": 4,
-            "g nudler": 60,
+            "g eggnudler": 60,
             "ss rød currypaste": 0.5,
             "stk hvitløksbåt": 0.25,
             "ts ingefær": 0.5,
@@ -749,7 +749,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "ss paprikakrydder": 0.25,
             "ss oregano": 0.25,
             "ss friske urter": 0.5,
-            "dl creme fraiche 17%": 1,
+            "dl creme fraiche": 1,
             "stk kjøttbuljong": 0.25,
             "dl vann": 0.25,
         },
@@ -819,7 +819,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "ss honning": 1.125,
             "ss ketchup": 0.375,
             "ss gochujang": 0.1875,
-            "stk hvitløksfedd": 0.375,
+            "stk hvitløksbåt": 0.375,
         },
         Recipe: `
 1. Skjær opp kyllinglårfiletene i store biter og stek de i en panne på middels høy varme.
@@ -884,8 +884,8 @@ Server arme riddere med rørte bær eller syltetøy.
         "g kjøttdeig" : 100,
         "ts salt" : 0.25,
         "ts pepper" : 0.06,
-        "ts malt muskat" : 0.06,
-        "ts malt ingefær" : 0.06,
+        "ts muskat" : 0.06,
+        "ts ingefær" : 0.06,
         "ss potetmel" : 0.5,
         "dl vann eller melk" : 0.38,
         "ss smør" : 1,
@@ -919,7 +919,7 @@ Server kjøttkakene med brun saus, kokte poteter, grønn ertepuré og rørte tyt
         "g hvetemel" : 37.5,
         "ts salt" : 0.5,
         "ts pepper" : 0.13,
-        "ts malt muskat" : 0.06,
+        "ts muskat" : 0.06,
         "ss olivenolje" : 0.5,
       },
       "Recipe" : `Hjemmelaget Gnocchi oppskrift
@@ -944,7 +944,7 @@ Gnocchi kan fint fryses etter at de er ferdig kokt. Da har du en rask middag til
         "kg potet" : 0.17,
         "stk rød chili" : 0.33,
         "stk hvitløksbåt" : 0.67,
-        "g hakkede hermetiske tomater" : 200,
+        "g hakkede tomater" : 200,
         "stk laurbærblad" : 0.67,
         "stk sorte oliven" : 5,
         "dl olivenolje" : 0.5,
@@ -989,7 +989,7 @@ Server eventuelt med franske baguetter som tilbehør.
       "Ingredients" : {
         "stk lammeskank" : 1,
         "ss olje" : 0.75,
-        "stk løk" : 0.25,
+        "stk gul løk" : 0.25,
         "dl kyllingkraft" : 0.75,
         "stk appelsin" : 0.5,
         "stk hvitløksbåt" : 2,
@@ -1024,7 +1024,7 @@ Server eventuelt med franske baguetter som tilbehør.
 
     "Kyllinggryte med sitron og oliven" : {
       "Ingredients" : {
-        "g kylling overlår" : 200,
+        "g kyllingfilet" : 200,
         "ss olivenolje" : 1,
         "stk sitron" : 0.25,
         "stk hvitløksbåt" : 3,
@@ -1053,7 +1053,7 @@ Server med godt, ferskt brød eller rundstykker til å dyppe i den deilige kraft
         "ss smør" : 0.5,
         "stilk frisk timian" : 0.5,
         "dl hvitvin" : 0.75,
-        "dl fløte" : 0.75,
+        "dl kremfløte" : 0.75,
         "ss maisenna" : 0.5,
         "ss persille" : 1,
       },
