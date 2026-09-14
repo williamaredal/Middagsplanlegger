@@ -671,7 +671,7 @@ Server med gressløk og sitronbåter ved siden av.
         Ingredients: {
             "ss smør": 0.5,
             "stk gul løk": 0.5,
-            "ss hvitløk": 0.5,
+            "stk hvitløksbåt": 0.5,
             "g gulrøtter": 25,
             "ss hvetemel": 1,
             "dl kyllingkraft": 1.75,
@@ -788,7 +788,7 @@ Dryss over sesamfrø og eventuelt chilimayo.
             "g glassnudler": 25,
             "g kyllingkjøttdeig": 100,
             "stk gul løk": 0.25,
-            "stk hvitløk": 0.75,
+            "stk hvitløksbåt": 0.75,
             "g gulrot": 37.5,
             "g kål": 37.5,
             "ss soyasaus": 1.25,
